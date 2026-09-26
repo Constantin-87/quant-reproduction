@@ -18,6 +18,7 @@ requirements-original-lock.txt  exact package versions used for the reproduction
 requirements.txt                packages needed for the improved version
 ```
 
+
 ## 1. Environment
 
 Python 3.12, CPU build of PyTorch.
@@ -35,55 +36,48 @@ To reproduce the exact environment of our reproduction runs:
 uv pip install -r requirements-original-lock.txt --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
 ```
 
+
 ## 2. Data
 
 Links from the [bake-off notebook](https://github.com/time-series-machine-learning/tsml-eval/blob/main/tsml_eval/publications/y2023/tsc_bakeoff/tsc_bakeoff_2023.ipynb) referenced in `original/doc.md`.
 
-**Datasets** -> `data/ts/<Name>/<Name>_TRAIN.ts`, `<Name>_TEST.ts`
+**Datasets**
 
 - 112 UCR datasets ("Univariate aeon formatted ts files"): https://www.timeseriesclassification.com/dataset.php
 - 30 new bake-off datasets: https://drive.google.com/file/d/1vuh6mgNrNKjHr9MMRQP0J0_gGA4dE7E3/view
 
-**Resample indices** -> `data/indices/<Name>/resample{i}Indices_TRAIN.txt`
+**Resample indices**
 
 - 112 UCR datasets (Java indices): https://drive.google.com/file/d/1FsG7Fp74y_TpaPhJ7U066ot8A07BPhr3/view
 - 30 new bake-off datasets (Python indices): https://drive.google.com/file/d/1aLBP_nhnoqz075puKg30zuF3F_QBOXYM/view
 
 Keep only the 142 names in `original/code/ucr142.txt`, and rename `_eq` / `_nmv` / `_disc` to `Eq` / `Nmv` / `Discrete`.
 
+
 ## 3. Reproduce the results
 
 All commands are run from this folder (`quant-reproduction`).
 
-| # | Experiment | Command | Output |
-|---|---|---|---|
-| 0 | Smoke test: original code, 5 datasets x 3 resamples | `.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d improvedQuant/dataSetLists/smoke5.txt -r 3 -o results/smoke_original` | `results/smoke_original/results.csv` |
-| 1 | Main result: original code, 142 datasets x 30 resamples | `.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d original/code/ucr142.txt -r 30 -o results/original_full_run1` | `results/original_full_run1/results.csv` |
-| 2 | Comparison with the paper | open `notebooks/01_compare_with_paper.ipynb`, set `OUR_RESULTS`, run all cells | tables and plots |
+- Smoke test:
+a) runs original code on 5 datasets x 3 resamples, saves results to `results/smoke_run/results.csv`
+`.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d improvedQuant/dataSetLists/smoke5.txt -r 3 -o results/smoke_run` 
+
+b) runs improved code on 5 datasets
+
+
+- Full run on all datasets:
+a) runs original code, on 142 datasets x 30 resamples, saves results to `results/full_run/results.csv`
+`.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d original/code/ucr142.txt -r 30 -o results/full_run`
+
+b) runs improved code
+
 
 Notes:
-- Create the `-o` folder first (`mkdir results\smoke_original`). `run.py` writes `results.csv` there and overwrites an existing one.
-- `run.py` saves only at the end of the run (experiment 1 takes a few hours).
+- `run.py` writes `results.csv` there and overwrites an existing one.
+- `run.py` saves only at the end of the run (experiment one full takes a few hours).
 - `run.py` does not seed ExtraTrees, so accuracies differ slightly from run to run and from the published values.
 - A dataset list with only one name makes `run.py` crash; use at least two.
 
-## 4. Results
-
-*TBD: our numbers vs the paper's reported numbers.*
-
-| | Paper | Bake-off redux (QUANT) | Ours |
-|---|---|---|---|
-| Mean accuracy, 142 datasets x 30 resamples | 0.8568 | TBD | TBD |
-| Mean accuracy, 112 original datasets | 0.8671 | TBD | TBD |
-| Total compute time per resample, 1 core | < 15 min (14.86 in the published CSV) | - | TBD |
-
-## 5. Improvements
-
-*TBD* - built in `improvedQuant/`:
-- per-phase timers and single-core timing
-- QUANT for unequal-length series
-- when and why QUANT works or fails
-- GPU classifiers (XGBoost, CatBoost) instead of ExtraTrees
 
 ## License and credit
 
