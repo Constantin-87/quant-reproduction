@@ -1,0 +1,12 @@
+# Python 3.12. Install CPU torch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# TODO: after a working install, pin with: pip freeze > requirements-lock.txt
+torch
+numpy
+pandas
+scipy
+scikit-learn
+aeon
+tqdm
+matplotlib
+jupyter
