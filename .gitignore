@@ -1,5 +1,12 @@
-# datasets and resample indices (12 GB) - see README section 2
-data/
+# datasets and resample indices (12 GB) - see README section 2.
+# Only the empty folder structure is kept (data/ts, data/indices) via .gitkeep files.
+data/*
+!data/ts/
+!data/indices/
+data/ts/*
+data/indices/*
+!data/ts/.gitkeep
+!data/indices/.gitkeep
 
 # environment and caches
 .venv/

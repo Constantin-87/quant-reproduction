@@ -59,14 +59,14 @@ Keep only the 142 names in `original/code/ucr142.txt`, and rename `_eq` / `_nmv`
 All commands are run from this folder (`quant-reproduction`).
 
 - Smoke test:
-a) runs original code on 5 datasets x 3 resamples, saves results to `results/smoke_run/results.csv`
+a) runs original code on 5 datasets x 3 resamples, saves results to results/smoke_run/results.csv
 `.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d improvedQuant/dataSetLists/smoke5.txt -r 3 -o results/smoke_run` 
 
 b) runs improved code on 5 datasets
 
 
 - Full run on all datasets:
-a) runs original code, on 142 datasets x 30 resamples, saves results to `results/full_run/results.csv`
+a) runs original code, on 142 datasets x 30 resamples, saves results to results/full_run/results.csv
 `.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d original/code/ucr142.txt -r 30 -o results/full_run`
 
 b) runs improved code
