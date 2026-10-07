@@ -1,0 +1,696 @@
+dataset,resample,step,source,kind,count
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ChlorineConcentration,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),mean,3
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),quantile,6
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),spread,2
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),trend,1
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,mean,3
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,quantile,7
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,spread,4
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,trend,3
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,mean,6
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,quantile,8
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,spread,4
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,trend,4
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,mean,3
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,quantile,7
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,spread,4
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,trend,3
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,7
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ChlorineConcentration,0,3 chosen by TabPFN,series,mean,1
+ChlorineConcentration,0,3 chosen by TabPFN,series,quantile,2
+ChlorineConcentration,0,3 chosen by TabPFN,series,spread,6
+ChlorineConcentration,0,3 chosen by TabPFN,series,trend,4
+ChlorineConcentration,0,3 chosen by TabPFN,shape (z-normalized),mean,3
+ChlorineConcentration,0,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ChlorineConcentration,0,3 chosen by TabPFN,shape (z-normalized),spread,1
+ChlorineConcentration,0,3 chosen by TabPFN,shape (z-normalized),trend,1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),mean,1
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),quantile,6
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),spread,3
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),trend,3
+ChlorineConcentration,1,3 chosen by TabPFN,change of change,mean,3
+ChlorineConcentration,1,3 chosen by TabPFN,change of change,quantile,5
+ChlorineConcentration,1,3 chosen by TabPFN,change of change,spread,6
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,mean,3
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,quantile,8
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,spread,3
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,trend,1
+ChlorineConcentration,1,3 chosen by TabPFN,lag-4,quantile,8
+ChlorineConcentration,1,3 chosen by TabPFN,lag-4,spread,3
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,9
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ChlorineConcentration,1,3 chosen by TabPFN,series,mean,2
+ChlorineConcentration,1,3 chosen by TabPFN,series,quantile,1
+ChlorineConcentration,1,3 chosen by TabPFN,series,spread,4
+ChlorineConcentration,1,3 chosen by TabPFN,series,trend,1
+ChlorineConcentration,1,3 chosen by TabPFN,shape (z-normalized),mean,1
+ChlorineConcentration,1,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ChlorineConcentration,1,3 chosen by TabPFN,shape (z-normalized),spread,2
+ChlorineConcentration,1,3 chosen by TabPFN,shape (z-normalized),trend,3
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ChlorineConcentration,2,3 chosen by TabPFN,change (smoothed),quantile,3
+ChlorineConcentration,2,3 chosen by TabPFN,change (smoothed),spread,2
+ChlorineConcentration,2,3 chosen by TabPFN,change (smoothed),trend,1
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,mean,5
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,quantile,5
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,spread,3
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,trend,4
+ChlorineConcentration,2,3 chosen by TabPFN,lag-16,mean,2
+ChlorineConcentration,2,3 chosen by TabPFN,lag-16,spread,1
+ChlorineConcentration,2,3 chosen by TabPFN,lag-16,trend,1
+ChlorineConcentration,2,3 chosen by TabPFN,lag-4,quantile,3
+ChlorineConcentration,2,3 chosen by TabPFN,lag-4,spread,3
+ChlorineConcentration,2,3 chosen by TabPFN,rhythm (|FFT|),mean,8
+ChlorineConcentration,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,8
+ChlorineConcentration,2,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ChlorineConcentration,2,3 chosen by TabPFN,series,mean,2
+ChlorineConcentration,2,3 chosen by TabPFN,series,quantile,1
+ChlorineConcentration,2,3 chosen by TabPFN,series,spread,1
+ChlorineConcentration,2,3 chosen by TabPFN,shape (z-normalized),mean,1
+ChlorineConcentration,2,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ChlorineConcentration,2,3 chosen by TabPFN,shape (z-normalized),spread,1
+ChlorineConcentration,2,3 chosen by TabPFN,shape (z-normalized),trend,1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),mean,3
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),quantile,23
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),spread,7
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),trend,4
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,mean,4
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,quantile,20
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,spread,11
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,trend,1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,mean,9
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,quantile,28
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,spread,15
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,trend,8
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-4,quantile,5
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-4,spread,6
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-4,trend,2
+UWaveGestureLibraryX,0,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+UWaveGestureLibraryX,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+UWaveGestureLibraryX,0,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+UWaveGestureLibraryX,0,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+UWaveGestureLibraryX,0,3 chosen by TabPFN,series,mean,6
+UWaveGestureLibraryX,0,3 chosen by TabPFN,series,quantile,10
+UWaveGestureLibraryX,0,3 chosen by TabPFN,series,spread,5
+UWaveGestureLibraryX,0,3 chosen by TabPFN,series,trend,4
+UWaveGestureLibraryX,0,3 chosen by TabPFN,shape (z-normalized),mean,6
+UWaveGestureLibraryX,0,3 chosen by TabPFN,shape (z-normalized),quantile,18
+UWaveGestureLibraryX,0,3 chosen by TabPFN,shape (z-normalized),spread,8
+UWaveGestureLibraryX,0,3 chosen by TabPFN,shape (z-normalized),trend,6
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),mean,4
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),quantile,20
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),spread,5
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),trend,5
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,mean,4
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,quantile,21
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,spread,10
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,trend,2
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,mean,9
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,quantile,28
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,spread,15
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,trend,8
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-4,quantile,8
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-4,spread,5
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-4,trend,2
+UWaveGestureLibraryX,1,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+UWaveGestureLibraryX,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+UWaveGestureLibraryX,1,3 chosen by TabPFN,rhythm (|FFT|),spread,8
+UWaveGestureLibraryX,1,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,mean,7
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,quantile,15
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,spread,9
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,trend,5
+UWaveGestureLibraryX,1,3 chosen by TabPFN,shape (z-normalized),mean,6
+UWaveGestureLibraryX,1,3 chosen by TabPFN,shape (z-normalized),quantile,11
+UWaveGestureLibraryX,1,3 chosen by TabPFN,shape (z-normalized),spread,3
+UWaveGestureLibraryX,1,3 chosen by TabPFN,shape (z-normalized),trend,2
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),mean,4
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),quantile,23
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),spread,4
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),trend,3
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,mean,4
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,quantile,26
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,spread,13
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,trend,1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,mean,10
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,quantile,28
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,spread,14
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,trend,8
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-4,quantile,4
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-4,spread,9
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-4,trend,2
+UWaveGestureLibraryX,2,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+UWaveGestureLibraryX,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+UWaveGestureLibraryX,2,3 chosen by TabPFN,rhythm (|FFT|),spread,8
+UWaveGestureLibraryX,2,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,mean,3
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,quantile,14
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,spread,5
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,trend,5
+UWaveGestureLibraryX,2,3 chosen by TabPFN,shape (z-normalized),mean,10
+UWaveGestureLibraryX,2,3 chosen by TabPFN,shape (z-normalized),quantile,11
+UWaveGestureLibraryX,2,3 chosen by TabPFN,shape (z-normalized),spread,7
+UWaveGestureLibraryX,2,3 chosen by TabPFN,shape (z-normalized),trend,3
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+SharePriceIncrease,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),mean,2
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),quantile,15
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),spread,10
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),trend,3
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,mean,4
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,quantile,18
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,spread,12
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,trend,4
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,mean,4
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,quantile,18
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,spread,14
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,trend,1
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,mean,4
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,quantile,21
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,spread,12
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,trend,2
+SharePriceIncrease,0,3 chosen by TabPFN,rhythm (|FFT|),mean,12
+SharePriceIncrease,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,28
+SharePriceIncrease,0,3 chosen by TabPFN,rhythm (|FFT|),spread,11
+SharePriceIncrease,0,3 chosen by TabPFN,series,mean,4
+SharePriceIncrease,0,3 chosen by TabPFN,series,quantile,16
+SharePriceIncrease,0,3 chosen by TabPFN,series,spread,9
+SharePriceIncrease,0,3 chosen by TabPFN,series,trend,4
+SharePriceIncrease,0,3 chosen by TabPFN,shape (z-normalized),mean,3
+SharePriceIncrease,0,3 chosen by TabPFN,shape (z-normalized),quantile,7
+SharePriceIncrease,0,3 chosen by TabPFN,shape (z-normalized),spread,1
+SharePriceIncrease,0,3 chosen by TabPFN,shape (z-normalized),trend,4
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+SharePriceIncrease,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),mean,3
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),quantile,19
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),spread,9
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),trend,4
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,mean,4
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,quantile,17
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,spread,11
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,trend,4
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,mean,4
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,quantile,15
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,spread,14
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,trend,2
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,mean,4
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,quantile,20
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,spread,10
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,trend,2
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),mean,12
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,26
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),spread,9
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+SharePriceIncrease,1,3 chosen by TabPFN,series,mean,5
+SharePriceIncrease,1,3 chosen by TabPFN,series,quantile,13
+SharePriceIncrease,1,3 chosen by TabPFN,series,spread,8
+SharePriceIncrease,1,3 chosen by TabPFN,series,trend,5
+SharePriceIncrease,1,3 chosen by TabPFN,shape (z-normalized),mean,5
+SharePriceIncrease,1,3 chosen by TabPFN,shape (z-normalized),quantile,9
+SharePriceIncrease,1,3 chosen by TabPFN,shape (z-normalized),spread,1
+SharePriceIncrease,1,3 chosen by TabPFN,shape (z-normalized),trend,5
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+SharePriceIncrease,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),mean,5
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),quantile,19
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),spread,7
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),trend,5
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,mean,5
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,quantile,21
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,spread,11
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,trend,5
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,mean,4
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,quantile,15
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,spread,12
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,trend,4
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,mean,5
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,quantile,17
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,spread,10
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,trend,2
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),mean,11
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,26
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),spread,12
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+SharePriceIncrease,2,3 chosen by TabPFN,series,mean,5
+SharePriceIncrease,2,3 chosen by TabPFN,series,quantile,13
+SharePriceIncrease,2,3 chosen by TabPFN,series,spread,8
+SharePriceIncrease,2,3 chosen by TabPFN,series,trend,6
+SharePriceIncrease,2,3 chosen by TabPFN,shape (z-normalized),mean,3
+SharePriceIncrease,2,3 chosen by TabPFN,shape (z-normalized),quantile,4
+SharePriceIncrease,2,3 chosen by TabPFN,shape (z-normalized),trend,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),mean,8
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),quantile,10
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),spread,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),trend,10
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,mean,10
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,quantile,19
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,spread,11
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,trend,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,mean,11
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,quantile,15
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,spread,9
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,trend,12
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,mean,8
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,quantile,7
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,spread,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,trend,8
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,6
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),trend,8
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,mean,3
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,quantile,7
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,spread,1
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,trend,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,shape (z-normalized),mean,8
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,shape (z-normalized),quantile,2
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,shape (z-normalized),spread,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,shape (z-normalized),trend,3
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),mean,8
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),quantile,13
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),spread,7
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),trend,10
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,mean,11
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,quantile,16
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,spread,9
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,trend,8
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,mean,12
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,quantile,20
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,spread,9
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,trend,9
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,mean,10
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,quantile,9
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,spread,6
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,trend,6
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),trend,8
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,mean,6
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,quantile,7
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,spread,2
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,trend,6
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,shape (z-normalized),mean,4
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,shape (z-normalized),quantile,4
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,shape (z-normalized),spread,3
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,shape (z-normalized),trend,3
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),mean,7
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),quantile,13
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),spread,6
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),trend,10
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,mean,13
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,quantile,17
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,spread,9
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,trend,7
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,mean,12
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,quantile,20
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,spread,8
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,trend,10
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,mean,9
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,quantile,7
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,spread,5
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,trend,7
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),trend,7
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,mean,5
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,quantile,4
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,spread,2
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,trend,4
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,shape (z-normalized),mean,5
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,shape (z-normalized),quantile,6
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,shape (z-normalized),spread,2
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,shape (z-normalized),trend,6
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),mean,5
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),quantile,17
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),spread,9
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),trend,5
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change of change,quantile,12
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change of change,spread,4
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,mean,8
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,quantile,22
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,spread,14
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,trend,7
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,mean,3
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,quantile,16
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,spread,9
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,trend,3
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,mean,4
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,quantile,14
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,spread,12
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,trend,7
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,shape (z-normalized),mean,12
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,shape (z-normalized),quantile,19
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,shape (z-normalized),spread,12
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,shape (z-normalized),trend,3
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),mean,5
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),quantile,19
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),spread,10
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),trend,6
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change of change,quantile,12
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change of change,spread,4
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,mean,8
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,quantile,25
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,spread,13
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,trend,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,mean,2
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,quantile,16
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,spread,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,trend,2
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,mean,3
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,quantile,12
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,spread,12
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,trend,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,shape (z-normalized),mean,12
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,shape (z-normalized),quantile,18
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,shape (z-normalized),spread,12
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,shape (z-normalized),trend,4
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),mean,6
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),quantile,18
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),spread,10
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),trend,6
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change of change,quantile,12
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change of change,spread,4
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,mean,8
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,quantile,22
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,spread,14
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,trend,7
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,mean,3
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,quantile,17
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,spread,7
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,trend,2
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,mean,3
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,quantile,13
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,spread,12
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,trend,8
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,shape (z-normalized),mean,11
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,shape (z-normalized),quantile,18
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,shape (z-normalized),spread,12
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,shape (z-normalized),trend,4

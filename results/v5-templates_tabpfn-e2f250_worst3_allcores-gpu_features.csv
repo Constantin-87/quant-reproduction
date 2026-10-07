@@ -1,0 +1,2586 @@
+dataset,resample,step,source,kind,count
+ShapeletSim,0,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,0,3 chosen by TabPFN,change (smoothed),mean,3
+ShapeletSim,0,3 chosen by TabPFN,change (smoothed),quantile,3
+ShapeletSim,0,3 chosen by TabPFN,change (smoothed),spread,4
+ShapeletSim,0,3 chosen by TabPFN,change (smoothed),trend,3
+ShapeletSim,0,3 chosen by TabPFN,change of change,mean,8
+ShapeletSim,0,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,0,3 chosen by TabPFN,change of change,trend,3
+ShapeletSim,0,3 chosen by TabPFN,lag-16,quantile,3
+ShapeletSim,0,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,0,3 chosen by TabPFN,lag-4,quantile,2
+ShapeletSim,0,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,0,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,0,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,0,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ShapeletSim,0,3 chosen by TabPFN,series,mean,1
+ShapeletSim,0,3 chosen by TabPFN,series,trend,1
+ShapeletSim,0,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,0,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,0,3 chosen by TabPFN,template,distance,2
+ShapeletSim,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ShapeletSim,1,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,1,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,1,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,1,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,1,3 chosen by TabPFN,change of change,quantile,1
+ShapeletSim,1,3 chosen by TabPFN,change of change,spread,2
+ShapeletSim,1,3 chosen by TabPFN,change of change,trend,2
+ShapeletSim,1,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,1,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,1,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,1,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,1,3 chosen by TabPFN,rhythm (|FFT|),mean,7
+ShapeletSim,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,1,3 chosen by TabPFN,rhythm (|FFT|),spread,8
+ShapeletSim,1,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,1,3 chosen by TabPFN,series,mean,1
+ShapeletSim,1,3 chosen by TabPFN,series,trend,2
+ShapeletSim,1,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,1,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,1,3 chosen by TabPFN,template,distance,1
+ShapeletSim,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,2,3 chosen by TabPFN,change (smoothed),mean,3
+ShapeletSim,2,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,2,3 chosen by TabPFN,change (smoothed),trend,2
+ShapeletSim,2,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,2,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,2,3 chosen by TabPFN,change of change,trend,2
+ShapeletSim,2,3 chosen by TabPFN,lag-16,quantile,6
+ShapeletSim,2,3 chosen by TabPFN,lag-16,spread,3
+ShapeletSim,2,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,2,3 chosen by TabPFN,lag-4,spread,5
+ShapeletSim,2,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,2,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ShapeletSim,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,2,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,2,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ShapeletSim,2,3 chosen by TabPFN,series,mean,1
+ShapeletSim,2,3 chosen by TabPFN,series,trend,1
+ShapeletSim,2,3 chosen by TabPFN,shape (z-normalized),spread,1
+ShapeletSim,2,3 chosen by TabPFN,template,distance,2
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ShapeletSim,3,3 chosen by TabPFN,change (smoothed),quantile,3
+ShapeletSim,3,3 chosen by TabPFN,change (smoothed),spread,3
+ShapeletSim,3,3 chosen by TabPFN,change of change,quantile,4
+ShapeletSim,3,3 chosen by TabPFN,change of change,spread,5
+ShapeletSim,3,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,3,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,3,3 chosen by TabPFN,lag-16,spread,4
+ShapeletSim,3,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,3,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,3,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,3,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,3,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,3,3 chosen by TabPFN,rhythm (|FFT|),mean,7
+ShapeletSim,3,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,3,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+ShapeletSim,3,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,3,3 chosen by TabPFN,template,distance,3
+ShapeletSim,4,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,4,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ShapeletSim,4,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,4,3 chosen by TabPFN,change of change,quantile,1
+ShapeletSim,4,3 chosen by TabPFN,change of change,spread,3
+ShapeletSim,4,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,4,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,4,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,4,3 chosen by TabPFN,lag-16,spread,6
+ShapeletSim,4,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,4,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,4,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ShapeletSim,4,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,4,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,4,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,4,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,4,3 chosen by TabPFN,series,spread,1
+ShapeletSim,4,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,4,3 chosen by TabPFN,template,distance,1
+ShapeletSim,5,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,5,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,5,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,5,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,5,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,5,3 chosen by TabPFN,change of change,quantile,4
+ShapeletSim,5,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,5,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,5,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,5,3 chosen by TabPFN,lag-16,quantile,3
+ShapeletSim,5,3 chosen by TabPFN,lag-16,spread,4
+ShapeletSim,5,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,5,3 chosen by TabPFN,lag-4,spread,2
+ShapeletSim,5,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,5,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,5,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,5,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ShapeletSim,5,3 chosen by TabPFN,series,mean,1
+ShapeletSim,5,3 chosen by TabPFN,series,quantile,2
+ShapeletSim,5,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,5,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ShapeletSim,5,3 chosen by TabPFN,shape (z-normalized),spread,1
+ShapeletSim,5,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,6,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,6,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,6,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,6,3 chosen by TabPFN,change (smoothed),spread,1
+ShapeletSim,6,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,6,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,6,3 chosen by TabPFN,change of change,spread,7
+ShapeletSim,6,3 chosen by TabPFN,change of change,trend,2
+ShapeletSim,6,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,6,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,6,3 chosen by TabPFN,lag-16,trend,3
+ShapeletSim,6,3 chosen by TabPFN,lag-4,mean,2
+ShapeletSim,6,3 chosen by TabPFN,lag-4,quantile,2
+ShapeletSim,6,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,6,3 chosen by TabPFN,rhythm (|FFT|),mean,7
+ShapeletSim,6,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,6,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,6,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ShapeletSim,6,3 chosen by TabPFN,series,mean,3
+ShapeletSim,6,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,6,3 chosen by TabPFN,series,spread,1
+ShapeletSim,6,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,6,3 chosen by TabPFN,template,distance,1
+ShapeletSim,7,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,7,3 chosen by TabPFN,change (smoothed),spread,5
+ShapeletSim,7,3 chosen by TabPFN,change of change,quantile,1
+ShapeletSim,7,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,7,3 chosen by TabPFN,lag-16,mean,3
+ShapeletSim,7,3 chosen by TabPFN,lag-16,quantile,4
+ShapeletSim,7,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,7,3 chosen by TabPFN,lag-4,mean,3
+ShapeletSim,7,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,7,3 chosen by TabPFN,lag-4,spread,1
+ShapeletSim,7,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,7,3 chosen by TabPFN,rhythm (|FFT|),mean,7
+ShapeletSim,7,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,7,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,7,3 chosen by TabPFN,rhythm (|FFT|),trend,5
+ShapeletSim,7,3 chosen by TabPFN,series,spread,1
+ShapeletSim,7,3 chosen by TabPFN,shape (z-normalized),spread,1
+ShapeletSim,7,3 chosen by TabPFN,shape (z-normalized),trend,2
+ShapeletSim,7,3 chosen by TabPFN,template,distance,3
+ShapeletSim,8,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,8,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,8,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,8,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,8,3 chosen by TabPFN,lag-16,quantile,1
+ShapeletSim,8,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,8,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,8,3 chosen by TabPFN,lag-4,mean,4
+ShapeletSim,8,3 chosen by TabPFN,lag-4,trend,3
+ShapeletSim,8,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,8,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,8,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+ShapeletSim,8,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,8,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,8,3 chosen by TabPFN,series,spread,1
+ShapeletSim,8,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,8,3 chosen by TabPFN,template,distance,3
+ShapeletSim,9,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,9,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,9,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,9,3 chosen by TabPFN,change of change,quantile,1
+ShapeletSim,9,3 chosen by TabPFN,change of change,spread,2
+ShapeletSim,9,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,9,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,9,3 chosen by TabPFN,lag-4,mean,2
+ShapeletSim,9,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,9,3 chosen by TabPFN,lag-4,spread,2
+ShapeletSim,9,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,9,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,9,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,9,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,9,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,9,3 chosen by TabPFN,template,distance,2
+ShapeletSim,10,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ShapeletSim,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,10,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,10,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,10,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,10,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,10,3 chosen by TabPFN,lag-16,mean,2
+ShapeletSim,10,3 chosen by TabPFN,lag-16,quantile,1
+ShapeletSim,10,3 chosen by TabPFN,lag-16,spread,3
+ShapeletSim,10,3 chosen by TabPFN,lag-4,spread,1
+ShapeletSim,10,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,10,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,10,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,10,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,10,3 chosen by TabPFN,series,spread,1
+ShapeletSim,10,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,10,3 chosen by TabPFN,shape (z-normalized),spread,1
+ShapeletSim,10,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,10,3 chosen by TabPFN,template,distance,2
+ShapeletSim,11,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,11,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,11,3 chosen by TabPFN,change (smoothed),spread,4
+ShapeletSim,11,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,11,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,11,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,11,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,11,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,11,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,11,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,11,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,11,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,11,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ShapeletSim,11,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ShapeletSim,11,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,11,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,11,3 chosen by TabPFN,series,mean,1
+ShapeletSim,11,3 chosen by TabPFN,series,trend,1
+ShapeletSim,11,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,11,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,11,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,11,3 chosen by TabPFN,template,distance,3
+ShapeletSim,12,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,12,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,12,3 chosen by TabPFN,change (smoothed),quantile,3
+ShapeletSim,12,3 chosen by TabPFN,change (smoothed),spread,3
+ShapeletSim,12,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,12,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,12,3 chosen by TabPFN,change of change,trend,2
+ShapeletSim,12,3 chosen by TabPFN,lag-16,quantile,1
+ShapeletSim,12,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,12,3 chosen by TabPFN,lag-16,trend,2
+ShapeletSim,12,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,12,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,12,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ShapeletSim,12,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,12,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+ShapeletSim,12,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,12,3 chosen by TabPFN,series,spread,1
+ShapeletSim,12,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,12,3 chosen by TabPFN,shape (z-normalized),spread,2
+ShapeletSim,12,3 chosen by TabPFN,template,distance,1
+ShapeletSim,13,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,13,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,13,3 chosen by TabPFN,change (smoothed),mean,2
+ShapeletSim,13,3 chosen by TabPFN,change (smoothed),spread,4
+ShapeletSim,13,3 chosen by TabPFN,lag-16,mean,4
+ShapeletSim,13,3 chosen by TabPFN,lag-16,quantile,1
+ShapeletSim,13,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,13,3 chosen by TabPFN,lag-16,trend,2
+ShapeletSim,13,3 chosen by TabPFN,lag-4,mean,2
+ShapeletSim,13,3 chosen by TabPFN,lag-4,quantile,2
+ShapeletSim,13,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,13,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,13,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,13,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,13,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,13,3 chosen by TabPFN,template,distance,3
+ShapeletSim,14,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,14,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,14,3 chosen by TabPFN,change (smoothed),quantile,3
+ShapeletSim,14,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,14,3 chosen by TabPFN,change of change,mean,4
+ShapeletSim,14,3 chosen by TabPFN,change of change,quantile,2
+ShapeletSim,14,3 chosen by TabPFN,change of change,spread,5
+ShapeletSim,14,3 chosen by TabPFN,change of change,trend,4
+ShapeletSim,14,3 chosen by TabPFN,lag-16,spread,3
+ShapeletSim,14,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,14,3 chosen by TabPFN,lag-4,spread,1
+ShapeletSim,14,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,14,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,14,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,14,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,14,3 chosen by TabPFN,series,quantile,4
+ShapeletSim,14,3 chosen by TabPFN,series,spread,1
+ShapeletSim,14,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ShapeletSim,14,3 chosen by TabPFN,template,distance,2
+ShapeletSim,15,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,15,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,15,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,15,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,15,3 chosen by TabPFN,change of change,spread,2
+ShapeletSim,15,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,15,3 chosen by TabPFN,lag-16,mean,2
+ShapeletSim,15,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,15,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,15,3 chosen by TabPFN,lag-4,spread,2
+ShapeletSim,15,3 chosen by TabPFN,lag-4,trend,2
+ShapeletSim,15,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,15,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ShapeletSim,15,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,15,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,15,3 chosen by TabPFN,series,mean,1
+ShapeletSim,15,3 chosen by TabPFN,series,trend,1
+ShapeletSim,15,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,15,3 chosen by TabPFN,shape (z-normalized),trend,2
+ShapeletSim,15,3 chosen by TabPFN,template,distance,1
+ShapeletSim,16,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,16,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,16,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,16,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,16,3 chosen by TabPFN,change of change,quantile,1
+ShapeletSim,16,3 chosen by TabPFN,change of change,trend,2
+ShapeletSim,16,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,16,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,16,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,16,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,16,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,16,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,16,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ShapeletSim,16,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,16,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,16,3 chosen by TabPFN,template,distance,3
+ShapeletSim,17,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,17,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,17,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,17,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,17,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,17,3 chosen by TabPFN,change of change,quantile,2
+ShapeletSim,17,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,17,3 chosen by TabPFN,lag-16,mean,2
+ShapeletSim,17,3 chosen by TabPFN,lag-16,spread,1
+ShapeletSim,17,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,17,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,17,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,17,3 chosen by TabPFN,lag-4,spread,2
+ShapeletSim,17,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,17,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,17,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ShapeletSim,17,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,17,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,17,3 chosen by TabPFN,series,mean,1
+ShapeletSim,17,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,17,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ShapeletSim,17,3 chosen by TabPFN,template,distance,3
+ShapeletSim,18,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,18,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,18,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,18,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,18,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,18,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,18,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,18,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,18,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,18,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,18,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,18,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+ShapeletSim,18,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ShapeletSim,18,3 chosen by TabPFN,template,distance,3
+ShapeletSim,19,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,19,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,19,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,19,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,19,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,19,3 chosen by TabPFN,change of change,spread,1
+ShapeletSim,19,3 chosen by TabPFN,lag-16,mean,1
+ShapeletSim,19,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,19,3 chosen by TabPFN,lag-4,mean,2
+ShapeletSim,19,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,19,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,19,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ShapeletSim,19,3 chosen by TabPFN,rhythm (|FFT|),spread,7
+ShapeletSim,19,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,19,3 chosen by TabPFN,series,quantile,3
+ShapeletSim,19,3 chosen by TabPFN,series,spread,1
+ShapeletSim,19,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ShapeletSim,19,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,19,3 chosen by TabPFN,template,distance,3
+ShapeletSim,20,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ShapeletSim,20,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,20,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,20,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,20,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,20,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,20,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,20,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,20,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,20,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,20,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ShapeletSim,20,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,20,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ShapeletSim,20,3 chosen by TabPFN,series,mean,3
+ShapeletSim,20,3 chosen by TabPFN,series,spread,1
+ShapeletSim,20,3 chosen by TabPFN,series,trend,1
+ShapeletSim,20,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,20,3 chosen by TabPFN,template,distance,3
+ShapeletSim,21,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,21,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,21,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,21,3 chosen by TabPFN,change (smoothed),spread,4
+ShapeletSim,21,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,21,3 chosen by TabPFN,change of change,quantile,2
+ShapeletSim,21,3 chosen by TabPFN,change of change,spread,3
+ShapeletSim,21,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,21,3 chosen by TabPFN,lag-4,quantile,3
+ShapeletSim,21,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,21,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,21,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,21,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,21,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,21,3 chosen by TabPFN,template,distance,3
+ShapeletSim,22,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,22,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,22,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,22,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,22,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,22,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,22,3 chosen by TabPFN,change of change,mean,2
+ShapeletSim,22,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,22,3 chosen by TabPFN,change of change,spread,3
+ShapeletSim,22,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,22,3 chosen by TabPFN,lag-16,spread,3
+ShapeletSim,22,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,22,3 chosen by TabPFN,lag-4,quantile,2
+ShapeletSim,22,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,22,3 chosen by TabPFN,lag-4,trend,4
+ShapeletSim,22,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,22,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,22,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,22,3 chosen by TabPFN,rhythm (|FFT|),trend,5
+ShapeletSim,22,3 chosen by TabPFN,series,mean,2
+ShapeletSim,22,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,22,3 chosen by TabPFN,series,trend,1
+ShapeletSim,22,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,22,3 chosen by TabPFN,template,distance,2
+ShapeletSim,23,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,23,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,23,3 chosen by TabPFN,change (smoothed),spread,3
+ShapeletSim,23,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,23,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,23,3 chosen by TabPFN,lag-16,spread,4
+ShapeletSim,23,3 chosen by TabPFN,lag-16,trend,1
+ShapeletSim,23,3 chosen by TabPFN,lag-4,quantile,2
+ShapeletSim,23,3 chosen by TabPFN,lag-4,spread,2
+ShapeletSim,23,3 chosen by TabPFN,lag-4,trend,2
+ShapeletSim,23,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,23,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,23,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,23,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ShapeletSim,23,3 chosen by TabPFN,series,mean,1
+ShapeletSim,23,3 chosen by TabPFN,template,distance,3
+ShapeletSim,24,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,24,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,24,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,24,3 chosen by TabPFN,change (smoothed),spread,4
+ShapeletSim,24,3 chosen by TabPFN,change of change,quantile,6
+ShapeletSim,24,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,24,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,24,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,24,3 chosen by TabPFN,lag-4,spread,4
+ShapeletSim,24,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,24,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,24,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ShapeletSim,24,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ShapeletSim,24,3 chosen by TabPFN,series,mean,3
+ShapeletSim,24,3 chosen by TabPFN,series,spread,1
+ShapeletSim,24,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,24,3 chosen by TabPFN,template,distance,3
+ShapeletSim,25,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,25,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,25,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,25,3 chosen by TabPFN,change (smoothed),spread,5
+ShapeletSim,25,3 chosen by TabPFN,change (smoothed),trend,1
+ShapeletSim,25,3 chosen by TabPFN,change of change,quantile,4
+ShapeletSim,25,3 chosen by TabPFN,change of change,spread,5
+ShapeletSim,25,3 chosen by TabPFN,lag-16,mean,2
+ShapeletSim,25,3 chosen by TabPFN,lag-16,quantile,6
+ShapeletSim,25,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,25,3 chosen by TabPFN,lag-16,trend,3
+ShapeletSim,25,3 chosen by TabPFN,lag-4,mean,2
+ShapeletSim,25,3 chosen by TabPFN,lag-4,spread,6
+ShapeletSim,25,3 chosen by TabPFN,lag-4,trend,1
+ShapeletSim,25,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,25,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ShapeletSim,25,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,25,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,25,3 chosen by TabPFN,series,mean,1
+ShapeletSim,25,3 chosen by TabPFN,series,spread,1
+ShapeletSim,25,3 chosen by TabPFN,template,distance,3
+ShapeletSim,26,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,26,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,26,3 chosen by TabPFN,change (smoothed),mean,1
+ShapeletSim,26,3 chosen by TabPFN,change (smoothed),quantile,2
+ShapeletSim,26,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,26,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,26,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,26,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,26,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,26,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,26,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,26,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,26,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ShapeletSim,26,3 chosen by TabPFN,template,distance,3
+ShapeletSim,27,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,27,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,27,3 chosen by TabPFN,change (smoothed),spread,2
+ShapeletSim,27,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,27,3 chosen by TabPFN,change of change,quantile,4
+ShapeletSim,27,3 chosen by TabPFN,lag-16,mean,4
+ShapeletSim,27,3 chosen by TabPFN,lag-16,trend,2
+ShapeletSim,27,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,27,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,27,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ShapeletSim,27,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,27,3 chosen by TabPFN,rhythm (|FFT|),spread,8
+ShapeletSim,27,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ShapeletSim,27,3 chosen by TabPFN,series,spread,1
+ShapeletSim,27,3 chosen by TabPFN,shape (z-normalized),spread,1
+ShapeletSim,27,3 chosen by TabPFN,template,distance,2
+ShapeletSim,28,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ShapeletSim,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ShapeletSim,28,3 chosen by TabPFN,change of change,quantile,3
+ShapeletSim,28,3 chosen by TabPFN,change of change,spread,3
+ShapeletSim,28,3 chosen by TabPFN,change of change,trend,1
+ShapeletSim,28,3 chosen by TabPFN,lag-16,quantile,2
+ShapeletSim,28,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,28,3 chosen by TabPFN,lag-4,mean,1
+ShapeletSim,28,3 chosen by TabPFN,lag-4,quantile,4
+ShapeletSim,28,3 chosen by TabPFN,lag-4,spread,6
+ShapeletSim,28,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ShapeletSim,28,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ShapeletSim,28,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ShapeletSim,28,3 chosen by TabPFN,rhythm (|FFT|),trend,5
+ShapeletSim,28,3 chosen by TabPFN,series,mean,1
+ShapeletSim,28,3 chosen by TabPFN,series,quantile,2
+ShapeletSim,28,3 chosen by TabPFN,series,trend,1
+ShapeletSim,28,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ShapeletSim,28,3 chosen by TabPFN,template,distance,1
+ShapeletSim,29,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ShapeletSim,29,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ShapeletSim,29,3 chosen by TabPFN,change (smoothed),quantile,1
+ShapeletSim,29,3 chosen by TabPFN,change of change,mean,1
+ShapeletSim,29,3 chosen by TabPFN,change of change,quantile,5
+ShapeletSim,29,3 chosen by TabPFN,change of change,spread,4
+ShapeletSim,29,3 chosen by TabPFN,lag-16,mean,2
+ShapeletSim,29,3 chosen by TabPFN,lag-16,quantile,1
+ShapeletSim,29,3 chosen by TabPFN,lag-16,spread,2
+ShapeletSim,29,3 chosen by TabPFN,lag-4,quantile,1
+ShapeletSim,29,3 chosen by TabPFN,lag-4,spread,3
+ShapeletSim,29,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ShapeletSim,29,3 chosen by TabPFN,rhythm (|FFT|),quantile,6
+ShapeletSim,29,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ShapeletSim,29,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ShapeletSim,29,3 chosen by TabPFN,series,mean,1
+ShapeletSim,29,3 chosen by TabPFN,series,quantile,1
+ShapeletSim,29,3 chosen by TabPFN,shape (z-normalized),mean,1
+ShapeletSim,29,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ShapeletSim,29,3 chosen by TabPFN,shape (z-normalized),trend,1
+ShapeletSim,29,3 chosen by TabPFN,template,distance,2
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,0,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,0,3 chosen by TabPFN,change (smoothed),quantile,9
+ToeSegmentation2,0,3 chosen by TabPFN,change (smoothed),spread,6
+ToeSegmentation2,0,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation2,0,3 chosen by TabPFN,lag-16,quantile,19
+ToeSegmentation2,0,3 chosen by TabPFN,lag-16,spread,10
+ToeSegmentation2,0,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,0,3 chosen by TabPFN,lag-4,spread,5
+ToeSegmentation2,0,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,0,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,0,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,0,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,0,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,0,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation2,0,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,0,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,1,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,1,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,1,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,1,3 chosen by TabPFN,lag-16,quantile,15
+ToeSegmentation2,1,3 chosen by TabPFN,lag-16,spread,6
+ToeSegmentation2,1,3 chosen by TabPFN,lag-4,spread,2
+ToeSegmentation2,1,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,1,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,1,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,1,3 chosen by TabPFN,series,spread,4
+ToeSegmentation2,1,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,1,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,2,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,2,3 chosen by TabPFN,change (smoothed),spread,7
+ToeSegmentation2,2,3 chosen by TabPFN,change of change,quantile,3
+ToeSegmentation2,2,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation2,2,3 chosen by TabPFN,lag-16,quantile,12
+ToeSegmentation2,2,3 chosen by TabPFN,lag-16,spread,10
+ToeSegmentation2,2,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,2,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,2,3 chosen by TabPFN,series,quantile,1
+ToeSegmentation2,2,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,2,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,2,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,2,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,3,3 chosen by TabPFN,change (smoothed),quantile,11
+ToeSegmentation2,3,3 chosen by TabPFN,change (smoothed),spread,13
+ToeSegmentation2,3,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation2,3,3 chosen by TabPFN,lag-16,mean,4
+ToeSegmentation2,3,3 chosen by TabPFN,lag-16,quantile,21
+ToeSegmentation2,3,3 chosen by TabPFN,lag-16,spread,11
+ToeSegmentation2,3,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation2,3,3 chosen by TabPFN,lag-4,mean,3
+ToeSegmentation2,3,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,3,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,3,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,3,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,3,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,3,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,3,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,3,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,3,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,3,3 chosen by TabPFN,shape (z-normalized),mean,2
+ToeSegmentation2,3,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation2,3,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,3,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,3,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,4,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation2,4,3 chosen by TabPFN,change (smoothed),mean,3
+ToeSegmentation2,4,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,4,3 chosen by TabPFN,change (smoothed),spread,7
+ToeSegmentation2,4,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation2,4,3 chosen by TabPFN,change of change,mean,4
+ToeSegmentation2,4,3 chosen by TabPFN,change of change,quantile,8
+ToeSegmentation2,4,3 chosen by TabPFN,change of change,spread,5
+ToeSegmentation2,4,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation2,4,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,4,3 chosen by TabPFN,lag-16,quantile,12
+ToeSegmentation2,4,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,4,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation2,4,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,4,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,4,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,4,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,4,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ToeSegmentation2,4,3 chosen by TabPFN,rhythm (|FFT|),spread,2
+ToeSegmentation2,4,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation2,4,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation2,4,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,4,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,4,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,4,3 chosen by TabPFN,shape (z-normalized),trend,2
+ToeSegmentation2,4,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,5,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,5,3 chosen by TabPFN,change (smoothed),quantile,13
+ToeSegmentation2,5,3 chosen by TabPFN,change (smoothed),spread,9
+ToeSegmentation2,5,3 chosen by TabPFN,change of change,mean,4
+ToeSegmentation2,5,3 chosen by TabPFN,change of change,quantile,6
+ToeSegmentation2,5,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation2,5,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,5,3 chosen by TabPFN,lag-16,quantile,20
+ToeSegmentation2,5,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,5,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,5,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,5,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,5,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,5,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,5,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,5,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,5,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,5,3 chosen by TabPFN,series,trend,2
+ToeSegmentation2,5,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,5,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,5,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,5,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,6,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,6,3 chosen by TabPFN,change (smoothed),spread,4
+ToeSegmentation2,6,3 chosen by TabPFN,change of change,mean,2
+ToeSegmentation2,6,3 chosen by TabPFN,change of change,quantile,1
+ToeSegmentation2,6,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation2,6,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation2,6,3 chosen by TabPFN,lag-16,quantile,11
+ToeSegmentation2,6,3 chosen by TabPFN,lag-16,spread,3
+ToeSegmentation2,6,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation2,6,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,6,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,6,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,6,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,6,3 chosen by TabPFN,shape (z-normalized),quantile,6
+ToeSegmentation2,6,3 chosen by TabPFN,shape (z-normalized),spread,4
+ToeSegmentation2,6,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,7,3 chosen by TabPFN,change (smoothed),quantile,7
+ToeSegmentation2,7,3 chosen by TabPFN,change (smoothed),spread,7
+ToeSegmentation2,7,3 chosen by TabPFN,change of change,quantile,1
+ToeSegmentation2,7,3 chosen by TabPFN,lag-16,quantile,18
+ToeSegmentation2,7,3 chosen by TabPFN,lag-16,spread,11
+ToeSegmentation2,7,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,7,3 chosen by TabPFN,lag-4,spread,2
+ToeSegmentation2,7,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,7,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,7,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,7,3 chosen by TabPFN,series,quantile,6
+ToeSegmentation2,7,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,7,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,7,3 chosen by TabPFN,shape (z-normalized),mean,2
+ToeSegmentation2,7,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,7,3 chosen by TabPFN,shape (z-normalized),spread,4
+ToeSegmentation2,7,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,8,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,8,3 chosen by TabPFN,change (smoothed),quantile,8
+ToeSegmentation2,8,3 chosen by TabPFN,change (smoothed),spread,10
+ToeSegmentation2,8,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,8,3 chosen by TabPFN,lag-16,quantile,18
+ToeSegmentation2,8,3 chosen by TabPFN,lag-16,spread,13
+ToeSegmentation2,8,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,8,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,8,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation2,8,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation2,8,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,8,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,8,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,8,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,8,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,8,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,9,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation2,9,3 chosen by TabPFN,change (smoothed),spread,2
+ToeSegmentation2,9,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation2,9,3 chosen by TabPFN,change of change,spread,5
+ToeSegmentation2,9,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,9,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,9,3 chosen by TabPFN,lag-16,quantile,12
+ToeSegmentation2,9,3 chosen by TabPFN,lag-16,spread,7
+ToeSegmentation2,9,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,9,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,9,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,9,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,9,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation2,9,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation2,9,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,9,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,9,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,9,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,9,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation2,9,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,9,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,10,3 chosen by TabPFN,change (smoothed),quantile,8
+ToeSegmentation2,10,3 chosen by TabPFN,change (smoothed),spread,7
+ToeSegmentation2,10,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,10,3 chosen by TabPFN,lag-16,quantile,14
+ToeSegmentation2,10,3 chosen by TabPFN,lag-16,spread,7
+ToeSegmentation2,10,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,10,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,10,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,10,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,10,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,10,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,10,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,10,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,10,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,10,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation2,10,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,10,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation2,11,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,11,3 chosen by TabPFN,change (smoothed),mean,5
+ToeSegmentation2,11,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,11,3 chosen by TabPFN,change (smoothed),spread,6
+ToeSegmentation2,11,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation2,11,3 chosen by TabPFN,lag-16,mean,2
+ToeSegmentation2,11,3 chosen by TabPFN,lag-16,quantile,13
+ToeSegmentation2,11,3 chosen by TabPFN,lag-16,spread,8
+ToeSegmentation2,11,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation2,11,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,11,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,11,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,11,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,11,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,11,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,11,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,11,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,11,3 chosen by TabPFN,series,trend,3
+ToeSegmentation2,11,3 chosen by TabPFN,shape (z-normalized),mean,4
+ToeSegmentation2,11,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation2,11,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,11,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,12,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,12,3 chosen by TabPFN,change (smoothed),quantile,7
+ToeSegmentation2,12,3 chosen by TabPFN,change (smoothed),spread,9
+ToeSegmentation2,12,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation2,12,3 chosen by TabPFN,lag-16,quantile,16
+ToeSegmentation2,12,3 chosen by TabPFN,lag-16,spread,5
+ToeSegmentation2,12,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation2,12,3 chosen by TabPFN,lag-4,spread,2
+ToeSegmentation2,12,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,12,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,12,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,12,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,12,3 chosen by TabPFN,series,spread,5
+ToeSegmentation2,12,3 chosen by TabPFN,series,trend,2
+ToeSegmentation2,12,3 chosen by TabPFN,shape (z-normalized),mean,2
+ToeSegmentation2,12,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,12,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,12,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,13,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,13,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,13,3 chosen by TabPFN,change (smoothed),spread,8
+ToeSegmentation2,13,3 chosen by TabPFN,lag-16,quantile,16
+ToeSegmentation2,13,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,13,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,13,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,13,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,13,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,13,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation2,13,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,13,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,13,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,13,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,13,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,14,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,14,3 chosen by TabPFN,change (smoothed),quantile,8
+ToeSegmentation2,14,3 chosen by TabPFN,change (smoothed),spread,10
+ToeSegmentation2,14,3 chosen by TabPFN,change (smoothed),trend,2
+ToeSegmentation2,14,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation2,14,3 chosen by TabPFN,change of change,quantile,2
+ToeSegmentation2,14,3 chosen by TabPFN,lag-16,quantile,18
+ToeSegmentation2,14,3 chosen by TabPFN,lag-16,spread,10
+ToeSegmentation2,14,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation2,14,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,14,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,14,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation2,14,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,14,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,14,3 chosen by TabPFN,series,quantile,6
+ToeSegmentation2,14,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,14,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation2,14,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,14,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,15,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation2,15,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,15,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,15,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,15,3 chosen by TabPFN,lag-16,quantile,9
+ToeSegmentation2,15,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation2,15,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation2,15,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,15,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,15,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,15,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,15,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,15,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,15,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,15,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ToeSegmentation2,15,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,16,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,16,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation2,16,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,16,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,16,3 chosen by TabPFN,lag-16,mean,2
+ToeSegmentation2,16,3 chosen by TabPFN,lag-16,quantile,13
+ToeSegmentation2,16,3 chosen by TabPFN,lag-16,spread,10
+ToeSegmentation2,16,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation2,16,3 chosen by TabPFN,lag-4,mean,2
+ToeSegmentation2,16,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,16,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation2,16,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation2,16,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,16,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,16,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation2,16,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,16,3 chosen by TabPFN,template,distance,4
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,17,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,17,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,17,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,17,3 chosen by TabPFN,change (smoothed),spread,7
+ToeSegmentation2,17,3 chosen by TabPFN,lag-16,mean,3
+ToeSegmentation2,17,3 chosen by TabPFN,lag-16,quantile,14
+ToeSegmentation2,17,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,17,3 chosen by TabPFN,lag-4,mean,2
+ToeSegmentation2,17,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,17,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,17,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation2,17,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,17,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,17,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,17,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,17,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,17,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,17,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,18,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,18,3 chosen by TabPFN,change (smoothed),spread,6
+ToeSegmentation2,18,3 chosen by TabPFN,change of change,quantile,2
+ToeSegmentation2,18,3 chosen by TabPFN,lag-16,mean,2
+ToeSegmentation2,18,3 chosen by TabPFN,lag-16,quantile,15
+ToeSegmentation2,18,3 chosen by TabPFN,lag-16,spread,8
+ToeSegmentation2,18,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation2,18,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,18,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation2,18,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,18,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,18,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,18,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,18,3 chosen by TabPFN,series,mean,2
+ToeSegmentation2,18,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation2,18,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,18,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,18,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation2,18,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,18,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,18,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,19,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,19,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,19,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation2,19,3 chosen by TabPFN,change of change,spread,6
+ToeSegmentation2,19,3 chosen by TabPFN,lag-16,quantile,11
+ToeSegmentation2,19,3 chosen by TabPFN,lag-16,spread,6
+ToeSegmentation2,19,3 chosen by TabPFN,lag-4,spread,2
+ToeSegmentation2,19,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,19,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,19,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,19,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,19,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,19,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,19,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ToeSegmentation2,20,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ToeSegmentation2,20,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation2,20,3 chosen by TabPFN,change (smoothed),spread,4
+ToeSegmentation2,20,3 chosen by TabPFN,change of change,quantile,2
+ToeSegmentation2,20,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,20,3 chosen by TabPFN,lag-16,quantile,10
+ToeSegmentation2,20,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation2,20,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,20,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,20,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,20,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,20,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,20,3 chosen by TabPFN,shape (z-normalized),mean,3
+ToeSegmentation2,20,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,20,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,20,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,20,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,21,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation2,21,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation2,21,3 chosen by TabPFN,change of change,mean,2
+ToeSegmentation2,21,3 chosen by TabPFN,change of change,spread,4
+ToeSegmentation2,21,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,21,3 chosen by TabPFN,lag-16,quantile,10
+ToeSegmentation2,21,3 chosen by TabPFN,lag-16,spread,3
+ToeSegmentation2,21,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,21,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation2,21,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,21,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,21,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,21,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,21,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,21,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,21,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,21,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,22,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation2,22,3 chosen by TabPFN,change (smoothed),quantile,3
+ToeSegmentation2,22,3 chosen by TabPFN,change of change,quantile,1
+ToeSegmentation2,22,3 chosen by TabPFN,change of change,spread,4
+ToeSegmentation2,22,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation2,22,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation2,22,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,22,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,22,3 chosen by TabPFN,rhythm (|FFT|),spread,2
+ToeSegmentation2,22,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,22,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation2,22,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,22,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,22,3 chosen by TabPFN,template,distance,5
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ToeSegmentation2,23,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,23,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,23,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation2,23,3 chosen by TabPFN,change (smoothed),spread,2
+ToeSegmentation2,23,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation2,23,3 chosen by TabPFN,lag-16,quantile,8
+ToeSegmentation2,23,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation2,23,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,23,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation2,23,3 chosen by TabPFN,series,mean,2
+ToeSegmentation2,23,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,23,3 chosen by TabPFN,series,spread,1
+ToeSegmentation2,23,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,23,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,23,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,23,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,24,3 chosen by TabPFN,change (smoothed),mean,2
+ToeSegmentation2,24,3 chosen by TabPFN,change (smoothed),quantile,9
+ToeSegmentation2,24,3 chosen by TabPFN,change (smoothed),spread,12
+ToeSegmentation2,24,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation2,24,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation2,24,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,24,3 chosen by TabPFN,lag-16,mean,4
+ToeSegmentation2,24,3 chosen by TabPFN,lag-16,quantile,18
+ToeSegmentation2,24,3 chosen by TabPFN,lag-16,spread,8
+ToeSegmentation2,24,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation2,24,3 chosen by TabPFN,lag-4,quantile,4
+ToeSegmentation2,24,3 chosen by TabPFN,lag-4,spread,2
+ToeSegmentation2,24,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,24,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,24,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,24,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation2,24,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,24,3 chosen by TabPFN,series,spread,3
+ToeSegmentation2,24,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,24,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation2,24,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation2,24,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,24,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,24,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,25,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,25,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,25,3 chosen by TabPFN,change (smoothed),quantile,7
+ToeSegmentation2,25,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,25,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation2,25,3 chosen by TabPFN,lag-16,quantile,17
+ToeSegmentation2,25,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,25,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation2,25,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation2,25,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,25,3 chosen by TabPFN,lag-4,spread,4
+ToeSegmentation2,25,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,25,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,25,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation2,25,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,25,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,25,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,25,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation2,25,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation2,25,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,CO_FirstMin_ac (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,26,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation2,26,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,26,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation2,26,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation2,26,3 chosen by TabPFN,lag-16,quantile,10
+ToeSegmentation2,26,3 chosen by TabPFN,lag-16,spread,6
+ToeSegmentation2,26,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,26,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,26,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,26,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,26,3 chosen by TabPFN,series,quantile,1
+ToeSegmentation2,26,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,26,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation2,26,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,26,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,27,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation2,27,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation2,27,3 chosen by TabPFN,lag-16,quantile,13
+ToeSegmentation2,27,3 chosen by TabPFN,lag-16,spread,7
+ToeSegmentation2,27,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,27,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,27,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation2,27,3 chosen by TabPFN,series,quantile,1
+ToeSegmentation2,27,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation2,27,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,28,3 chosen by TabPFN,change (smoothed),quantile,7
+ToeSegmentation2,28,3 chosen by TabPFN,change (smoothed),spread,9
+ToeSegmentation2,28,3 chosen by TabPFN,lag-16,quantile,17
+ToeSegmentation2,28,3 chosen by TabPFN,lag-16,spread,9
+ToeSegmentation2,28,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation2,28,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation2,28,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,28,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation2,28,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation2,28,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation2,28,3 chosen by TabPFN,series,spread,2
+ToeSegmentation2,28,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,28,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation2,28,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation2,28,3 chosen by TabPFN,template,distance,6
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_f1ecac (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation2,29,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation2,29,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation2,29,3 chosen by TabPFN,change (smoothed),quantile,11
+ToeSegmentation2,29,3 chosen by TabPFN,change (smoothed),spread,9
+ToeSegmentation2,29,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation2,29,3 chosen by TabPFN,lag-16,mean,3
+ToeSegmentation2,29,3 chosen by TabPFN,lag-16,quantile,21
+ToeSegmentation2,29,3 chosen by TabPFN,lag-16,spread,12
+ToeSegmentation2,29,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation2,29,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation2,29,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation2,29,3 chosen by TabPFN,rhythm (|FFT|),trend,5
+ToeSegmentation2,29,3 chosen by TabPFN,series,mean,1
+ToeSegmentation2,29,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation2,29,3 chosen by TabPFN,series,spread,4
+ToeSegmentation2,29,3 chosen by TabPFN,series,trend,1
+ToeSegmentation2,29,3 chosen by TabPFN,shape (z-normalized),mean,2
+ToeSegmentation2,29,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation2,29,3 chosen by TabPFN,shape (z-normalized),spread,3
+ToeSegmentation2,29,3 chosen by TabPFN,shape (z-normalized),trend,3
+ToeSegmentation2,29,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,0,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,0,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,0,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,0,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,0,3 chosen by TabPFN,change of change,quantile,3
+ToeSegmentation1,0,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,0,3 chosen by TabPFN,lag-16,quantile,1
+ToeSegmentation1,0,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,0,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,0,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation1,0,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,0,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation1,0,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,0,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,1,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,1,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,1,3 chosen by TabPFN,change of change,quantile,15
+ToeSegmentation1,1,3 chosen by TabPFN,change of change,spread,4
+ToeSegmentation1,1,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,1,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,1,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ToeSegmentation1,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ToeSegmentation1,1,3 chosen by TabPFN,rhythm (|FFT|),spread,7
+ToeSegmentation1,1,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation1,1,3 chosen by TabPFN,series,mean,2
+ToeSegmentation1,1,3 chosen by TabPFN,series,quantile,1
+ToeSegmentation1,1,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,1,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,CO_trev_1_num (series),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,2,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,2,3 chosen by TabPFN,change (smoothed),quantile,8
+ToeSegmentation1,2,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,2,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,2,3 chosen by TabPFN,change of change,quantile,5
+ToeSegmentation1,2,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation1,2,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation1,2,3 chosen by TabPFN,lag-16,quantile,9
+ToeSegmentation1,2,3 chosen by TabPFN,lag-16,spread,2
+ToeSegmentation1,2,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,2,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,2,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation1,2,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,2,3 chosen by TabPFN,series,mean,1
+ToeSegmentation1,2,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,2,3 chosen by TabPFN,series,spread,1
+ToeSegmentation1,2,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,2,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation1,2,3 chosen by TabPFN,shape (z-normalized),quantile,8
+ToeSegmentation1,2,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,CO_trev_1_num (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ToeSegmentation1,3,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation1,3,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,3,3 chosen by TabPFN,lag-16,quantile,5
+ToeSegmentation1,3,3 chosen by TabPFN,lag-16,spread,3
+ToeSegmentation1,3,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation1,3,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation1,3,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ToeSegmentation1,3,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation1,3,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation1,3,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation1,3,3 chosen by TabPFN,series,spread,1
+ToeSegmentation1,3,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,3,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation1,3,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,4,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,4,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,4,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,4,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,4,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation1,4,3 chosen by TabPFN,change (smoothed),spread,1
+ToeSegmentation1,4,3 chosen by TabPFN,change of change,quantile,8
+ToeSegmentation1,4,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,4,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,4,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,4,3 chosen by TabPFN,lag-4,quantile,5
+ToeSegmentation1,4,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation1,4,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,4,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ToeSegmentation1,4,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,4,3 chosen by TabPFN,series,mean,1
+ToeSegmentation1,4,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,4,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation1,4,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation1,4,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation1,4,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,5,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,5,3 chosen by TabPFN,change (smoothed),quantile,3
+ToeSegmentation1,5,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,5,3 chosen by TabPFN,change of change,quantile,5
+ToeSegmentation1,5,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,5,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation1,5,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,5,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,5,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,5,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,5,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation1,5,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,5,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,5,3 chosen by TabPFN,shape (z-normalized),quantile,6
+ToeSegmentation1,5,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,6,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,6,3 chosen by TabPFN,change (smoothed),mean,2
+ToeSegmentation1,6,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation1,6,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,6,3 chosen by TabPFN,change of change,quantile,5
+ToeSegmentation1,6,3 chosen by TabPFN,change of change,spread,4
+ToeSegmentation1,6,3 chosen by TabPFN,lag-16,mean,2
+ToeSegmentation1,6,3 chosen by TabPFN,lag-16,quantile,13
+ToeSegmentation1,6,3 chosen by TabPFN,lag-16,spread,3
+ToeSegmentation1,6,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,6,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation1,6,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation1,6,3 chosen by TabPFN,lag-4,spread,1
+ToeSegmentation1,6,3 chosen by TabPFN,lag-4,trend,2
+ToeSegmentation1,6,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,6,3 chosen by TabPFN,rhythm (|FFT|),spread,5
+ToeSegmentation1,6,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,6,3 chosen by TabPFN,series,mean,2
+ToeSegmentation1,6,3 chosen by TabPFN,series,quantile,10
+ToeSegmentation1,6,3 chosen by TabPFN,series,spread,2
+ToeSegmentation1,6,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,6,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation1,6,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation1,6,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation1,6,3 chosen by TabPFN,shape (z-normalized),trend,2
+ToeSegmentation1,6,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,7,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,7,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,7,3 chosen by TabPFN,change of change,quantile,5
+ToeSegmentation1,7,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation1,7,3 chosen by TabPFN,lag-16,quantile,5
+ToeSegmentation1,7,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,7,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation1,7,3 chosen by TabPFN,rhythm (|FFT|),quantile,4
+ToeSegmentation1,7,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ToeSegmentation1,7,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,7,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,7,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation1,7,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,8,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,8,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation1,8,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation1,8,3 chosen by TabPFN,change (smoothed),spread,4
+ToeSegmentation1,8,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,8,3 chosen by TabPFN,change of change,quantile,5
+ToeSegmentation1,8,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,8,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation1,8,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,8,3 chosen by TabPFN,lag-4,trend,2
+ToeSegmentation1,8,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ToeSegmentation1,8,3 chosen by TabPFN,rhythm (|FFT|),quantile,6
+ToeSegmentation1,8,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ToeSegmentation1,8,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,8,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation1,8,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,8,3 chosen by TabPFN,shape (z-normalized),quantile,8
+ToeSegmentation1,8,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,FC_LocalSimple_mean3_stderr (change (smoothed)),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,9,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,9,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,9,3 chosen by TabPFN,change of change,quantile,18
+ToeSegmentation1,9,3 chosen by TabPFN,change of change,spread,9
+ToeSegmentation1,9,3 chosen by TabPFN,lag-16,quantile,3
+ToeSegmentation1,9,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,9,3 chosen by TabPFN,lag-4,quantile,7
+ToeSegmentation1,9,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,9,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ToeSegmentation1,9,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ToeSegmentation1,9,3 chosen by TabPFN,rhythm (|FFT|),spread,8
+ToeSegmentation1,9,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,9,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,9,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,9,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ToeSegmentation1,10,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,10,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation1,10,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,10,3 chosen by TabPFN,lag-16,quantile,4
+ToeSegmentation1,10,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,10,3 chosen by TabPFN,rhythm (|FFT|),mean,3
+ToeSegmentation1,10,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,10,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation1,10,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,10,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation1,10,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,11,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,11,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,11,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation1,11,3 chosen by TabPFN,change of change,quantile,6
+ToeSegmentation1,11,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,11,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,11,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,11,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,11,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,11,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,11,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,11,3 chosen by TabPFN,series,spread,1
+ToeSegmentation1,11,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,11,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation1,11,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,12,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,12,3 chosen by TabPFN,change (smoothed),quantile,2
+ToeSegmentation1,12,3 chosen by TabPFN,change (smoothed),spread,2
+ToeSegmentation1,12,3 chosen by TabPFN,change of change,quantile,2
+ToeSegmentation1,12,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,12,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,12,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,12,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation1,12,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,12,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,12,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,12,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,13,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,13,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation1,13,3 chosen by TabPFN,change of change,quantile,11
+ToeSegmentation1,13,3 chosen by TabPFN,change of change,spread,5
+ToeSegmentation1,13,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation1,13,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,13,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,13,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,13,3 chosen by TabPFN,rhythm (|FFT|),mean,6
+ToeSegmentation1,13,3 chosen by TabPFN,rhythm (|FFT|),quantile,7
+ToeSegmentation1,13,3 chosen by TabPFN,rhythm (|FFT|),spread,7
+ToeSegmentation1,13,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,13,3 chosen by TabPFN,series,mean,1
+ToeSegmentation1,13,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,13,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation1,13,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation1,13,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (series),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,14,3 chosen by TabPFN,change (smoothed),quantile,3
+ToeSegmentation1,14,3 chosen by TabPFN,change (smoothed),spread,2
+ToeSegmentation1,14,3 chosen by TabPFN,change of change,quantile,3
+ToeSegmentation1,14,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation1,14,3 chosen by TabPFN,lag-16,quantile,3
+ToeSegmentation1,14,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,14,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,14,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation1,14,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,14,3 chosen by TabPFN,rhythm (|FFT|),spread,2
+ToeSegmentation1,14,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,14,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation1,14,3 chosen by TabPFN,series,spread,2
+ToeSegmentation1,14,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,14,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation1,14,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,14,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation1,14,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,MD_hrv_classic_pnn40 (series),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SB_TransitionMatrix_3ac_sumdiagcov (change (smoothed)),1
+ToeSegmentation1,15,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,15,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation1,15,3 chosen by TabPFN,change of change,mean,2
+ToeSegmentation1,15,3 chosen by TabPFN,change of change,quantile,16
+ToeSegmentation1,15,3 chosen by TabPFN,change of change,spread,7
+ToeSegmentation1,15,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation1,15,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,15,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,15,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,15,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,15,3 chosen by TabPFN,rhythm (|FFT|),spread,6
+ToeSegmentation1,15,3 chosen by TabPFN,rhythm (|FFT|),trend,5
+ToeSegmentation1,15,3 chosen by TabPFN,series,mean,1
+ToeSegmentation1,15,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,15,3 chosen by TabPFN,shape (z-normalized),quantile,6
+ToeSegmentation1,15,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation1,15,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,DN_OutlierInclude_p_001_mdrmd (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,16,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,16,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,16,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,16,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation1,16,3 chosen by TabPFN,change of change,quantile,1
+ToeSegmentation1,16,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation1,16,3 chosen by TabPFN,change of change,trend,1
+ToeSegmentation1,16,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,16,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,16,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,16,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,16,3 chosen by TabPFN,rhythm (|FFT|),trend,4
+ToeSegmentation1,16,3 chosen by TabPFN,series,quantile,2
+ToeSegmentation1,16,3 chosen by TabPFN,series,spread,1
+ToeSegmentation1,16,3 chosen by TabPFN,shape (z-normalized),quantile,8
+ToeSegmentation1,16,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation1,16,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,17,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,17,3 chosen by TabPFN,change (smoothed),quantile,2
+ToeSegmentation1,17,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,17,3 chosen by TabPFN,lag-16,quantile,5
+ToeSegmentation1,17,3 chosen by TabPFN,lag-16,spread,2
+ToeSegmentation1,17,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,17,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,17,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,17,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,17,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ToeSegmentation1,17,3 chosen by TabPFN,shape (z-normalized),spread,2
+ToeSegmentation1,17,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (series),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,18,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,18,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation1,18,3 chosen by TabPFN,change (smoothed),quantile,4
+ToeSegmentation1,18,3 chosen by TabPFN,change (smoothed),spread,2
+ToeSegmentation1,18,3 chosen by TabPFN,change of change,quantile,7
+ToeSegmentation1,18,3 chosen by TabPFN,change of change,spread,1
+ToeSegmentation1,18,3 chosen by TabPFN,lag-16,quantile,4
+ToeSegmentation1,18,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,18,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,18,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,18,3 chosen by TabPFN,rhythm (|FFT|),spread,2
+ToeSegmentation1,18,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation1,18,3 chosen by TabPFN,series,quantile,5
+ToeSegmentation1,18,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,18,3 chosen by TabPFN,shape (z-normalized),quantile,7
+ToeSegmentation1,18,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation1,18,3 chosen by TabPFN,template,distance,5
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (series),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,DN_HistogramMode_5 (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,19,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,19,3 chosen by TabPFN,change (smoothed),quantile,6
+ToeSegmentation1,19,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,19,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,19,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation1,19,3 chosen by TabPFN,lag-16,quantile,5
+ToeSegmentation1,19,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation1,19,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,19,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,19,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,19,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,19,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation1,19,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation1,20,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,20,3 chosen by TabPFN,change (smoothed),quantile,3
+ToeSegmentation1,20,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,20,3 chosen by TabPFN,change of change,quantile,1
+ToeSegmentation1,20,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,20,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation1,20,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,20,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation1,20,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,20,3 chosen by TabPFN,shape (z-normalized),quantile,6
+ToeSegmentation1,20,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,CO_FirstMin_ac (series),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (series),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (series),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,21,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,21,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation1,21,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation1,21,3 chosen by TabPFN,change (smoothed),spread,4
+ToeSegmentation1,21,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,21,3 chosen by TabPFN,change of change,quantile,9
+ToeSegmentation1,21,3 chosen by TabPFN,change of change,spread,4
+ToeSegmentation1,21,3 chosen by TabPFN,lag-16,mean,2
+ToeSegmentation1,21,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,21,3 chosen by TabPFN,lag-16,spread,4
+ToeSegmentation1,21,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,21,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,21,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,21,3 chosen by TabPFN,rhythm (|FFT|),spread,4
+ToeSegmentation1,21,3 chosen by TabPFN,rhythm (|FFT|),trend,6
+ToeSegmentation1,21,3 chosen by TabPFN,series,quantile,6
+ToeSegmentation1,21,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation1,21,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,22,3 chosen by TabPFN,change (smoothed),quantile,5
+ToeSegmentation1,22,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,22,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation1,22,3 chosen by TabPFN,lag-16,quantile,3
+ToeSegmentation1,22,3 chosen by TabPFN,lag-16,spread,2
+ToeSegmentation1,22,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,22,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,22,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation1,22,3 chosen by TabPFN,rhythm (|FFT|),trend,3
+ToeSegmentation1,22,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,22,3 chosen by TabPFN,series,spread,1
+ToeSegmentation1,22,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,22,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,23,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,23,3 chosen by TabPFN,change (smoothed),quantile,2
+ToeSegmentation1,23,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,23,3 chosen by TabPFN,change of change,mean,1
+ToeSegmentation1,23,3 chosen by TabPFN,change of change,quantile,7
+ToeSegmentation1,23,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,23,3 chosen by TabPFN,lag-16,quantile,6
+ToeSegmentation1,23,3 chosen by TabPFN,lag-16,spread,2
+ToeSegmentation1,23,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,23,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation1,23,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation1,23,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,23,3 chosen by TabPFN,rhythm (|FFT|),quantile,2
+ToeSegmentation1,23,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation1,23,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,23,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,23,3 chosen by TabPFN,shape (z-normalized),quantile,2
+ToeSegmentation1,23,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (series),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (series),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,24,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (series),1
+ToeSegmentation1,24,3 chosen by TabPFN,change (smoothed),mean,1
+ToeSegmentation1,24,3 chosen by TabPFN,change of change,quantile,6
+ToeSegmentation1,24,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,24,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation1,24,3 chosen by TabPFN,lag-16,quantile,2
+ToeSegmentation1,24,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,24,3 chosen by TabPFN,lag-4,mean,2
+ToeSegmentation1,24,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation1,24,3 chosen by TabPFN,shape (z-normalized),mean,2
+ToeSegmentation1,24,3 chosen by TabPFN,shape (z-normalized),quantile,5
+ToeSegmentation1,24,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation1,24,3 chosen by TabPFN,template,distance,5
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,DN_HistogramMode_10 (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,25,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,25,3 chosen by TabPFN,change of change,mean,2
+ToeSegmentation1,25,3 chosen by TabPFN,change of change,quantile,6
+ToeSegmentation1,25,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,25,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation1,25,3 chosen by TabPFN,lag-16,quantile,1
+ToeSegmentation1,25,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation1,25,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation1,25,3 chosen by TabPFN,lag-4,trend,2
+ToeSegmentation1,25,3 chosen by TabPFN,rhythm (|FFT|),mean,2
+ToeSegmentation1,25,3 chosen by TabPFN,rhythm (|FFT|),quantile,3
+ToeSegmentation1,25,3 chosen by TabPFN,rhythm (|FFT|),spread,1
+ToeSegmentation1,25,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,25,3 chosen by TabPFN,series,quantile,1
+ToeSegmentation1,25,3 chosen by TabPFN,series,trend,1
+ToeSegmentation1,25,3 chosen by TabPFN,shape (z-normalized),mean,1
+ToeSegmentation1,25,3 chosen by TabPFN,shape (z-normalized),quantile,1
+ToeSegmentation1,25,3 chosen by TabPFN,shape (z-normalized),spread,1
+ToeSegmentation1,25,3 chosen by TabPFN,template,distance,5
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,26,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,26,3 chosen by TabPFN,change (smoothed),spread,3
+ToeSegmentation1,26,3 chosen by TabPFN,change of change,quantile,7
+ToeSegmentation1,26,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,26,3 chosen by TabPFN,lag-16,quantile,4
+ToeSegmentation1,26,3 chosen by TabPFN,lag-16,trend,2
+ToeSegmentation1,26,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ToeSegmentation1,26,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ToeSegmentation1,26,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,26,3 chosen by TabPFN,series,mean,2
+ToeSegmentation1,26,3 chosen by TabPFN,series,quantile,4
+ToeSegmentation1,26,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation1,26,3 chosen by TabPFN,shape (z-normalized),trend,1
+ToeSegmentation1,26,3 chosen by TabPFN,template,distance,5
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,27,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,27,3 chosen by TabPFN,change (smoothed),quantile,2
+ToeSegmentation1,27,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,27,3 chosen by TabPFN,change of change,quantile,4
+ToeSegmentation1,27,3 chosen by TabPFN,change of change,spread,2
+ToeSegmentation1,27,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation1,27,3 chosen by TabPFN,lag-16,quantile,7
+ToeSegmentation1,27,3 chosen by TabPFN,lag-16,spread,2
+ToeSegmentation1,27,3 chosen by TabPFN,lag-16,trend,1
+ToeSegmentation1,27,3 chosen by TabPFN,lag-4,quantile,3
+ToeSegmentation1,27,3 chosen by TabPFN,lag-4,trend,1
+ToeSegmentation1,27,3 chosen by TabPFN,rhythm (|FFT|),mean,4
+ToeSegmentation1,27,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,27,3 chosen by TabPFN,rhythm (|FFT|),spread,2
+ToeSegmentation1,27,3 chosen by TabPFN,rhythm (|FFT|),trend,1
+ToeSegmentation1,27,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,27,3 chosen by TabPFN,shape (z-normalized),quantile,4
+ToeSegmentation1,27,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,CO_f1ecac (series),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,IN_AutoMutualInfoStats_40_gaussian_fmmi (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,PD_PeriodicityWang_th0_01 (series),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,28,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_centroid (change (smoothed)),1
+ToeSegmentation1,28,3 chosen by TabPFN,change (smoothed),mean,3
+ToeSegmentation1,28,3 chosen by TabPFN,change (smoothed),quantile,7
+ToeSegmentation1,28,3 chosen by TabPFN,change (smoothed),spread,5
+ToeSegmentation1,28,3 chosen by TabPFN,change (smoothed),trend,1
+ToeSegmentation1,28,3 chosen by TabPFN,change of change,quantile,7
+ToeSegmentation1,28,3 chosen by TabPFN,change of change,spread,3
+ToeSegmentation1,28,3 chosen by TabPFN,change of change,trend,2
+ToeSegmentation1,28,3 chosen by TabPFN,lag-16,mean,5
+ToeSegmentation1,28,3 chosen by TabPFN,lag-16,quantile,8
+ToeSegmentation1,28,3 chosen by TabPFN,lag-16,spread,1
+ToeSegmentation1,28,3 chosen by TabPFN,lag-16,trend,3
+ToeSegmentation1,28,3 chosen by TabPFN,lag-4,mean,1
+ToeSegmentation1,28,3 chosen by TabPFN,lag-4,quantile,1
+ToeSegmentation1,28,3 chosen by TabPFN,rhythm (|FFT|),mean,1
+ToeSegmentation1,28,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+ToeSegmentation1,28,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation1,28,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,28,3 chosen by TabPFN,series,mean,1
+ToeSegmentation1,28,3 chosen by TabPFN,series,quantile,3
+ToeSegmentation1,28,3 chosen by TabPFN,shape (z-normalized),quantile,3
+ToeSegmentation1,28,3 chosen by TabPFN,shape (z-normalized),trend,3
+ToeSegmentation1,28,3 chosen by TabPFN,template,distance,6
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,CO_Embed2_Dist_tau_d_expfit_meandiff (series),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,CO_HistogramAMI_even_2_5 (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,DN_OutlierInclude_n_001_mdrmd (series),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,FC_LocalSimple_mean1_tauresrat (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SB_BinaryStats_diff_longstretch0 (series),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SB_BinaryStats_mean_longstretch1 (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SB_MotifThree_quantile_hh (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (change (smoothed)),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SC_FluctAnal_2_rsrangefit_50_1_logi_prop_r1 (series),1
+ToeSegmentation1,29,3 chosen by TabPFN,catch22,SP_Summaries_welch_rect_area_5_1 (series),1
+ToeSegmentation1,29,3 chosen by TabPFN,change (smoothed),quantile,1
+ToeSegmentation1,29,3 chosen by TabPFN,change of change,quantile,11
+ToeSegmentation1,29,3 chosen by TabPFN,change of change,spread,9
+ToeSegmentation1,29,3 chosen by TabPFN,lag-16,mean,1
+ToeSegmentation1,29,3 chosen by TabPFN,lag-16,quantile,3
+ToeSegmentation1,29,3 chosen by TabPFN,lag-4,quantile,2
+ToeSegmentation1,29,3 chosen by TabPFN,rhythm (|FFT|),mean,5
+ToeSegmentation1,29,3 chosen by TabPFN,rhythm (|FFT|),quantile,5
+ToeSegmentation1,29,3 chosen by TabPFN,rhythm (|FFT|),spread,3
+ToeSegmentation1,29,3 chosen by TabPFN,rhythm (|FFT|),trend,2
+ToeSegmentation1,29,3 chosen by TabPFN,series,mean,3
+ToeSegmentation1,29,3 chosen by TabPFN,series,quantile,6
+ToeSegmentation1,29,3 chosen by TabPFN,shape (z-normalized),quantile,9
+ToeSegmentation1,29,3 chosen by TabPFN,shape (z-normalized),trend,2
+ToeSegmentation1,29,3 chosen by TabPFN,template,distance,6

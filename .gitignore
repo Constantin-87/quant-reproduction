@@ -8,7 +8,14 @@ data/indices/*
 !data/ts/.gitkeep
 !data/indices/.gitkeep
 
+# results of experiments that are not part of the report (kept locally only)
+results_dropped/
+
+# the selection log of a full run (142 datasets x 30 resamples) is about 200 MB, over GitHub's file limit
+results/*ucr142*_selection.csv
+
 # environment and caches
 .venv/
+.venv-gpu/
 __pycache__/
 .ipynb_checkpoints/

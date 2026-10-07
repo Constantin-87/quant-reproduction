@@ -1,0 +1,10 @@
+# .venv-gpu: every other run (Python 3.12). Install the CUDA build of PyTorch first:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu130
+torch
+numpy
+scikit-learn
+tqdm
+xgboost      # A1: GPU classifier
+catboost     # A1: GPU classifier
+tabpfn       # A1: GPU classifier; its model weights need a Prior Labs API key (README, section 1)
+aeon         # A2: MultiRocket, Hydra and RDST, for the feature versions v2-v4 (also installs numba)

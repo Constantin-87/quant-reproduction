@@ -1,0 +1,717 @@
+dataset,resample,step,source,kind,count
+ChlorineConcentration,0,1 produced,change (smoothed),quantile,266
+ChlorineConcentration,0,1 produced,change (smoothed),quantile - mean,219
+ChlorineConcentration,0,1 produced,change of change,quantile,266
+ChlorineConcentration,0,1 produced,change of change,quantile - mean,216
+ChlorineConcentration,0,1 produced,lag-16,quantile,254
+ChlorineConcentration,0,1 produced,lag-16,quantile - mean,185
+ChlorineConcentration,0,1 produced,lag-2,quantile,266
+ChlorineConcentration,0,1 produced,lag-2,quantile - mean,216
+ChlorineConcentration,0,1 produced,lag-4,quantile,262
+ChlorineConcentration,0,1 produced,lag-4,quantile - mean,212
+ChlorineConcentration,0,1 produced,lag-8,quantile,255
+ChlorineConcentration,0,1 produced,lag-8,quantile - mean,205
+ChlorineConcentration,0,1 produced,rhythm (|FFT|),quantile,174
+ChlorineConcentration,0,1 produced,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,0,1 produced,series,quantile,266
+ChlorineConcentration,0,1 produced,series,quantile - mean,221
+ChlorineConcentration,0,2 kept by the filters,change (smoothed),quantile,266
+ChlorineConcentration,0,2 kept by the filters,change (smoothed),quantile - mean,219
+ChlorineConcentration,0,2 kept by the filters,change of change,quantile,266
+ChlorineConcentration,0,2 kept by the filters,change of change,quantile - mean,216
+ChlorineConcentration,0,2 kept by the filters,lag-16,quantile,247
+ChlorineConcentration,0,2 kept by the filters,lag-16,quantile - mean,170
+ChlorineConcentration,0,2 kept by the filters,lag-2,quantile,236
+ChlorineConcentration,0,2 kept by the filters,lag-2,quantile - mean,197
+ChlorineConcentration,0,2 kept by the filters,lag-4,quantile,240
+ChlorineConcentration,0,2 kept by the filters,lag-4,quantile - mean,202
+ChlorineConcentration,0,2 kept by the filters,lag-8,quantile,236
+ChlorineConcentration,0,2 kept by the filters,lag-8,quantile - mean,192
+ChlorineConcentration,0,2 kept by the filters,rhythm (|FFT|),quantile,174
+ChlorineConcentration,0,2 kept by the filters,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,0,2 kept by the filters,series,quantile,266
+ChlorineConcentration,0,2 kept by the filters,series,quantile - mean,221
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),quantile,17
+ChlorineConcentration,0,3 chosen by TabPFN,change (smoothed),quantile - mean,10
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,quantile,43
+ChlorineConcentration,0,3 chosen by TabPFN,change of change,quantile - mean,49
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,quantile,15
+ChlorineConcentration,0,3 chosen by TabPFN,lag-16,quantile - mean,6
+ChlorineConcentration,0,3 chosen by TabPFN,lag-2,quantile,20
+ChlorineConcentration,0,3 chosen by TabPFN,lag-2,quantile - mean,14
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,quantile,18
+ChlorineConcentration,0,3 chosen by TabPFN,lag-4,quantile - mean,18
+ChlorineConcentration,0,3 chosen by TabPFN,lag-8,quantile,8
+ChlorineConcentration,0,3 chosen by TabPFN,lag-8,quantile - mean,9
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,28
+ChlorineConcentration,0,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,16
+ChlorineConcentration,0,3 chosen by TabPFN,series,quantile,15
+ChlorineConcentration,0,3 chosen by TabPFN,series,quantile - mean,14
+ChlorineConcentration,1,1 produced,change (smoothed),quantile,266
+ChlorineConcentration,1,1 produced,change (smoothed),quantile - mean,219
+ChlorineConcentration,1,1 produced,change of change,quantile,266
+ChlorineConcentration,1,1 produced,change of change,quantile - mean,216
+ChlorineConcentration,1,1 produced,lag-16,quantile,254
+ChlorineConcentration,1,1 produced,lag-16,quantile - mean,185
+ChlorineConcentration,1,1 produced,lag-2,quantile,266
+ChlorineConcentration,1,1 produced,lag-2,quantile - mean,216
+ChlorineConcentration,1,1 produced,lag-4,quantile,262
+ChlorineConcentration,1,1 produced,lag-4,quantile - mean,212
+ChlorineConcentration,1,1 produced,lag-8,quantile,255
+ChlorineConcentration,1,1 produced,lag-8,quantile - mean,205
+ChlorineConcentration,1,1 produced,rhythm (|FFT|),quantile,174
+ChlorineConcentration,1,1 produced,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,1,1 produced,series,quantile,266
+ChlorineConcentration,1,1 produced,series,quantile - mean,221
+ChlorineConcentration,1,2 kept by the filters,change (smoothed),quantile,266
+ChlorineConcentration,1,2 kept by the filters,change (smoothed),quantile - mean,219
+ChlorineConcentration,1,2 kept by the filters,change of change,quantile,266
+ChlorineConcentration,1,2 kept by the filters,change of change,quantile - mean,216
+ChlorineConcentration,1,2 kept by the filters,lag-16,quantile,246
+ChlorineConcentration,1,2 kept by the filters,lag-16,quantile - mean,169
+ChlorineConcentration,1,2 kept by the filters,lag-2,quantile,245
+ChlorineConcentration,1,2 kept by the filters,lag-2,quantile - mean,202
+ChlorineConcentration,1,2 kept by the filters,lag-4,quantile,234
+ChlorineConcentration,1,2 kept by the filters,lag-4,quantile - mean,195
+ChlorineConcentration,1,2 kept by the filters,lag-8,quantile,236
+ChlorineConcentration,1,2 kept by the filters,lag-8,quantile - mean,193
+ChlorineConcentration,1,2 kept by the filters,rhythm (|FFT|),quantile,174
+ChlorineConcentration,1,2 kept by the filters,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,1,2 kept by the filters,series,quantile,266
+ChlorineConcentration,1,2 kept by the filters,series,quantile - mean,221
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),quantile,6
+ChlorineConcentration,1,3 chosen by TabPFN,change (smoothed),quantile - mean,12
+ChlorineConcentration,1,3 chosen by TabPFN,change of change,quantile,54
+ChlorineConcentration,1,3 chosen by TabPFN,change of change,quantile - mean,47
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,quantile,18
+ChlorineConcentration,1,3 chosen by TabPFN,lag-16,quantile - mean,8
+ChlorineConcentration,1,3 chosen by TabPFN,lag-2,quantile,21
+ChlorineConcentration,1,3 chosen by TabPFN,lag-2,quantile - mean,16
+ChlorineConcentration,1,3 chosen by TabPFN,lag-4,quantile,15
+ChlorineConcentration,1,3 chosen by TabPFN,lag-4,quantile - mean,9
+ChlorineConcentration,1,3 chosen by TabPFN,lag-8,quantile,8
+ChlorineConcentration,1,3 chosen by TabPFN,lag-8,quantile - mean,9
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,30
+ChlorineConcentration,1,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,27
+ChlorineConcentration,1,3 chosen by TabPFN,series,quantile,16
+ChlorineConcentration,1,3 chosen by TabPFN,series,quantile - mean,4
+ChlorineConcentration,2,1 produced,change (smoothed),quantile,266
+ChlorineConcentration,2,1 produced,change (smoothed),quantile - mean,219
+ChlorineConcentration,2,1 produced,change of change,quantile,266
+ChlorineConcentration,2,1 produced,change of change,quantile - mean,216
+ChlorineConcentration,2,1 produced,lag-16,quantile,254
+ChlorineConcentration,2,1 produced,lag-16,quantile - mean,185
+ChlorineConcentration,2,1 produced,lag-2,quantile,266
+ChlorineConcentration,2,1 produced,lag-2,quantile - mean,216
+ChlorineConcentration,2,1 produced,lag-4,quantile,262
+ChlorineConcentration,2,1 produced,lag-4,quantile - mean,212
+ChlorineConcentration,2,1 produced,lag-8,quantile,255
+ChlorineConcentration,2,1 produced,lag-8,quantile - mean,205
+ChlorineConcentration,2,1 produced,rhythm (|FFT|),quantile,174
+ChlorineConcentration,2,1 produced,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,2,1 produced,series,quantile,266
+ChlorineConcentration,2,1 produced,series,quantile - mean,221
+ChlorineConcentration,2,2 kept by the filters,change (smoothed),quantile,266
+ChlorineConcentration,2,2 kept by the filters,change (smoothed),quantile - mean,219
+ChlorineConcentration,2,2 kept by the filters,change of change,quantile,266
+ChlorineConcentration,2,2 kept by the filters,change of change,quantile - mean,216
+ChlorineConcentration,2,2 kept by the filters,lag-16,quantile,230
+ChlorineConcentration,2,2 kept by the filters,lag-16,quantile - mean,176
+ChlorineConcentration,2,2 kept by the filters,lag-2,quantile,249
+ChlorineConcentration,2,2 kept by the filters,lag-2,quantile - mean,203
+ChlorineConcentration,2,2 kept by the filters,lag-4,quantile,240
+ChlorineConcentration,2,2 kept by the filters,lag-4,quantile - mean,194
+ChlorineConcentration,2,2 kept by the filters,lag-8,quantile,236
+ChlorineConcentration,2,2 kept by the filters,lag-8,quantile - mean,192
+ChlorineConcentration,2,2 kept by the filters,rhythm (|FFT|),quantile,174
+ChlorineConcentration,2,2 kept by the filters,rhythm (|FFT|),quantile - mean,92
+ChlorineConcentration,2,2 kept by the filters,series,quantile,266
+ChlorineConcentration,2,2 kept by the filters,series,quantile - mean,221
+ChlorineConcentration,2,3 chosen by TabPFN,change (smoothed),quantile,16
+ChlorineConcentration,2,3 chosen by TabPFN,change (smoothed),quantile - mean,12
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,quantile,45
+ChlorineConcentration,2,3 chosen by TabPFN,change of change,quantile - mean,41
+ChlorineConcentration,2,3 chosen by TabPFN,lag-16,quantile,11
+ChlorineConcentration,2,3 chosen by TabPFN,lag-16,quantile - mean,7
+ChlorineConcentration,2,3 chosen by TabPFN,lag-2,quantile,25
+ChlorineConcentration,2,3 chosen by TabPFN,lag-2,quantile - mean,16
+ChlorineConcentration,2,3 chosen by TabPFN,lag-4,quantile,17
+ChlorineConcentration,2,3 chosen by TabPFN,lag-4,quantile - mean,13
+ChlorineConcentration,2,3 chosen by TabPFN,lag-8,quantile,13
+ChlorineConcentration,2,3 chosen by TabPFN,lag-8,quantile - mean,8
+ChlorineConcentration,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,28
+ChlorineConcentration,2,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,24
+ChlorineConcentration,2,3 chosen by TabPFN,series,quantile,14
+ChlorineConcentration,2,3 chosen by TabPFN,series,quantile - mean,10
+UWaveGestureLibraryX,0,1 produced,change (smoothed),quantile,464
+UWaveGestureLibraryX,0,1 produced,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,0,1 produced,change of change,quantile,464
+UWaveGestureLibraryX,0,1 produced,change of change,quantile - mean,367
+UWaveGestureLibraryX,0,1 produced,lag-16,quantile,459
+UWaveGestureLibraryX,0,1 produced,lag-16,quantile - mean,357
+UWaveGestureLibraryX,0,1 produced,lag-2,quantile,464
+UWaveGestureLibraryX,0,1 produced,lag-2,quantile - mean,367
+UWaveGestureLibraryX,0,1 produced,lag-4,quantile,463
+UWaveGestureLibraryX,0,1 produced,lag-4,quantile - mean,366
+UWaveGestureLibraryX,0,1 produced,lag-8,quantile,463
+UWaveGestureLibraryX,0,1 produced,lag-8,quantile - mean,363
+UWaveGestureLibraryX,0,1 produced,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,0,1 produced,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,0,1 produced,series,quantile,464
+UWaveGestureLibraryX,0,1 produced,series,quantile - mean,369
+UWaveGestureLibraryX,0,2 kept by the filters,change (smoothed),quantile,464
+UWaveGestureLibraryX,0,2 kept by the filters,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,0,2 kept by the filters,change of change,quantile,464
+UWaveGestureLibraryX,0,2 kept by the filters,change of change,quantile - mean,367
+UWaveGestureLibraryX,0,2 kept by the filters,lag-16,quantile,444
+UWaveGestureLibraryX,0,2 kept by the filters,lag-16,quantile - mean,289
+UWaveGestureLibraryX,0,2 kept by the filters,lag-2,quantile,445
+UWaveGestureLibraryX,0,2 kept by the filters,lag-2,quantile - mean,294
+UWaveGestureLibraryX,0,2 kept by the filters,lag-4,quantile,447
+UWaveGestureLibraryX,0,2 kept by the filters,lag-4,quantile - mean,295
+UWaveGestureLibraryX,0,2 kept by the filters,lag-8,quantile,449
+UWaveGestureLibraryX,0,2 kept by the filters,lag-8,quantile - mean,294
+UWaveGestureLibraryX,0,2 kept by the filters,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,0,2 kept by the filters,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,0,2 kept by the filters,series,quantile,464
+UWaveGestureLibraryX,0,2 kept by the filters,series,quantile - mean,369
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),quantile,17
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change (smoothed),quantile - mean,19
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,quantile,4
+UWaveGestureLibraryX,0,3 chosen by TabPFN,change of change,quantile - mean,2
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,quantile,29
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-16,quantile - mean,19
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-2,quantile,19
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-2,quantile - mean,11
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-4,quantile,17
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-4,quantile - mean,13
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-8,quantile,12
+UWaveGestureLibraryX,0,3 chosen by TabPFN,lag-8,quantile - mean,12
+UWaveGestureLibraryX,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+UWaveGestureLibraryX,0,3 chosen by TabPFN,series,quantile,125
+UWaveGestureLibraryX,1,1 produced,change (smoothed),quantile,464
+UWaveGestureLibraryX,1,1 produced,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,1,1 produced,change of change,quantile,464
+UWaveGestureLibraryX,1,1 produced,change of change,quantile - mean,367
+UWaveGestureLibraryX,1,1 produced,lag-16,quantile,459
+UWaveGestureLibraryX,1,1 produced,lag-16,quantile - mean,357
+UWaveGestureLibraryX,1,1 produced,lag-2,quantile,464
+UWaveGestureLibraryX,1,1 produced,lag-2,quantile - mean,367
+UWaveGestureLibraryX,1,1 produced,lag-4,quantile,463
+UWaveGestureLibraryX,1,1 produced,lag-4,quantile - mean,366
+UWaveGestureLibraryX,1,1 produced,lag-8,quantile,463
+UWaveGestureLibraryX,1,1 produced,lag-8,quantile - mean,363
+UWaveGestureLibraryX,1,1 produced,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,1,1 produced,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,1,1 produced,series,quantile,464
+UWaveGestureLibraryX,1,1 produced,series,quantile - mean,369
+UWaveGestureLibraryX,1,2 kept by the filters,change (smoothed),quantile,464
+UWaveGestureLibraryX,1,2 kept by the filters,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,1,2 kept by the filters,change of change,quantile,464
+UWaveGestureLibraryX,1,2 kept by the filters,change of change,quantile - mean,367
+UWaveGestureLibraryX,1,2 kept by the filters,lag-16,quantile,449
+UWaveGestureLibraryX,1,2 kept by the filters,lag-16,quantile - mean,287
+UWaveGestureLibraryX,1,2 kept by the filters,lag-2,quantile,445
+UWaveGestureLibraryX,1,2 kept by the filters,lag-2,quantile - mean,291
+UWaveGestureLibraryX,1,2 kept by the filters,lag-4,quantile,448
+UWaveGestureLibraryX,1,2 kept by the filters,lag-4,quantile - mean,294
+UWaveGestureLibraryX,1,2 kept by the filters,lag-8,quantile,450
+UWaveGestureLibraryX,1,2 kept by the filters,lag-8,quantile - mean,293
+UWaveGestureLibraryX,1,2 kept by the filters,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,1,2 kept by the filters,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,1,2 kept by the filters,series,quantile,464
+UWaveGestureLibraryX,1,2 kept by the filters,series,quantile - mean,369
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),quantile,16
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change (smoothed),quantile - mean,14
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,quantile,10
+UWaveGestureLibraryX,1,3 chosen by TabPFN,change of change,quantile - mean,5
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,quantile,26
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-16,quantile - mean,17
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-2,quantile,20
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-2,quantile - mean,13
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-4,quantile,16
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-4,quantile - mean,11
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-8,quantile,14
+UWaveGestureLibraryX,1,3 chosen by TabPFN,lag-8,quantile - mean,8
+UWaveGestureLibraryX,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,quantile,127
+UWaveGestureLibraryX,1,3 chosen by TabPFN,series,quantile - mean,2
+UWaveGestureLibraryX,2,1 produced,change (smoothed),quantile,464
+UWaveGestureLibraryX,2,1 produced,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,2,1 produced,change of change,quantile,464
+UWaveGestureLibraryX,2,1 produced,change of change,quantile - mean,367
+UWaveGestureLibraryX,2,1 produced,lag-16,quantile,459
+UWaveGestureLibraryX,2,1 produced,lag-16,quantile - mean,357
+UWaveGestureLibraryX,2,1 produced,lag-2,quantile,464
+UWaveGestureLibraryX,2,1 produced,lag-2,quantile - mean,367
+UWaveGestureLibraryX,2,1 produced,lag-4,quantile,463
+UWaveGestureLibraryX,2,1 produced,lag-4,quantile - mean,366
+UWaveGestureLibraryX,2,1 produced,lag-8,quantile,463
+UWaveGestureLibraryX,2,1 produced,lag-8,quantile - mean,363
+UWaveGestureLibraryX,2,1 produced,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,2,1 produced,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,2,1 produced,series,quantile,464
+UWaveGestureLibraryX,2,1 produced,series,quantile - mean,369
+UWaveGestureLibraryX,2,2 kept by the filters,change (smoothed),quantile,464
+UWaveGestureLibraryX,2,2 kept by the filters,change (smoothed),quantile - mean,369
+UWaveGestureLibraryX,2,2 kept by the filters,change of change,quantile,464
+UWaveGestureLibraryX,2,2 kept by the filters,change of change,quantile - mean,367
+UWaveGestureLibraryX,2,2 kept by the filters,lag-16,quantile,451
+UWaveGestureLibraryX,2,2 kept by the filters,lag-16,quantile - mean,289
+UWaveGestureLibraryX,2,2 kept by the filters,lag-2,quantile,443
+UWaveGestureLibraryX,2,2 kept by the filters,lag-2,quantile - mean,293
+UWaveGestureLibraryX,2,2 kept by the filters,lag-4,quantile,445
+UWaveGestureLibraryX,2,2 kept by the filters,lag-4,quantile - mean,295
+UWaveGestureLibraryX,2,2 kept by the filters,lag-8,quantile,447
+UWaveGestureLibraryX,2,2 kept by the filters,lag-8,quantile - mean,294
+UWaveGestureLibraryX,2,2 kept by the filters,rhythm (|FFT|),quantile,255
+UWaveGestureLibraryX,2,2 kept by the filters,rhythm (|FFT|),quantile - mean,205
+UWaveGestureLibraryX,2,2 kept by the filters,series,quantile,464
+UWaveGestureLibraryX,2,2 kept by the filters,series,quantile - mean,369
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),quantile,20
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change (smoothed),quantile - mean,16
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,quantile,5
+UWaveGestureLibraryX,2,3 chosen by TabPFN,change of change,quantile - mean,1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,quantile,28
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-16,quantile - mean,14
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-2,quantile,16
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-2,quantile - mean,17
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-4,quantile,12
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-4,quantile - mean,14
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-8,quantile,17
+UWaveGestureLibraryX,2,3 chosen by TabPFN,lag-8,quantile - mean,13
+UWaveGestureLibraryX,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,1
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,quantile,125
+UWaveGestureLibraryX,2,3 chosen by TabPFN,series,quantile - mean,1
+SharePriceIncrease,0,1 produced,change (smoothed),quantile,143
+SharePriceIncrease,0,1 produced,change (smoothed),quantile - mean,48
+SharePriceIncrease,0,1 produced,change of change,quantile,143
+SharePriceIncrease,0,1 produced,change of change,quantile - mean,48
+SharePriceIncrease,0,1 produced,lag-16,quantile,107
+SharePriceIncrease,0,1 produced,lag-16,quantile - mean,36
+SharePriceIncrease,0,1 produced,lag-2,quantile,143
+SharePriceIncrease,0,1 produced,lag-2,quantile - mean,48
+SharePriceIncrease,0,1 produced,lag-4,quantile,142
+SharePriceIncrease,0,1 produced,lag-4,quantile - mean,45
+SharePriceIncrease,0,1 produced,lag-8,quantile,142
+SharePriceIncrease,0,1 produced,lag-8,quantile - mean,44
+SharePriceIncrease,0,1 produced,rhythm (|FFT|),quantile,63
+SharePriceIncrease,0,1 produced,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,0,1 produced,series,quantile,143
+SharePriceIncrease,0,1 produced,series,quantile - mean,48
+SharePriceIncrease,0,2 kept by the filters,change (smoothed),quantile,143
+SharePriceIncrease,0,2 kept by the filters,change (smoothed),quantile - mean,48
+SharePriceIncrease,0,2 kept by the filters,change of change,quantile,143
+SharePriceIncrease,0,2 kept by the filters,change of change,quantile - mean,48
+SharePriceIncrease,0,2 kept by the filters,lag-16,quantile,98
+SharePriceIncrease,0,2 kept by the filters,lag-16,quantile - mean,36
+SharePriceIncrease,0,2 kept by the filters,lag-2,quantile,131
+SharePriceIncrease,0,2 kept by the filters,lag-2,quantile - mean,48
+SharePriceIncrease,0,2 kept by the filters,lag-4,quantile,124
+SharePriceIncrease,0,2 kept by the filters,lag-4,quantile - mean,45
+SharePriceIncrease,0,2 kept by the filters,lag-8,quantile,127
+SharePriceIncrease,0,2 kept by the filters,lag-8,quantile - mean,44
+SharePriceIncrease,0,2 kept by the filters,rhythm (|FFT|),quantile,63
+SharePriceIncrease,0,2 kept by the filters,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,0,2 kept by the filters,series,quantile,143
+SharePriceIncrease,0,2 kept by the filters,series,quantile - mean,48
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),quantile,36
+SharePriceIncrease,0,3 chosen by TabPFN,change (smoothed),quantile - mean,13
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,quantile,32
+SharePriceIncrease,0,3 chosen by TabPFN,change of change,quantile - mean,8
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,quantile,25
+SharePriceIncrease,0,3 chosen by TabPFN,lag-16,quantile - mean,9
+SharePriceIncrease,0,3 chosen by TabPFN,lag-2,quantile,25
+SharePriceIncrease,0,3 chosen by TabPFN,lag-2,quantile - mean,6
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,quantile,28
+SharePriceIncrease,0,3 chosen by TabPFN,lag-4,quantile - mean,15
+SharePriceIncrease,0,3 chosen by TabPFN,lag-8,quantile,29
+SharePriceIncrease,0,3 chosen by TabPFN,lag-8,quantile - mean,8
+SharePriceIncrease,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,19
+SharePriceIncrease,0,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,2
+SharePriceIncrease,0,3 chosen by TabPFN,series,quantile,36
+SharePriceIncrease,0,3 chosen by TabPFN,series,quantile - mean,9
+SharePriceIncrease,1,1 produced,change (smoothed),quantile,143
+SharePriceIncrease,1,1 produced,change (smoothed),quantile - mean,48
+SharePriceIncrease,1,1 produced,change of change,quantile,143
+SharePriceIncrease,1,1 produced,change of change,quantile - mean,48
+SharePriceIncrease,1,1 produced,lag-16,quantile,107
+SharePriceIncrease,1,1 produced,lag-16,quantile - mean,36
+SharePriceIncrease,1,1 produced,lag-2,quantile,143
+SharePriceIncrease,1,1 produced,lag-2,quantile - mean,48
+SharePriceIncrease,1,1 produced,lag-4,quantile,142
+SharePriceIncrease,1,1 produced,lag-4,quantile - mean,45
+SharePriceIncrease,1,1 produced,lag-8,quantile,142
+SharePriceIncrease,1,1 produced,lag-8,quantile - mean,44
+SharePriceIncrease,1,1 produced,rhythm (|FFT|),quantile,63
+SharePriceIncrease,1,1 produced,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,1,1 produced,series,quantile,143
+SharePriceIncrease,1,1 produced,series,quantile - mean,48
+SharePriceIncrease,1,2 kept by the filters,change (smoothed),quantile,143
+SharePriceIncrease,1,2 kept by the filters,change (smoothed),quantile - mean,48
+SharePriceIncrease,1,2 kept by the filters,change of change,quantile,143
+SharePriceIncrease,1,2 kept by the filters,change of change,quantile - mean,48
+SharePriceIncrease,1,2 kept by the filters,lag-16,quantile,104
+SharePriceIncrease,1,2 kept by the filters,lag-16,quantile - mean,34
+SharePriceIncrease,1,2 kept by the filters,lag-2,quantile,129
+SharePriceIncrease,1,2 kept by the filters,lag-2,quantile - mean,46
+SharePriceIncrease,1,2 kept by the filters,lag-4,quantile,128
+SharePriceIncrease,1,2 kept by the filters,lag-4,quantile - mean,45
+SharePriceIncrease,1,2 kept by the filters,lag-8,quantile,124
+SharePriceIncrease,1,2 kept by the filters,lag-8,quantile - mean,43
+SharePriceIncrease,1,2 kept by the filters,rhythm (|FFT|),quantile,63
+SharePriceIncrease,1,2 kept by the filters,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,1,2 kept by the filters,series,quantile,143
+SharePriceIncrease,1,2 kept by the filters,series,quantile - mean,48
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),quantile,45
+SharePriceIncrease,1,3 chosen by TabPFN,change (smoothed),quantile - mean,9
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,quantile,42
+SharePriceIncrease,1,3 chosen by TabPFN,change of change,quantile - mean,15
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,quantile,19
+SharePriceIncrease,1,3 chosen by TabPFN,lag-16,quantile - mean,5
+SharePriceIncrease,1,3 chosen by TabPFN,lag-2,quantile,30
+SharePriceIncrease,1,3 chosen by TabPFN,lag-2,quantile - mean,8
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,quantile,30
+SharePriceIncrease,1,3 chosen by TabPFN,lag-4,quantile - mean,9
+SharePriceIncrease,1,3 chosen by TabPFN,lag-8,quantile,29
+SharePriceIncrease,1,3 chosen by TabPFN,lag-8,quantile - mean,4
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,14
+SharePriceIncrease,1,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,2
+SharePriceIncrease,1,3 chosen by TabPFN,series,quantile,30
+SharePriceIncrease,1,3 chosen by TabPFN,series,quantile - mean,9
+SharePriceIncrease,2,1 produced,change (smoothed),quantile,143
+SharePriceIncrease,2,1 produced,change (smoothed),quantile - mean,48
+SharePriceIncrease,2,1 produced,change of change,quantile,143
+SharePriceIncrease,2,1 produced,change of change,quantile - mean,48
+SharePriceIncrease,2,1 produced,lag-16,quantile,107
+SharePriceIncrease,2,1 produced,lag-16,quantile - mean,36
+SharePriceIncrease,2,1 produced,lag-2,quantile,143
+SharePriceIncrease,2,1 produced,lag-2,quantile - mean,48
+SharePriceIncrease,2,1 produced,lag-4,quantile,142
+SharePriceIncrease,2,1 produced,lag-4,quantile - mean,45
+SharePriceIncrease,2,1 produced,lag-8,quantile,142
+SharePriceIncrease,2,1 produced,lag-8,quantile - mean,44
+SharePriceIncrease,2,1 produced,rhythm (|FFT|),quantile,63
+SharePriceIncrease,2,1 produced,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,2,1 produced,series,quantile,143
+SharePriceIncrease,2,1 produced,series,quantile - mean,48
+SharePriceIncrease,2,2 kept by the filters,change (smoothed),quantile,143
+SharePriceIncrease,2,2 kept by the filters,change (smoothed),quantile - mean,48
+SharePriceIncrease,2,2 kept by the filters,change of change,quantile,143
+SharePriceIncrease,2,2 kept by the filters,change of change,quantile - mean,48
+SharePriceIncrease,2,2 kept by the filters,lag-16,quantile,99
+SharePriceIncrease,2,2 kept by the filters,lag-16,quantile - mean,35
+SharePriceIncrease,2,2 kept by the filters,lag-2,quantile,129
+SharePriceIncrease,2,2 kept by the filters,lag-2,quantile - mean,48
+SharePriceIncrease,2,2 kept by the filters,lag-4,quantile,127
+SharePriceIncrease,2,2 kept by the filters,lag-4,quantile - mean,44
+SharePriceIncrease,2,2 kept by the filters,lag-8,quantile,128
+SharePriceIncrease,2,2 kept by the filters,lag-8,quantile - mean,43
+SharePriceIncrease,2,2 kept by the filters,rhythm (|FFT|),quantile,63
+SharePriceIncrease,2,2 kept by the filters,rhythm (|FFT|),quantile - mean,17
+SharePriceIncrease,2,2 kept by the filters,series,quantile,143
+SharePriceIncrease,2,2 kept by the filters,series,quantile - mean,48
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),quantile,44
+SharePriceIncrease,2,3 chosen by TabPFN,change (smoothed),quantile - mean,9
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,quantile,37
+SharePriceIncrease,2,3 chosen by TabPFN,change of change,quantile - mean,7
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,quantile,27
+SharePriceIncrease,2,3 chosen by TabPFN,lag-16,quantile - mean,9
+SharePriceIncrease,2,3 chosen by TabPFN,lag-2,quantile,28
+SharePriceIncrease,2,3 chosen by TabPFN,lag-2,quantile - mean,8
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,quantile,26
+SharePriceIncrease,2,3 chosen by TabPFN,lag-4,quantile - mean,6
+SharePriceIncrease,2,3 chosen by TabPFN,lag-8,quantile,31
+SharePriceIncrease,2,3 chosen by TabPFN,lag-8,quantile - mean,10
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,11
+SharePriceIncrease,2,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,4
+SharePriceIncrease,2,3 chosen by TabPFN,series,quantile,33
+SharePriceIncrease,2,3 chosen by TabPFN,series,quantile - mean,10
+PhalangesOutlinesCorrect,0,1 produced,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,0,1 produced,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,0,1 produced,change of change,quantile,170
+PhalangesOutlinesCorrect,0,1 produced,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,0,1 produced,lag-16,quantile,143
+PhalangesOutlinesCorrect,0,1 produced,lag-16,quantile - mean,49
+PhalangesOutlinesCorrect,0,1 produced,lag-2,quantile,170
+PhalangesOutlinesCorrect,0,1 produced,lag-2,quantile - mean,81
+PhalangesOutlinesCorrect,0,1 produced,lag-4,quantile,170
+PhalangesOutlinesCorrect,0,1 produced,lag-4,quantile - mean,76
+PhalangesOutlinesCorrect,0,1 produced,lag-8,quantile,169
+PhalangesOutlinesCorrect,0,1 produced,lag-8,quantile - mean,65
+PhalangesOutlinesCorrect,0,1 produced,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,0,1 produced,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,0,1 produced,series,quantile,170
+PhalangesOutlinesCorrect,0,1 produced,series,quantile - mean,85
+PhalangesOutlinesCorrect,0,2 kept by the filters,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,0,2 kept by the filters,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,0,2 kept by the filters,change of change,quantile,170
+PhalangesOutlinesCorrect,0,2 kept by the filters,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-16,quantile,141
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-16,quantile - mean,48
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-2,quantile,168
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-2,quantile - mean,78
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-4,quantile,164
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-4,quantile - mean,74
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-8,quantile,165
+PhalangesOutlinesCorrect,0,2 kept by the filters,lag-8,quantile - mean,62
+PhalangesOutlinesCorrect,0,2 kept by the filters,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,0,2 kept by the filters,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,0,2 kept by the filters,series,quantile,170
+PhalangesOutlinesCorrect,0,2 kept by the filters,series,quantile - mean,85
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),quantile,26
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change (smoothed),quantile - mean,22
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,quantile,32
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,change of change,quantile - mean,7
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,quantile,14
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-16,quantile - mean,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-2,quantile,29
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-2,quantile - mean,13
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,quantile,32
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-4,quantile - mean,15
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-8,quantile,27
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,lag-8,quantile - mean,12
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,12
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,5
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,quantile,28
+PhalangesOutlinesCorrect,0,3 chosen by TabPFN,series,quantile - mean,21
+PhalangesOutlinesCorrect,1,1 produced,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,1,1 produced,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,1,1 produced,change of change,quantile,170
+PhalangesOutlinesCorrect,1,1 produced,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,1,1 produced,lag-16,quantile,143
+PhalangesOutlinesCorrect,1,1 produced,lag-16,quantile - mean,49
+PhalangesOutlinesCorrect,1,1 produced,lag-2,quantile,170
+PhalangesOutlinesCorrect,1,1 produced,lag-2,quantile - mean,81
+PhalangesOutlinesCorrect,1,1 produced,lag-4,quantile,170
+PhalangesOutlinesCorrect,1,1 produced,lag-4,quantile - mean,76
+PhalangesOutlinesCorrect,1,1 produced,lag-8,quantile,169
+PhalangesOutlinesCorrect,1,1 produced,lag-8,quantile - mean,65
+PhalangesOutlinesCorrect,1,1 produced,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,1,1 produced,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,1,1 produced,series,quantile,170
+PhalangesOutlinesCorrect,1,1 produced,series,quantile - mean,85
+PhalangesOutlinesCorrect,1,2 kept by the filters,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,1,2 kept by the filters,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,1,2 kept by the filters,change of change,quantile,170
+PhalangesOutlinesCorrect,1,2 kept by the filters,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-16,quantile,139
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-16,quantile - mean,49
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-2,quantile,166
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-2,quantile - mean,79
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-4,quantile,168
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-4,quantile - mean,74
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-8,quantile,164
+PhalangesOutlinesCorrect,1,2 kept by the filters,lag-8,quantile - mean,61
+PhalangesOutlinesCorrect,1,2 kept by the filters,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,1,2 kept by the filters,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,1,2 kept by the filters,series,quantile,170
+PhalangesOutlinesCorrect,1,2 kept by the filters,series,quantile - mean,85
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),quantile,33
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change (smoothed),quantile - mean,25
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,quantile,17
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,change of change,quantile - mean,8
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,quantile,21
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-16,quantile - mean,9
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-2,quantile,25
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-2,quantile - mean,16
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,quantile,24
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-4,quantile - mean,20
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-8,quantile,29
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,lag-8,quantile - mean,10
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,11
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,1
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,quantile,31
+PhalangesOutlinesCorrect,1,3 chosen by TabPFN,series,quantile - mean,20
+PhalangesOutlinesCorrect,2,1 produced,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,2,1 produced,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,2,1 produced,change of change,quantile,170
+PhalangesOutlinesCorrect,2,1 produced,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,2,1 produced,lag-16,quantile,143
+PhalangesOutlinesCorrect,2,1 produced,lag-16,quantile - mean,49
+PhalangesOutlinesCorrect,2,1 produced,lag-2,quantile,170
+PhalangesOutlinesCorrect,2,1 produced,lag-2,quantile - mean,81
+PhalangesOutlinesCorrect,2,1 produced,lag-4,quantile,170
+PhalangesOutlinesCorrect,2,1 produced,lag-4,quantile - mean,76
+PhalangesOutlinesCorrect,2,1 produced,lag-8,quantile,169
+PhalangesOutlinesCorrect,2,1 produced,lag-8,quantile - mean,65
+PhalangesOutlinesCorrect,2,1 produced,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,2,1 produced,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,2,1 produced,series,quantile,170
+PhalangesOutlinesCorrect,2,1 produced,series,quantile - mean,85
+PhalangesOutlinesCorrect,2,2 kept by the filters,change (smoothed),quantile,170
+PhalangesOutlinesCorrect,2,2 kept by the filters,change (smoothed),quantile - mean,83
+PhalangesOutlinesCorrect,2,2 kept by the filters,change of change,quantile,170
+PhalangesOutlinesCorrect,2,2 kept by the filters,change of change,quantile - mean,81
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-16,quantile,141
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-16,quantile - mean,48
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-2,quantile,165
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-2,quantile - mean,78
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-4,quantile,166
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-4,quantile - mean,73
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-8,quantile,167
+PhalangesOutlinesCorrect,2,2 kept by the filters,lag-8,quantile - mean,62
+PhalangesOutlinesCorrect,2,2 kept by the filters,rhythm (|FFT|),quantile,107
+PhalangesOutlinesCorrect,2,2 kept by the filters,rhythm (|FFT|),quantile - mean,34
+PhalangesOutlinesCorrect,2,2 kept by the filters,series,quantile,170
+PhalangesOutlinesCorrect,2,2 kept by the filters,series,quantile - mean,85
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),quantile,31
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change (smoothed),quantile - mean,19
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,quantile,21
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,change of change,quantile - mean,9
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,quantile,16
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-16,quantile - mean,6
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-2,quantile,28
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-2,quantile - mean,8
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,quantile,28
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-4,quantile - mean,22
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-8,quantile,29
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,lag-8,quantile - mean,15
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,12
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,3
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,quantile,34
+PhalangesOutlinesCorrect,2,3 chosen by TabPFN,series,quantile - mean,19
+AconityMINIPrinterLargeEq,0,1 produced,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,0,1 produced,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,0,1 produced,change of change,quantile,459
+AconityMINIPrinterLargeEq,0,1 produced,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,0,1 produced,lag-16,quantile,439
+AconityMINIPrinterLargeEq,0,1 produced,lag-16,quantile - mean,337
+AconityMINIPrinterLargeEq,0,1 produced,lag-2,quantile,459
+AconityMINIPrinterLargeEq,0,1 produced,lag-2,quantile - mean,357
+AconityMINIPrinterLargeEq,0,1 produced,lag-4,quantile,458
+AconityMINIPrinterLargeEq,0,1 produced,lag-4,quantile - mean,354
+AconityMINIPrinterLargeEq,0,1 produced,lag-8,quantile,458
+AconityMINIPrinterLargeEq,0,1 produced,lag-8,quantile - mean,345
+AconityMINIPrinterLargeEq,0,1 produced,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,0,1 produced,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,0,1 produced,series,quantile,459
+AconityMINIPrinterLargeEq,0,1 produced,series,quantile - mean,357
+AconityMINIPrinterLargeEq,0,2 kept by the filters,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,0,2 kept by the filters,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,0,2 kept by the filters,change of change,quantile,459
+AconityMINIPrinterLargeEq,0,2 kept by the filters,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-16,quantile,418
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-16,quantile - mean,314
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-2,quantile,400
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-2,quantile - mean,305
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-4,quantile,415
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-4,quantile - mean,309
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-8,quantile,426
+AconityMINIPrinterLargeEq,0,2 kept by the filters,lag-8,quantile - mean,302
+AconityMINIPrinterLargeEq,0,2 kept by the filters,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,0,2 kept by the filters,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,0,2 kept by the filters,series,quantile,459
+AconityMINIPrinterLargeEq,0,2 kept by the filters,series,quantile - mean,357
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),quantile,6
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change (smoothed),quantile - mean,9
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change of change,quantile,16
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,change of change,quantile - mean,9
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,quantile,52
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-16,quantile - mean,60
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-2,quantile,13
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-2,quantile - mean,6
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,quantile,13
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-4,quantile - mean,4
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-8,quantile,18
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,lag-8,quantile - mean,8
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),quantile,9
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,2
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,quantile,29
+AconityMINIPrinterLargeEq,0,3 chosen by TabPFN,series,quantile - mean,46
+AconityMINIPrinterLargeEq,1,1 produced,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,1,1 produced,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,1,1 produced,change of change,quantile,459
+AconityMINIPrinterLargeEq,1,1 produced,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,1,1 produced,lag-16,quantile,439
+AconityMINIPrinterLargeEq,1,1 produced,lag-16,quantile - mean,337
+AconityMINIPrinterLargeEq,1,1 produced,lag-2,quantile,459
+AconityMINIPrinterLargeEq,1,1 produced,lag-2,quantile - mean,357
+AconityMINIPrinterLargeEq,1,1 produced,lag-4,quantile,458
+AconityMINIPrinterLargeEq,1,1 produced,lag-4,quantile - mean,354
+AconityMINIPrinterLargeEq,1,1 produced,lag-8,quantile,458
+AconityMINIPrinterLargeEq,1,1 produced,lag-8,quantile - mean,345
+AconityMINIPrinterLargeEq,1,1 produced,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,1,1 produced,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,1,1 produced,series,quantile,459
+AconityMINIPrinterLargeEq,1,1 produced,series,quantile - mean,357
+AconityMINIPrinterLargeEq,1,2 kept by the filters,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,1,2 kept by the filters,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,1,2 kept by the filters,change of change,quantile,459
+AconityMINIPrinterLargeEq,1,2 kept by the filters,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-16,quantile,421
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-16,quantile - mean,306
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-2,quantile,398
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-2,quantile - mean,302
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-4,quantile,417
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-4,quantile - mean,319
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-8,quantile,418
+AconityMINIPrinterLargeEq,1,2 kept by the filters,lag-8,quantile - mean,308
+AconityMINIPrinterLargeEq,1,2 kept by the filters,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,1,2 kept by the filters,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,1,2 kept by the filters,series,quantile,459
+AconityMINIPrinterLargeEq,1,2 kept by the filters,series,quantile - mean,357
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),quantile,11
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change (smoothed),quantile - mean,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change of change,quantile,8
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,change of change,quantile - mean,6
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,quantile,61
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-16,quantile - mean,65
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-2,quantile,13
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-2,quantile - mean,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,quantile,10
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-4,quantile - mean,5
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-8,quantile,18
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,lag-8,quantile - mean,13
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),quantile,7
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,2
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,quantile,20
+AconityMINIPrinterLargeEq,1,3 chosen by TabPFN,series,quantile - mean,47
+AconityMINIPrinterLargeEq,2,1 produced,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,2,1 produced,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,2,1 produced,change of change,quantile,459
+AconityMINIPrinterLargeEq,2,1 produced,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,2,1 produced,lag-16,quantile,439
+AconityMINIPrinterLargeEq,2,1 produced,lag-16,quantile - mean,337
+AconityMINIPrinterLargeEq,2,1 produced,lag-2,quantile,459
+AconityMINIPrinterLargeEq,2,1 produced,lag-2,quantile - mean,357
+AconityMINIPrinterLargeEq,2,1 produced,lag-4,quantile,458
+AconityMINIPrinterLargeEq,2,1 produced,lag-4,quantile - mean,354
+AconityMINIPrinterLargeEq,2,1 produced,lag-8,quantile,458
+AconityMINIPrinterLargeEq,2,1 produced,lag-8,quantile - mean,345
+AconityMINIPrinterLargeEq,2,1 produced,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,2,1 produced,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,2,1 produced,series,quantile,459
+AconityMINIPrinterLargeEq,2,1 produced,series,quantile - mean,357
+AconityMINIPrinterLargeEq,2,2 kept by the filters,change (smoothed),quantile,459
+AconityMINIPrinterLargeEq,2,2 kept by the filters,change (smoothed),quantile - mean,357
+AconityMINIPrinterLargeEq,2,2 kept by the filters,change of change,quantile,459
+AconityMINIPrinterLargeEq,2,2 kept by the filters,change of change,quantile - mean,357
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-16,quantile,418
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-16,quantile - mean,314
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-2,quantile,401
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-2,quantile - mean,296
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-4,quantile,418
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-4,quantile - mean,314
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-8,quantile,419
+AconityMINIPrinterLargeEq,2,2 kept by the filters,lag-8,quantile - mean,309
+AconityMINIPrinterLargeEq,2,2 kept by the filters,rhythm (|FFT|),quantile,254
+AconityMINIPrinterLargeEq,2,2 kept by the filters,rhythm (|FFT|),quantile - mean,187
+AconityMINIPrinterLargeEq,2,2 kept by the filters,series,quantile,459
+AconityMINIPrinterLargeEq,2,2 kept by the filters,series,quantile - mean,357
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),quantile,10
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change (smoothed),quantile - mean,4
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change of change,quantile,15
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,change of change,quantile - mean,9
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,quantile,52
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-16,quantile - mean,62
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-2,quantile,10
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-2,quantile - mean,5
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,quantile,8
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-4,quantile - mean,8
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-8,quantile,14
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,lag-8,quantile - mean,12
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),quantile,8
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,rhythm (|FFT|),quantile - mean,3
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,quantile,29
+AconityMINIPrinterLargeEq,2,3 chosen by TabPFN,series,quantile - mean,51

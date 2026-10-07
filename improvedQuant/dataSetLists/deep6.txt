@@ -1,0 +1,15 @@
+AsphaltPavementTypeUniEq
+AsphaltRegularityUniEq
+Beef
+Chinatown
+Covid3MonthDiscrete
+DiatomSizeReduction
+KeplerLightCurves
+Meat
+MelbournePedestrianNmv
+PLAIDEq
+Rock
+SemgHandMovementCh2
+SemgHandSubjectCh2
+Symbols
+Wine
