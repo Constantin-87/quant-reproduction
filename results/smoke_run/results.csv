@@ -1,0 +1,16 @@
+dataset,resample,accuracy
+Coffee,0,1.0
+Coffee,1,1.0
+Coffee,2,1.0
+GunPoint,0,0.986667
+GunPoint,1,0.986667
+GunPoint,2,0.98
+ItalyPowerDemand,0,0.965015
+ItalyPowerDemand,1,0.96793
+ItalyPowerDemand,2,0.933916
+ECG200,0,0.9
+ECG200,1,0.89
+ECG200,2,0.84
+Beef,0,0.766667
+Beef,1,0.7
+Beef,2,0.666667
