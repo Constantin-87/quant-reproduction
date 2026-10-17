@@ -47,6 +47,10 @@ parser.add_argument("-p", "--resample_indices_path")
 
 parser.add_argument("-m", "--depth", type = int, default = 6)
 parser.add_argument("-v", "--div", type = int, default = 4)
+parser.add_argument("--depths", default=None,
+                    help="Comma-separated zero-based depths to retain, e.g. 0,2,4,6. Default: all levels below --depth.")
+parser.add_argument("--interval_types", choices=["both", "normal", "shift", "alternating"], default="both",
+                    help="Interval types: both, normal only, shifted only, or alternating (even depths normal, odd depths shifted).")
 
 parser.add_argument("-e", "--num_estimators", type = int, default = 200)   # ExtraTrees and CatBoost
 parser.add_argument("-f", "--max_features", default = "0.1")               # ExtraTrees only
@@ -478,9 +482,14 @@ for dataset in tqdm(datasets, ncols = 80):
         # == transform (unchanged QUANT), once, shared by all classifiers ===========
 
         try:
+            selected_depths = None if args.depths is None else [
+                int(value.strip()) for value in args.depths.split(",") if value.strip()
+            ]
             quant = Quant(
                 depth = args.depth,
                 div = args.div,
+                depths = selected_depths,
+                interval_types = args.interval_types,
             )
 
             t0 = time.perf_counter()
