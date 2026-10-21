@@ -1,0 +1,1 @@
+.venv\Scripts\python.exe original\code\run.py -i data/ts -p data/indices -d original/code/ucr142.txt -r %1 -o results/full_run
