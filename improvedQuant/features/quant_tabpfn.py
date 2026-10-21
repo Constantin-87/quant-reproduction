@@ -8,18 +8,17 @@
 # most 300 features), where near-copies of features waste the budget. The authors' lines are kept, commented out
 # with "# ORIGINAL:", next to each change:
 #   1. fewer levels: depth 5 instead of 6 (the smallest pieces, mostly noise, are dropped)
-#   2. fewer quantiles per piece: div 8 instead of 4 (fewer, more distinct numbers)
+#   2. a fixed number of quantiles per piece instead of one per 4 points (num_quantiles; 2 = min and max): with depth
+#      4 and lags 4, 16 about 450 features (v3; run.py: --quant tabpfn -m 4 --quantiles 2)
 #   3. no shifted pieces (the half-overlapping copies of every level)
 #   4. no subtraction of the piece's average (a trick for trees, which look at one feature at a time)
 #   5. per piece also its mean, spread and trend (more information per feature than more quantiles)
-#   6. optional (num_quantiles > 0): a fixed number of quantiles per piece instead of one per div points, e.g. 2 =
-#      min and max; with depth 4 and lags 4, 16 about 450 features (v4; run.py: --quant tabpfn -m 4 --quantiles 2)
-#   7. SupervisedExtractor (at the end of this file; v5 to v9, run.py: --quant supervised): candidates from several
+#   6. SupervisedExtractor (at the end of this file; v4, run.py: --quant supervised): candidates from several
 #      views (+ optionally catch22 and pattern templates), a relevance check and a greedy selection of at most
 #      `budget` non-redundant features, all decided on the training labels
-#   8. optional (fraction > 0): a fraction of the authors' quantiles (one per 4 points), odd so that the median stays
-#      in, e.g. 0.2 = 25 instead of 125 for a piece of 500 points (v9: QUANT's four views of the SupervisedExtractor,
-#      run.py: --quantile_fraction 0.2)
+#   7. optional (fraction > 0): a fraction of the authors' quantiles (one per 4 points) instead of num_quantiles, odd
+#      so that the median stays in, e.g. 0.2 = 25 instead of 125 for a piece of 500 points (v4: QUANT's four views of
+#      the SupervisedExtractor, run.py: --quantile_fraction 0.2)
 
 import numpy as np
 
@@ -57,16 +56,16 @@ def make_intervals(input_length, depth):
 
 # == quantile function =========================================================
 
-def quantile_count(n, div, num_quantiles = 0, fraction = 0):
-    """The number of quantiles of a piece of n > 1 points (change 6 and 8; the authors: 1 + (n - 1) // div)."""
-    if fraction > 0:                                    # change 8: a fraction of the authors' count, odd (median in)
+def quantile_count(n, num_quantiles = 2, fraction = 0):
+    """The number of quantiles of a piece of n > 1 points (change 2 and 7; the authors: 1 + (n - 1) // 4)."""
+    if fraction > 0:                                    # change 7: a fraction of the authors' count, odd (median in)
         k = max(1, round((1 + (n - 1) // 4) * fraction))
         return min(k + 1 - k % 2, n)
-    return min(num_quantiles, n) if num_quantiles > 0 else 1 + (n - 1) // div
+    return min(num_quantiles, n)
 
-# change 2: div 8 instead of 4
+# change 2: a fixed number of quantiles per piece instead of one per div = 4 points
 # ORIGINAL: def f_quantile(X, div = 4):
-def f_quantile(X, div = 8, num_quantiles = 0, fraction = 0):
+def f_quantile(X, num_quantiles = 2, fraction = 0):
 
     n = X.shape[-1]
 
@@ -76,9 +75,9 @@ def f_quantile(X, div = 8, num_quantiles = 0, fraction = 0):
 
     else:
 
-        # change 6 and 8: a fixed number or a fraction of the quantiles per piece (0 = one per div points, as the authors)
+        # change 2 and 7: a fixed number or a fraction of the quantiles per piece
         # ORIGINAL: num_quantiles = 1 + (n - 1) // div
-        num_quantiles = quantile_count(n, div, num_quantiles, fraction)
+        num_quantiles = quantile_count(n, num_quantiles, fraction)
 
         if num_quantiles == 1:
 
@@ -110,16 +109,15 @@ def f_summary(X):
 
 class IntervalModel():
 
-    # change 1 and 2: depth 5 and div 8 instead of 6 and 4
+    # change 1 and 2: depth 5 instead of 6, a fixed number of quantiles per piece instead of one per div = 4 points
     # ORIGINAL: def __init__(self, input_length, depth = 6, div = 4):
-    def __init__(self, input_length, depth = 5, div = 8, num_quantiles = 0, fraction = 0):
+    def __init__(self, input_length, depth = 5, num_quantiles = 2, fraction = 0):
 
-        assert div >= 1
+        assert num_quantiles >= 1
         assert depth >= 1
 
-        self.div = div
-        self.num_quantiles = num_quantiles                  # change 6
-        self.fraction = fraction                            # change 8
+        self.num_quantiles = num_quantiles                  # change 2
+        self.fraction = fraction                            # change 7
 
         self.intervals = \
         make_intervals(
@@ -138,8 +136,7 @@ class IntervalModel():
         for a, b in self.intervals:
 
             features.append(
-                f_quantile(X[..., a:b], div = self.div, num_quantiles = self.num_quantiles,
-                           fraction = self.fraction).squeeze(1)
+                f_quantile(X[..., a:b], num_quantiles = self.num_quantiles, fraction = self.fraction).squeeze(1)
             )
             features.append(f_summary(X[..., a:b]))     # change 5
 
@@ -155,16 +152,15 @@ class IntervalModel():
 
 class Quant():
 
-    # change 1 and 2: depth 5 and div 8 instead of 6 and 4
+    # change 1 and 2: depth 5 instead of 6, a fixed number of quantiles per piece instead of one per div = 4 points
     # ORIGINAL: def __init__(self, depth = 6, div = 4):
-    def __init__(self, depth = 5, div = 8, num_quantiles = 0):
+    def __init__(self, depth = 5, num_quantiles = 2):
 
         assert depth >= 1
-        assert div >= 1
+        assert num_quantiles >= 1
 
         self.depth = depth
-        self.div = div
-        self.num_quantiles = num_quantiles                  # change 6
+        self.num_quantiles = num_quantiles                  # change 2
 
         self.representation_functions = \
         (
@@ -206,8 +202,7 @@ class Quant():
             IntervalModel(
                 input_length = Z.shape[-1],
                 depth        = self.depth,
-                div          = self.div,
-                num_quantiles = self.num_quantiles,     # change 6
+                num_quantiles = self.num_quantiles,     # change 2
             )
 
             features.append(
@@ -218,19 +213,19 @@ class Quant():
 
         return torch.cat(features, -1)
 
-# == change 7: a supervised extractor ============================================
+# == change 6: a supervised extractor ============================================
 #
 # Instead of returning every feature and leaving the choice to a later filter, it looks at the training labels and
 # returns at most `budget` strong, non-redundant features itself:
-#   1. candidates: the interval features of several views of the series (QUANT's four, a shape-only view, lag-d
-#      differences), optionally the catch22 features (whole-series behaviour) and pattern templates (short windows
+#   1. candidates: the interval features of several views of the series (QUANT's four, lag-d differences),
+#      optionally the catch22 features (whole-series behaviour) and pattern templates (short windows
 #      from training series);
 #   2. a relevance check: candidates that do not separate the classes on the training data (ANOVA, p >= 0.05) go;
 #   3. greedy selection: down the ANOVA ranking (or the ExtraTrees importance, rank = "both"), a feature is taken
 #      only if it is not a near-copy (|correlation| >= 0.95) of one already taken, up to the budget.
 # Everything is decided in fit_transform on the training data; transform computes the same candidates for new data
 # (only the views and catch22 features with kept features) and returns the chosen columns. selection_log records
-# what happened to every candidate (notebook 05).
+# what happened to every candidate (notebook 04).
 # fill = True makes the limits relative to the dataset: the selection goes on down the ranking past p >= 0.05
 # ("kept (weak)") until the budget is full, and when even that is not enough (few candidates, many near-copies) the
 # pieces are made finer (depth + 1, up to max_depth) and the selection is redone; catch22 and the templates do not
@@ -262,15 +257,14 @@ class SupervisedExtractor():
 
     QUANT_VIEWS = ("series", "change (smoothed)", "change of change", "rhythm (|FFT|)")
 
-    def __init__(self, depth = 4, div = 8, num_quantiles = 2, lags = (), znorm = False, catch22 = False,
-                 templates = False, budget = 250, fill = False, max_depth = 6, c22_shorten = False, rank = "anova",
-                 quantile_fraction = 0, seed = 0):
-        self.depth, self.div, self.num_quantiles = depth, div, num_quantiles
-        # change 8 (v9): QUANT's four views get this fraction of the authors' quantiles instead of num_quantiles (the
+    def __init__(self, depth = 4, num_quantiles = 2, lags = False, catch22 = False, templates = False, budget = 250,
+                 fill = False, max_depth = 6, c22_shorten = False, rank = "anova", quantile_fraction = 0, seed = 0):
+        self.depth, self.num_quantiles = depth, num_quantiles
+        # change 7 (v4): QUANT's four views get this fraction of the authors' quantiles instead of num_quantiles (the
         # other views keep num_quantiles); 0 = num_quantiles everywhere
         self.quantile_fraction = quantile_fraction
-        self.lags = lags if lags == "auto" else list(lags)   # "auto": see lag_list
-        self.znorm, self.catch22, self.templates = znorm, catch22, templates
+        self.lags = lags                                 # True: the lag-d views of lag_list
+        self.catch22, self.templates = catch22, templates
         self.budget, self.seed = budget, seed
         self.fill, self.max_depth = fill, max_depth      # fill the budget, see fit_transform and select
         self.c22_shorten = c22_shorten                   # catch22 on a shortened copy, see c22_factor
@@ -278,11 +272,9 @@ class SupervisedExtractor():
         self.round_cache = None                          # fit_transform: blocks shared by the fill rounds
 
     def lag_list(self, length):
-        """The lag-d views: the given lags, or for lags = "auto" a ladder 2, 4, 8, ... up to a quarter of the series
-        length (at most 64); the selection then decides per dataset which of them are used."""
-        if self.lags != "auto":
-            return self.lags
-        return [2 ** k for k in range(1, 7) if 2 ** k <= length // 4]
+        """The lag-d views (lags = True): a ladder 2, 4, 8, ... up to a quarter of the series length (at most 64); the
+        selection then decides per dataset which of them are used."""
+        return [2 ** k for k in range(1, 7) if 2 ** k <= length // 4] if self.lags else []
 
     def views(self, X):
         """(name, series) of every view the interval features are computed on."""
@@ -290,9 +282,6 @@ class SupervisedExtractor():
                  ("change (smoothed)", F.avg_pool1d(F.pad(X.diff(), (2, 2), "replicate"), 5, 1)),
                  ("change of change", X.diff(n = 2)),
                  ("rhythm (|FFT|)", torch.fft.rfft(X).abs())]
-        if self.znorm:                                   # shape only: every series to mean 0 and spread 1
-            spread = X.std(-1, keepdim = True)
-            views.append(("shape (z-normalized)", (X - X.mean(-1, keepdim = True)) / torch.where(spread > 0, spread, 1)))
         for d in self.lag_list(X.shape[-1]):
             if X.shape[-1] > d + 1:
                 views.append((f"lag-{d}", X[..., d:] - X[..., :-d]))
@@ -307,7 +296,7 @@ class SupervisedExtractor():
             level = int(round(np.log2(length / n))) if n > 0 else 0
             centre = (a + b) / 2 / length
             position = "whole" if level == 0 else ("early" if centre < 1 / 3 else "late" if centre > 2 / 3 else "middle")
-            n_quantiles = 1 if n == 1 else quantile_count(n, model.div, model.num_quantiles, model.fraction)
+            n_quantiles = 1 if n == 1 else quantile_count(n, model.num_quantiles, model.fraction)
             for kind in ["quantile"] * n_quantiles + ["mean", "spread", "trend"]:
                 meta.append({"source": name, "kind": kind, "level": f"1/{2 ** level}", "position": position})
         return meta
@@ -390,16 +379,19 @@ class SupervisedExtractor():
             if not self.fill or len(self.keep) >= self.budget or depth >= self.max_depth:
                 break
             depth += 1
-        self.depth_used = depth
         self.round_cache = None                          # new data (transform) is always computed
         return C
 
     def fit_round(self, X, Y, depth):
         """Candidates with pieces down to 1/2**(depth - 1), and the selection on them."""
         from aeon.transformations.collection.feature_based import Catch22
-        import aeon.transformations.collection.feature_based._catch22 as c22_names
+        try:
+            import aeon.transformations.collection.feature_based._catch22 as c22_names
+        except ImportError:                              # module path differs between aeon versions
+            import importlib
+            c22_names = importlib.import_module("aeon.transformations.collection.feature_based._catch22")
         views = self.views(X)
-        self.models = {name: IntervalModel(Z.shape[-1], depth = depth, div = self.div, num_quantiles = self.num_quantiles,
+        self.models = {name: IntervalModel(Z.shape[-1], depth = depth, num_quantiles = self.num_quantiles,
                                            fraction = self.quantile_fraction if name in self.QUANT_VIEWS else 0)
                        for name, Z in views}
         meta = [m for name, Z in views for m in self.interval_meta(name, self.models[name], Z.shape[-1])]
@@ -419,7 +411,6 @@ class SupervisedExtractor():
         C = self.candidates(X)
         assert C.shape[1] == len(meta), (C.shape, len(meta))
         self.keep, self.selection_log = self.select(C.numpy(), Y, meta)
-        self.kept_names = [(meta[k]["source"], meta[k]["kind"]) for k in self.keep]
         self.n_candidates = C.shape[1]
         self.view_width = {name: sum(m["source"] == name for m in meta) for name, Z in views}
         self.kept_views = {meta[k]["source"] for k in self.keep}
@@ -446,7 +437,7 @@ class SupervisedExtractor():
         cut = np.zeros(len(scores), dtype = bool)
         eligible = np.flatnonzero(relevant)
         if self.rank == "both" and len(eligible) > self.budget:
-            # as v4 (run.py --tabpfn_rank both): ANOVA keeps the budget + half of the rest, then ExtraTrees ranks them
+            # as v3 (run.py --tabpfn_rank both): ANOVA keeps the budget + half of the rest, then ExtraTrees ranks them
             # by importance (it also sees features that matter only together with others)
             from sklearn.ensemble import ExtraTreesClassifier
             pool = eligible[np.argsort(-scores[eligible])[:self.budget + (len(eligible) - self.budget) // 2]]

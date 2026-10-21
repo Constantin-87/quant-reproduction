@@ -11,15 +11,16 @@ COMP41850 AI for Time Series, group project. Report: *TODO link*.
   (0.8548 vs 0.8546). The gap on all 142 datasets (0.8552 vs 0.8568) comes from 4 datasets that were corrected after
   the paper. The timing claim holds: 12.2 minutes for all 142 datasets on one CPU core (paper: under 15).
 - **Classifier:** TabPFN on QUANT's features is the most accurate of four classifiers (ExtraTrees, XGBoost,
-  CatBoost, TabPFN), but about 30 times slower than ExtraTrees. Extra feature sets (lag-d differences, MultiRocket,
-  RDST, MR-Hydra) help only on tiny training sets.
-- **v4, a cheap TabPFN** (a lean extractor, 200 features picked per dataset, 2 passes, the model built once): on all
+  CatBoost, TabPFN), but about 30 times slower than ExtraTrees.
+- **v3, a cheap TabPFN** (a lean extractor, 200 features picked per dataset, 2 passes, the model built once): on all
   142 datasets x 30 resamples 0.8733 against 0.8548 for QUANT + ExtraTrees, better on 111 of 142 datasets
   (Wilcoxon p = 2e-12), in 3.0 hours against 1.7 on all CPU cores.
-- **v9, a supervised extractor** (candidates from QUANT's views with a fifth of QUANT's quantiles, lag-d views chosen
+- **v4, a supervised extractor** (candidates from QUANT's views with a fifth of QUANT's quantiles, lag-d views chosen
   per dataset, catch22 and pattern templates; at most 200 kept): 0.8849, better than QUANT + ExtraTrees on 126 of 142
-  datasets (p = 2e-21) and than v4 on 99 (p = 3e-11), in 4.7 hours. Its predecessor v8 (0.8827, 5.0 hours) and the
-  analysis of the datasets where it still loses led to v9's changes (notebook 05).
+  datasets (p = 2e-21) and than v3 on 99 (p = 3e-11), in 4.7 hours. The gains hold on the 108 datasets never used to
+  develop it (+0.033 over QUANT + ExtraTrees). On the 112 UCR datasets it has the best mean accuracy and rank among
+  the published classifiers of the bake-off redux (0.8966; HC2 0.8914, not significantly different). An ablation
+  shows what each of its parts adds (notebook 04).
 
 
 ## Repository structure
@@ -28,16 +29,16 @@ COMP41850 AI for Time Series, group project. Report: *TODO link*.
 original/                       the authors' code and published results, unmodified (GPL-3.0)
 improvedQuant/
   v1_classifiers/               v1: QUANT with timers, metrics, a seed and a choice of classifier
-  features/                     v2-v9: QUANT + extra features (v2), TabPFN's cost settings (v3), the lean extractor
-                                for TabPFN quant_tabpfn.py (v4) and its supervised extractor (v5-v9); feature_test.py:
-                                the tests of which of QUANT's features help TabPFN (v9)
-  dataSetLists/                 the dataset lists (ucr142 = a copy of original/code/ucr142.txt, smoke-small/medium/large,
-                                worst3/worst7/worst10 = the datasets where a version loses most to QUANT + ExtraTrees,
-                                deep6, chlorine-uwave: the tests behind v9)
-notebooks/                      the analyses (01 to 06) and common.py (shared names, colours and loading)
-results/                        every results file of our runs, and the comparison with the paper
+  features/                     v2, v3, v4: TabPFN's cost settings (v2), the lean extractor for TabPFN quant_tabpfn.py
+                                (v3) and its supervised extractor (v4), all run by run.py
+  dataSetLists/                 the dataset lists (ucr142 = a copy of original/code/ucr142.txt; smoke-small/medium = the
+                                development lists; worst3 = the datasets where v3 loses most to QUANT + ExtraTrees;
+                                dev34 = the 34 datasets used to develop v3 and v4, heldout108 = the other 108)
+notebooks/                      the analyses (01, 02, 04, 05, 06) and common.py (shared names, colours and loading)
+results/                        every results file of our runs, the comparison with the paper, and in bakeoff-redux/
+                                the published results of 11 classifiers (downloaded, see experiments.md)
 data/                           datasets and resample indices (not in git, see section 2)
-experiments.md                  every version (v0-v9), its notebook and the command for every file in results/
+experiments.md                  every version (v0, v1, v2, v3, v4), its notebook and the command for every file in results/
 requirements-gpu.txt            packages of .venv-gpu: the other runs (with XGBoost, CatBoost, TabPFN and aeon)
 requirements-original-lock.txt  exact package versions of the reproduction environment (.venv)
 requirements.txt                packages of .venv: the reproduction runs and the notebooks
@@ -98,15 +99,25 @@ referenced in `original/doc.md`.
 - 112 UCR datasets (Java tsml indices): https://drive.google.com/file/d/1FsG7Fp74y_TpaPhJ7U066ot8A07BPhr3/view
 - 30 new bake-off datasets (Python tsml-eval indices): https://drive.google.com/file/d/1aLBP_nhnoqz075puKg30zuF3F_QBOXYM/view
 
+**Preparation**
+
+- Keep only the 142 names in `original/code/ucr142.txt`: remove the 16 originals with unequal lengths or missing
+  values (QUANT uses their fixed versions), Fungi, and the resampled `.ts` copies in the index download.
+- Rename `_eq` / `_nmv` / `_disc` to `Eq` / `Nmv` / `Discrete` (24 dataset and 24 index folders).
+- Layout: `data/ts/<name>/<name>_TRAIN.ts` and `_TEST.ts`; `data/indices/<name>/resample<i>Indices_TRAIN.txt`.
+- The downloads have the corrected versions of 4 datasets (Covid3MonthDiscrete, FloodModeling1-3Discrete), while the
+  published results were computed on the old ones (notebook 01, section 2).
+
 
 ## 3. Reproduce the results
 
-Every version (v0 to v9), what it is, the notebook that analyses it and the command for each of its results files are
-in [`experiments.md`](experiments.md). The two reproduction runs take about 6 hours each on one CPU core, the full
-runs of v4, v8 and v9 about 3.5, 5 and 4.7 hours (all cores + GPU); the smoke tests a few minutes to about an hour
-each. The selection logs of the full runs of v8 and v9 (`results/*_ucr142_*_selection.csv`, about 180-200 MB each)
-are not in the repository; running the command again writes them. Results of experiments that are not in the report
-are kept locally in `results_dropped/`, which is not in the repository.
+Every version (v0, v1, v2, v3, v4), what it is, the notebook that analyses it and the command for each of its results
+files are in [`experiments.md`](experiments.md). The two reproduction runs take about 6 hours each on one CPU core,
+the full runs of v3 and v4 about 3.5 and 4.7 hours (all cores + GPU), the ablation of v4 about 2 hours; the smoke
+tests a few minutes to about an hour each. The selection log of v4's full run (`results/*_ucr142_*_selection.csv`,
+about 200 MB) is not in the repository; running the command again writes it, and the repository has the summary
+notebook 04 makes from it. Earlier development steps (other feature families, the step-by-step build of the supervised extractor) are
+not kept; their results are in the git history.
 
 
 ## 4. Notebooks
@@ -114,11 +125,10 @@ are kept locally in `results_dropped/`, which is not in the repository.
 | Notebook | Question | Results files |
 |---|---|---|
 | `01_reproduction` | Published vs v0 vs v1 on the published setup (142 datasets x 30 resamples, one CPU core): does v0 reproduce the published results, does v1 leave the method unchanged, and does the single-core timing claim hold? | `v0_ucr142_onecore-cpu`, `v1_ucr142_onecore-cpu` |
-| `02_classifiers` | The four classifiers on QUANT's features: one core vs all cores, with and without the GPU, small vs medium datasets | `v1_smoke-{small,medium}-r0_*` |
-| `03_more-features` | v2: QUANT + extra features (lag-d differences, MultiRocket, RDST, MR-Hydra) for all four classifiers, on the small and the medium datasets | `v1_smoke-{small,medium}_allcores-gpu`, `v2-*` |
-| `04_cheap-tabpfn` | A cheaper TabPFN: its cost settings and the model cache (v3), a lean extractor for TabPFN (`quant_tabpfn.py`), fewer features and three ways to pick them (v4) | `v3-*`, `v4-*`, `v4_*` on the smoke lists, and the v1 and v2-lagd files of notebook 03 |
-| `05_supervised-extractor` | Why v4 loses on its 3 worst datasets, and a supervised extractor for TabPFN (v5 to v9: candidates from QUANT's views, lag-d views, catch22 and pattern templates; relevance check, ExtraTrees importance and a greedy selection without near-copies); accuracy and time on the small, medium and 3 worst datasets; which features are kept or dropped and why; v8 on all 142 datasets and why it still loses on 10 of them; from v8 to v9: where the time goes, which of QUANT's features TabPFN needs, 200 features | `v5-*` to `v8-*` on the smoke lists and `worst3` and their `_selection.csv`, the `worst3` and `worst10` files, `v8_tabpfn-e2f250_ucr142_allcores-gpu`, `v8-depth5_*`, `v9-ablation_*`, `v9-quantiles_*`, `v9-anova_*`, `v3-quant_tabpfn-e2f200-both_*`, and from the full runs `v1_ucr142_allcores-cpu`, `v4_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v9_tabpfn-e2f200_ucr142_allcores-gpu` |
-| `06_full-benchmark` | v4 and v9 on the published setup (142 datasets x 30 resamples) vs QUANT + ExtraTrees: mean accuracy and rank, per dataset with significance tests, time per run | `v4_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v9_tabpfn-e2f200_ucr142_allcores-gpu`, `v1_ucr142_onecore-cpu`, `v1_ucr142_allcores-cpu` |
+| `02_classifiers` | The four classifiers on QUANT's features (ExtraTrees, XGBoost, CatBoost, TabPFN), small vs medium datasets: accuracy, probability quality and time | `v1_smoke-{small,medium}-r0_allcores-gpu` |
+| `03_cheap-tabpfn` | A cheaper TabPFN: fewer passes and features and the model cache (v2), and the lean extractor `quant_tabpfn.py` (v3), against QUANT + ExtraTrees and TabPFN's default | `v2_*` and `v3_*` on the smoke lists, `v1_smoke-{small,medium}_allcores-gpu` |
+| `04_supervised-extractor` | Why v3 loses on its 3 worst datasets; the supervised extractor (v4) and its ablation (each part switched off, on the 34 development datasets); what v4 keeps and why; which lag-d views it uses | the `worst3` files, `v4-abl-*`, v4's selection summary, and from the full runs `v1_ucr142_allcores-cpu`, `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu` |
+| `05_full-benchmark` | v3 and v4 on the published setup (142 datasets x 30 resamples) vs QUANT + ExtraTrees: mean accuracy and rank, per dataset with significance tests, time per run; the 34 development vs 108 held-out datasets; the published bake-off redux classifiers with a critical-difference diagram; confidence intervals; balanced accuracy, AUROC and log loss | `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu`, `v1_ucr142_onecore-cpu`, `v1_ucr142_allcores-cpu`, `bakeoff-redux/*_accuracy` |
 
 
 ## 5. Results compared with the paper
@@ -142,3 +152,5 @@ Notebook 01 writes this table from the same results it analyses.
 
 QUANT is © Angus Dempster, Daniel F. Schmidt and Geoffrey I. Webb, released under GPL-3.0 (see `original/LICENSE`). `improvedQuant/` is a modified copy of their code; this repository is also released under GPL-3.0.
 Datasets: UCR time series classification archive (Dau et al., 2019) and the bake off redux (Middlehurst, Schäfer & Bagnall, 2024).
+The published accuracies of the other classifiers in `results/bakeoff-redux/` are the bake off redux's reference
+results, downloaded unchanged from https://timeseriesclassification.com/results/ReferenceResults/classification/accuracy/.
