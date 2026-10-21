@@ -1,5 +1,0 @@
-ElectricDevices
-FordA
-KeplerLightCurves
-HandOutlines
-AsphaltPavementTypeUniEq
