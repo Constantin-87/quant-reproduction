@@ -10,46 +10,30 @@ import torch, torch.nn.functional as F
 
 # == generate intervals ========================================================
 
-def make_intervals(input_length, depth, depths=None, interval_types="both"):
-    """Create intervals at selected zero-based depths.
+def make_intervals(input_length, depth):
 
-    `depth` preserves original semantics: depth=6 includes levels 0..5.
-    `depths` optionally selects explicit levels. interval_types:
-    both, normal, shift, or alternating (even=normal, odd=shift).
-    """
-    max_level = min(depth - 1, int(np.log2(input_length)))
-    selected_depths = list(range(max_level + 1)) if depths is None else list(depths)
-    if not selected_depths:
-        raise ValueError("At least one depth must be selected.")
-    if any(level < 0 for level in selected_depths):
-        raise ValueError("Depth values must be non-negative.")
-    if interval_types not in {"both", "normal", "shift", "alternating"}:
-        raise ValueError("interval_types must be both, normal, shift, or alternating.")
+    exponent = \
+    min(
+        depth,
+        int(np.log2(input_length)) + 1
+    )
 
     intervals = []
-    for level in selected_depths:
-        if level > max_level:
-            continue
-        n = 2 ** level
+
+    for n in 2 ** torch.arange(exponent):
+
         indices = torch.linspace(0, input_length, n + 1).long()
+
         intervals_n = torch.stack((indices[:-1], indices[1:]), 1)
 
-        use_normal = interval_types in {"both", "normal"} or (
-            interval_types == "alternating" and level % 2 == 0
-        )
-        use_shift = interval_types in {"both", "shift"} or (
-            interval_types == "alternating" and level % 2 == 1
-        )
-        if use_normal:
-            intervals.append(intervals_n)
+        intervals.append(intervals_n)
 
-        can_shift = n > 1 and intervals_n.diff().median() > 1
-        if use_shift and can_shift:
+        if n > 1 and intervals_n.diff().median() > 1:
+
             shift = int(np.ceil(input_length / n / 2))
-            intervals.append(intervals_n[:-1] + shift)
 
-    if not intervals:
-        raise ValueError("No intervals generated; check depth and selected levels.")
+            intervals.append((intervals_n[:-1] + shift))
+
     return torch.cat(intervals)
 
 # == quantile function =========================================================
@@ -83,7 +67,7 @@ def f_quantile(X, div = 4):
 
 class IntervalModel():
 
-    def __init__(self, input_length, depth = 6, div = 4, depths=None, interval_types="both"):
+    def __init__(self, input_length, depth = 6, div = 4):
 
         assert div >= 1
         assert depth >= 1
@@ -94,8 +78,6 @@ class IntervalModel():
         make_intervals(
             input_length = input_length,
             depth        = depth,
-            depths       = depths,
-            interval_types = interval_types,
         )
 
     def fit(self, X, Y):
@@ -124,15 +106,13 @@ class IntervalModel():
 
 class Quant():
 
-    def __init__(self, depth = 6, div = 4, depths=None, interval_types="both"):
+    def __init__(self, depth = 6, div = 4):
 
         assert depth >= 1
         assert div >= 1
 
         self.depth = depth
         self.div = div
-        self.depths = depths
-        self.interval_types = interval_types
 
         self.representation_functions = \
         (
@@ -174,9 +154,7 @@ class Quant():
             IntervalModel(
                 input_length = Z.shape[-1],
                 depth        = self.depth,
-                div          = self.div,
-                depths       = self.depths,
-                interval_types = self.interval_types
+                div          = self.div
             )
 
             features.append(
