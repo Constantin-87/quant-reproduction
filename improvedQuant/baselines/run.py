@@ -1,11 +1,9 @@
-# Simple baselines every method should beat (lectures, weeks 6-9: "majority class, raw data + classifier, stats,
-# 1NN-DTW"; 1NN-DTW and ROCKET come from the published bake-off redux results, notebook 05):
+# Simple baselines every method should beat: majority class, raw data + classifier, stats, 1NN-DTW
 #   majority : the most frequent class of the training set (sklearn DummyClassifier)
 #   raw      : ExtraTrees (200 trees) on the raw values, one feature per time point
 #   catch22  : aeon's Catch22Classifier (catch22 + mean and standard deviation, then a random forest of 200 trees)
 #   tabpfn   : TabPFN on the raw values, the same classifier as v4 (2 passes, the model built once, the GPU); series
-#              longer than TabPFN's feature budget are subsampled by TabPFN itself (a random subset of time points per
-#              pass). It shows what v4's extractor adds over giving TabPFN the series directly.
+#              longer than TabPFN's feature budget are subsampled by TabPFN itself.
 # The same 142 datasets x 30 resamples (resample 0 = the default split, the others from the resample indices), metrics
 # and results-file layout as improvedQuant/features/run.py; one row per run, written as soon as the run finishes (a
 # restart skips the runs already in the file).

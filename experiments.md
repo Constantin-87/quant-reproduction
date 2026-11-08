@@ -220,7 +220,7 @@ quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant
 Not a run of ours: the accuracies the bake-off redux published for 11 classifiers (112 UCR datasets x 30 resamples),
 and their fit and predict times (milliseconds, one CPU core per run on their cluster; notebook 05, section 6d), one
 file per classifier and measure from timeseriesclassification.com, saved unchanged in `results\bakeoff-redux\` (`MR` =
-MultiROCKET). Downloaded in `cmd` with curl (part of Windows 10 and 11), or one by one in a browser from the same
+MultiROCKET). Downloaded in `cmd` with curl, or one by one in a browser from the same
 addresses:
 
 ```bat

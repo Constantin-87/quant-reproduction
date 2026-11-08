@@ -23,3 +23,6 @@ results/*_predictions/
 .venv-gpu/
 __pycache__/
 .ipynb_checkpoints/
+
+# editor settings
+.vscode/

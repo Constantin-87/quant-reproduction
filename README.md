@@ -11,7 +11,7 @@ COMP41850 AI for Time Series, group project. Report: *TODO link*.
   (0.8548 vs 0.8546). The gap on all 142 datasets (0.8552 vs 0.8568) comes from 4 datasets that were corrected after
   the paper. The timing claim holds: 12.2 minutes for all 142 datasets on one CPU core (paper: under 15).
 - **Classifier:** TabPFN on QUANT's features is the most accurate of four classifiers (ExtraTrees, XGBoost,
-  CatBoost, TabPFN), but about 30 times slower than ExtraTrees.
+  CatBoost, TabPFN), but 10-30 times slower than ExtraTrees.
 - **v3, a cheap TabPFN** (a lean extractor, 200 features picked per dataset, 2 passes, the model built once): on all
   142 datasets x 30 resamples 0.8733 against 0.8548 for QUANT + ExtraTrees, better on 111 of 142 datasets
   (Wilcoxon p = 2e-12), in 3.0 hours against 1.7 on all CPU cores.
@@ -20,9 +20,9 @@ COMP41850 AI for Time Series, group project. Report: *TODO link*.
   datasets (p = 2e-21) and than v3 on 99 (p = 3e-11), in 4.7 hours. The gains hold on the 108 datasets never used to
   develop it (+0.033 over QUANT + ExtraTrees), on the default split alone (+0.026, p = 2e-10) and with every one of
   five seeds. On the 112 UCR datasets it has the best mean accuracy and rank among the published classifiers of the
-  bake-off redux (0.8966; HC2 0.8914, not significantly different, at about 295 single-core hours per resample against
-  1.8 hours for v4 on one laptop core, 0.12 with all cores and a small GPU) and is far ahead of simple baselines (majority class 0.343, raw values + ExtraTrees
-  0.771, catch22 + random forest 0.793). Its probabilities are better too (log loss 0.311 against 0.530). An ablation
+  bake-off redux (0.8966; HC2 0.8914, not significantly different, at about 130 times v4's single-core compute) and
+  is far ahead of simple baselines (majority class 0.343, raw values + ExtraTrees 0.771, catch22 + random forest 0.793,
+  raw values + TabPFN 0.819). Its probabilities are better too (log loss 0.311 against 0.530). An ablation
   shows what each of its parts adds (notebook 04).
 
 
@@ -34,7 +34,8 @@ improvedQuant/
   v1_classifiers/               v1: QUANT with timers, metrics, a seed and a choice of classifier
   features/                     v2, v3, v4: TabPFN's cost settings (v2), the lean extractor for TabPFN quant_tabpfn.py
                                 (v3) and its supervised extractor (v4), all run by run.py
-  baselines/                    the simple baselines: majority class, raw values + ExtraTrees, catch22 + random forest
+  baselines/                    the simple baselines: majority class, raw values + ExtraTrees, catch22 + random forest,
+                                raw values + TabPFN
   dataSetLists/                 the dataset lists (ucr142 = a copy of original/code/ucr142.txt; smoke-small/medium = the
                                 development lists; worst3 = the datasets where v3 loses most to QUANT + ExtraTrees;
                                 dev34 = the 34 datasets used to develop v3 and v4, heldout108 = the other 108)
@@ -49,7 +50,7 @@ requirements-original-lock.txt  exact package versions of the reproduction envir
 requirements.txt                packages of .venv: the reproduction runs and the notebooks
 ```
 
-`quant.py` is the authors' file, unchanged (byte for byte) in every folder of `improvedQuant/`.
+`quant.py` in `v1_classifiers/` and `features/` is the authors' code, unchanged.
 
 
 ## 1. Environment
@@ -118,8 +119,8 @@ referenced in `original/doc.md`.
 
 Every version (v0, v1, v2, v3, v4), what it is, the notebook that analyses it and the command for each of its results
 files are in [`experiments.md`](experiments.md). The two reproduction runs take about 6 hours each on one CPU core,
-the full runs of v3 and v4 about 3 and 4.7 hours (all cores + GPU), the ablation of v4 about 2 hours, the baselines
-about an hour, the five seeds on the default split about 70 minutes; the smoke tests a few minutes to about an hour
+the full runs of v3 and v4 about 3 and 4.7 hours (all cores + GPU), the ablation of v4 about 2 hours, the CPU
+baselines about an hour, raw values + TabPFN about 13.6 hours, the five seeds on the default split about 70 minutes; the smoke tests a few minutes to about an hour
 each. The selection log of v4's full run (`results/*_ucr142_*_selection.csv`,
 about 200 MB) is not in the repository; running the command again writes it, and the repository has the summary
 notebook 04 makes from it. Earlier development steps (other feature families, the step-by-step build of the supervised extractor) are
@@ -134,7 +135,7 @@ not kept; their results are in the git history.
 | `02_classifiers` | The four classifiers on QUANT's features (ExtraTrees, XGBoost, CatBoost, TabPFN), small vs medium datasets: accuracy, probability quality and time | `v1_smoke-{small,medium}-r0_allcores-gpu` |
 | `03_cheap-tabpfn` | A cheaper TabPFN: fewer passes and features and the model cache (v2), and the lean extractor `quant_tabpfn.py` (v3), against QUANT + ExtraTrees and TabPFN's default | `v2_*` and `v3_*` on the smoke lists, `v1_smoke-{small,medium}_allcores-gpu` |
 | `04_supervised-extractor` | Why v3 loses on its 3 worst datasets; the supervised extractor (v4) and its ablation (each part switched off, on the 34 development datasets, Holm-corrected); what v4 keeps and why; which lag-d views it uses | the `worst3` files, `v4-abl-*`, v4's selection summary, and from the full runs `v1_ucr142_allcores-cpu`, `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu` |
-| `05_full-benchmark` | v3 and v4 on the published setup (142 datasets x 30 resamples) vs QUANT + ExtraTrees, following the evaluation lectures: the protocol and its threats; simple baselines; mean accuracy and rank, per dataset with Holm-corrected tests; time by phase and memory; the 34 development vs 108 held-out datasets; the default split alone; the published bake-off redux classifiers (Friedman's test, critical-difference diagram, v4 against every other, accuracy against compute time); confidence intervals; five seeds; balanced accuracy, macro F1, AUROC, log loss, Brier score; confusion matrices; the report figure | `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu`, `v1_ucr142_onecore-cpu`, `v1_ucr142_allcores-cpu`, `baselines_ucr142_allcores-cpu`, `v4-seeds_*`, `v1-seeds_*`, `v4_tabpfn-e2f200_ucr142-r0_onecore-cpu`, `bakeoff-redux/*` |
+| `05_full-benchmark` | v3 and v4 on the published setup (142 datasets x 30 resamples) vs QUANT + ExtraTrees: the protocol and its threats; simple baselines; mean accuracy and rank, per dataset with Holm-corrected tests; time by phase and memory; the 34 development vs 108 held-out datasets; the default split alone; the published bake-off redux classifiers (Friedman's test, critical-difference diagram, v4 against every other, accuracy against compute time); confidence intervals; five seeds; balanced accuracy, macro F1, AUROC, log loss, Brier score; confusion matrices; the report figures | `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu`, `v1_ucr142_onecore-cpu`, `v1_ucr142_allcores-cpu`, `baselines_ucr142_allcores-cpu`, `baselines-tabpfn_ucr142_allcores-gpu`, `v4-seeds_*`, `v1-seeds_*`, `v4_tabpfn-e2f200_ucr142-r0_onecore-cpu`, `bakeoff-redux/*` |
 
 
 ## 5. Results compared with the paper
