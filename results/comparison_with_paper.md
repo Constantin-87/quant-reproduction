@@ -9,12 +9,12 @@ one CPU core; v0 has no seed, v1 uses seed 0.
 | Mean accuracy, all 142 datasets | 0.8568 | 0.8568 | 0.8552 | 0.8548 |
 | Mean accuracy, the 112 original datasets | 0.8671 | 0.8671 | 0.8672 | 0.8669 |
 | Mean accuracy, the 138 unchanged datasets | - | 0.8546 | 0.8548 | 0.8545 |
-| Datasets within noise of the published results (138 unchanged) | - | - | 138 of 138 | 137 of 138 |
-| Time for all 142 datasets on one CPU core (minutes per resample) | under 15 | 14.86 | - (no timers) | 12.2 (12.1 to 12.3) |
+| Datasets without a significant difference to the published results (138 unchanged, p >= 0.05) | - | - | 132 of 138 | 133 of 138 |
+| Time for all 142 datasets on one CPU core (minutes per resample) | under 15 | - | - (no timers) | 12.2 (12.1 to 12.3) |
 
 - 4 datasets (Covid3MonthDiscrete, FloodModeling1Discrete, FloodModeling2Discrete, FloodModeling3Discrete) were corrected after the paper; the published results were computed on
   the old versions, so the method is compared on the other 138.
-- Within noise: |z| < 2, where z is the difference of the per-dataset means over the 30 resamples divided by its
-  expected noise. Datasets significant after the Holm correction: v0 0, v1 0.
-- Time: QUANT transform, fit and predict, data loading excluded, as in the paper. The published timings come from
+- Per dataset: a two-sided Wilcoxon signed-rank test of the 30 paired resamples (p >= 0.05 = no significant
+  difference). Datasets significant after the Holm correction: v0 0, v1 0.
+- Time: QUANT transform, fit and predict, data loading excluded, as in the paper. The paper's timings come from
   the authors' cluster nodes (Intel Xeon), ours from an Intel Core Ultra 7 155H laptop.

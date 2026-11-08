@@ -7,6 +7,7 @@ notebook kernel (or run the notebooks again) to pick up the change.
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 # ---------------------------------------------------------------------------------------------------- paths
@@ -88,9 +89,18 @@ def load_runs(path):
 def read_split(name, split):
     """(number of cases, series length, set of class labels) of <name>_<split>.ts, split = "TRAIN" or "TEST"."""
     lines = (DATA_TS / name / f"{name}_{split}.ts").read_text(encoding="utf-8").splitlines()
-    start = [i for i, line in enumerate(lines) if line.strip().lower() == "@data"][0]
-    data = [line for line in lines[start + 1:] if line.strip()]
-    return len(data), len(data[0].split(":")[0].split(",")), {line.split(":")[-1].strip() for line in data}
+    start = 0
+    while lines[start].strip().lower() != "@data":       # skip the header
+        start += 1
+    data = []                                            # one line per case: "v1,v2,...:label"
+    for line in lines[start + 1:]:
+        if line.strip():
+            data.append(line)
+    length = len(data[0].split(":")[0].split(","))
+    labels = set()
+    for line in data:
+        labels.add(line.split(":")[-1].strip())
+    return len(data), length, labels
 
 
 def count_test_cases(name):
@@ -112,4 +122,25 @@ def signed(value):
 def wdl_counts(differences):
     """How many differences are positive, zero and negative: (better, equal, worse)."""
     d = pd.Series(differences)
-    return int((d > 1e-12).sum()), int((d.abs() <= 1e-12).sum()), int((d < -1e-12).sum())
+    better = int((d > 1e-12).sum())                      # (d > x) is a column of True/False; sum counts the True
+    equal = int((d.abs() <= 1e-12).sum())
+    worse = int((d < -1e-12).sum())
+    return better, equal, worse
+
+
+def change_color(difference):
+    """BETTER (blue) for a positive difference, WORSE (red) for a negative one, EQUAL (grey) for zero."""
+    if difference > 1e-12:
+        return BETTER
+    if difference < -1e-12:
+        return WORSE
+    return EQUAL
+
+
+def holm(p):
+    """Holm-corrected p-values of one family of tests (a pandas Series): the i-th smallest of m is multiplied by
+    (m - i + 1), kept increasing, capped at 1."""
+    p = p.dropna().sort_values()
+    adjusted = p * np.arange(len(p), 0, -1)       # multiply by m, m-1, ..., 1
+    adjusted = adjusted.cummax()                  # running maximum: never smaller than the one before
+    return adjusted.clip(upper=1)                 # the index keeps each value with its test

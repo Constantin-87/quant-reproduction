@@ -22,6 +22,9 @@
 #     a restart skips runs that are already in the file)
 #   - a failed run (e.g. GPU out of memory) is recorded with its error instead of
 #     stopping the whole experiment
+#   - also macro F1, the Brier score and the peak memory of every run (RAM sampled during the run, GPU from PyTorch);
+#     --save_predictions writes every run's test labels and class probabilities (confusion matrices, notebook 05)
+#   - runs with different seeds (-s) can share one results file (a restart skips the runs of the same seed)
 #
 # Example (from the quant-reproduction folder; .venv-gpu: TabPFN needs CUDA PyTorch, catch22 comes from aeon):
 #   .venv-gpu\Scripts\python.exe improvedQuant\features\run.py -i data/ts -p data/indices
@@ -104,6 +107,9 @@ parser.add_argument("--tabpfn_estimators", type = int, default = 0)
 # TabPFN's own model cache: build the model once per process instead of for every run (about 2 s per run, the
 # same predictions)
 parser.add_argument("--tabpfn_cache", action = "store_true")
+# also write every run's test labels and class probabilities to <output>_predictions/<dataset>_<resample>_<classifier>_
+# s<seed>.npz (for confusion matrices and metrics computed later)
+parser.add_argument("--save_predictions", action = "store_true")
 
 args = parser.parse_args()
 
@@ -140,7 +146,7 @@ SUPERVISED = (f"c{int(args.catch22)}-t{int(args.templates)}-b{args.supervised_bu
 assert args.quantile_fraction == 0 or args.quant == "supervised", "--quantile_fraction needs --quant supervised"
 
 from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.metrics import accuracy_score, balanced_accuracy_score, log_loss, roc_auc_score
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, log_loss, roc_auc_score
 from sklearn.preprocessing import LabelEncoder
 
 from tqdm import tqdm
@@ -428,12 +434,65 @@ def compute_metrics(Y_TE, proba, n_classes):
             auroc = roc_auc_score(Y_TE, proba, multi_class = "ovr", average = "weighted", labels = labels)
     except ValueError:              # e.g. a class that does not occur in this test set
         auroc = np.nan
+    onehot = np.eye(n_classes)[Y_TE]
     return {
         "accuracy": accuracy_score(Y_TE, predictions),
         "balanced_accuracy": balanced_accuracy_score(Y_TE, predictions),
+        "f1_macro": f1_score(Y_TE, predictions, labels = labels, average = "macro", zero_division = 0),
         "auroc": auroc,
         "log_loss": log_loss(Y_TE, np.clip(proba, 1e-15, 1), labels = labels),
+        "brier": float(((proba - onehot) ** 2).sum(axis = 1).mean()),    # multi-class Brier score (0 = perfect)
     }
+
+# ==============================================================================
+# == memory ====================================================================
+# ==============================================================================
+
+def process_memory_mb():
+    """The memory this process uses now (MB): its private bytes on Windows, its resident set elsewhere."""
+    if os.name == "nt":
+        import ctypes
+        from ctypes import wintypes
+
+        class Counters(ctypes.Structure):
+            _fields_ = [("cb", wintypes.DWORD), ("PageFaultCount", wintypes.DWORD)] + \
+                       [(name, ctypes.c_size_t) for name in (
+                           "PeakWorkingSetSize", "WorkingSetSize", "QuotaPeakPagedPoolUsage", "QuotaPagedPoolUsage",
+                           "QuotaPeakNonPagedPoolUsage", "QuotaNonPagedPoolUsage", "PagefileUsage", "PeakPagefileUsage")]
+
+        kernel32 = ctypes.WinDLL("kernel32")
+        kernel32.GetCurrentProcess.restype = wintypes.HANDLE
+        kernel32.K32GetProcessMemoryInfo.argtypes = [wintypes.HANDLE, ctypes.POINTER(Counters), wintypes.DWORD]
+        counters = Counters()
+        counters.cb = ctypes.sizeof(counters)
+        kernel32.K32GetProcessMemoryInfo(kernel32.GetCurrentProcess(), ctypes.byref(counters), counters.cb)
+        return counters.PagefileUsage / 2 ** 20
+    with open("/proc/self/statm") as f:                   # Linux: resident pages
+        return int(f.read().split()[1]) * os.sysconf("SC_PAGE_SIZE") / 2 ** 20
+
+class MemorySampler:
+    """The peak memory of the process during a run: a background thread samples it every 20 ms (the operating system
+    only keeps the peak of the whole process, which cannot be reset between runs)."""
+    def __init__(self):
+        import threading
+        self.peak, self.running = 0.0, True
+        threading.Thread(target = self._sample, daemon = True).start()
+
+    def _sample(self):
+        while self.running:
+            self.peak = max(self.peak, process_memory_mb())
+            time.sleep(0.02)
+
+    def reset(self):
+        self.peak = process_memory_mb()
+        if torch.cuda.is_available():
+            torch.cuda.reset_peak_memory_stats()
+
+    def read(self):
+        """(peak RAM, peak GPU memory) since the last reset, in MB."""
+        self.peak = max(self.peak, process_memory_mb())
+        gpu = torch.cuda.max_memory_allocated() / 2 ** 20 if torch.cuda.is_available() else 0.0
+        return self.peak, gpu
 
 # ==============================================================================
 # == features ==================================================================
@@ -526,9 +585,9 @@ COLUMNS = [
     "dataset", "resample", "classifier", "lags", "quant", "quantiles", "supervised", "tabpfn_rank",
     "tabpfn_estimators", "tabpfn_cache", "seed", "cpu_cores", "device",
     "n_features", "n_features_quant", "n_features_lag", "n_kept_quant", "n_kept_lag", "n_features_used", "n_train",
-    "accuracy", "balanced_accuracy", "auroc", "log_loss",
+    "accuracy", "balanced_accuracy", "f1_macro", "auroc", "log_loss", "brier",
     "time_transform_train", "time_lag_train", "time_select", "time_fit",
-    "time_transform_test", "time_lag_test", "time_predict", "status",
+    "time_transform_test", "time_lag_test", "time_predict", "peak_ram_mb", "peak_gpu_mb", "status",
 ]
 
 datasets = np.atleast_1d(np.loadtxt(f"{args.datasets}", "str"))   # atleast_1d: a list with one name works too
@@ -541,7 +600,9 @@ if os.path.exists(args.output_file):
     with open(args.output_file, newline = "") as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames or COLUMNS      # a file made by an older version keeps its own columns
-        done = {(row["dataset"], int(row["resample"]), row["classifier"]) for row in reader}
+        # a run = dataset, resample, classifier and seed (runs with other seeds can be in the same file)
+        done = {(row["dataset"], int(row["resample"]), row["classifier"]) for row in reader
+                if row.get("seed", "") in ("", str(args.seed))}
     print(f"resuming: {len(done)} runs already in {args.output_file}")
 else:
     with open(args.output_file, "w", newline = "") as f:
@@ -568,6 +629,10 @@ if args.quant == "supervised" and args.catch22:
     del _warm
 
 Z_TR = Z_TE = None
+memory = MemorySampler()
+PREDICTIONS_DIR = args.output_file[:-4] + "_predictions"
+if args.save_predictions:
+    os.makedirs(PREDICTIONS_DIR, exist_ok = True)
 
 for dataset in tqdm(datasets, ncols = 80):
 
@@ -618,6 +683,7 @@ for dataset in tqdm(datasets, ncols = 80):
 
         # == features, once, shared by the classifiers =========================
 
+        memory.reset()                  # the peak memory of this run: from here to the end of each classifier
         try:
             Z_TR, Z_TE, info = features(X_TR, Y_TR, X_TE, dataset, i)
         except Exception as error:      # transform failed: record it for every classifier and carry on
@@ -667,12 +733,18 @@ for dataset in tqdm(datasets, ncols = 80):
                 t5 = time.perf_counter()
 
                 row.update(compute_metrics(Y_TE, proba, n_classes))
+                peak_ram, peak_gpu = memory.read()
                 row.update({
                     "n_features_used": Z_TR.shape[1] if keep is None else len(keep),
                     "time_fit": t4 - t3,
                     "time_predict": t5 - t4,
+                    "peak_ram_mb": peak_ram,
+                    "peak_gpu_mb": peak_gpu,
                     "status": "ok",
                 })
+                if args.save_predictions:
+                    np.savez_compressed(f"{PREDICTIONS_DIR}/{dataset}_{i}_{name}_s{args.seed}.npz", y_test = Y_TE,
+                                        proba = proba.astype(np.float32), classes = le.classes_.astype(str))
 
             except Exception as error:      # record the failure (e.g. GPU out of memory) and carry on
                 row["status"] = f"failed: {type(error).__name__}: {error}".replace("\n", " ")[:300]

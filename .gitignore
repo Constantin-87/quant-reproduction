@@ -14,6 +14,10 @@ results_dropped/
 # the selection log of a full run (142 datasets x 30 resamples) is about 200 MB, over GitHub's file limit
 results/*ucr142*_selection.csv
 
+# the per-run test labels and class probabilities of --save_predictions (1,420 small files; notebook 05, section 8c
+# reads them; the command in experiments.md writes them again)
+results/*_predictions/
+
 # environment and caches
 .venv/
 .venv-gpu/
