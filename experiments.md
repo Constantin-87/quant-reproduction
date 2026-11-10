@@ -1,6 +1,7 @@
 # Experiments
 
-Every results file in `results/` comes from one command below. The versions follow the order of the report: each one
+Every results file in `results/` comes from one command below (except `comparison_with_paper.md`, written by notebook
+01, and v4's `_selection-summary.csv`, written by notebook 04). The versions follow the order of the report: each one
 starts from what the previous one found. Names: `{version}[-{variant}]_{classifier settings}_{datasets}_{hardware}.csv`,
 e.g. `v2_tabpfn-e2f200-cache_smoke-small_allcores-gpu.csv` = v2 on QUANT's features, TabPFN with 2 passes
 (`e2`) and 200 features (`f200`), the model cache, the small datasets, all CPU cores + the GPU. Without classifier
@@ -75,7 +76,7 @@ to one thread; seed: none in v0 (the authors' `run.py` fixes none, so v0 cannot 
 quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\v1_classifiers\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -j 1 -c extratrees -s 0 -o quant-reproduction\results\v1_ucr142_onecore-cpu.csv
 ```
 
-The same on all CPU cores, for the time comparison of notebook 05 (identical accuracies; a new window):
+The same on all CPU cores, for notebook 04 and the time comparison of notebook 05 (identical accuracies; a new window):
 
 ```bat
 quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\v1_classifiers\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c extratrees -s 0 --device cpu -o quant-reproduction\results\v1_ucr142_allcores-cpu.csv
@@ -137,7 +138,7 @@ quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant
 quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant\features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\smoke-small.txt -r 3 -c tabpfn --quant tabpfn -m 4 --quantiles 2 --lags 4,16 --tabpfn_rank both --tabpfn_estimators 2 --tabpfn_features 200 --tabpfn_cache -o quant-reproduction\results\v3_tabpfn-e2f200-both_smoke-small_allcores-gpu.csv
 ```
 
-On the published setup, 142 datasets x 30 resamples (about 3 hours; notebook 05):
+On the published setup, 142 datasets x 30 resamples (about 3 hours; notebooks 04, 05):
 
 ```bat
 quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant\features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c tabpfn --quant tabpfn -m 4 --quantiles 2 --lags 4,16 --tabpfn_rank both --tabpfn_estimators 2 --tabpfn_features 200 --tabpfn_cache -o quant-reproduction\results\v3_tabpfn-e2f200-both_ucr142_allcores-gpu.csv
@@ -156,7 +157,7 @@ quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant
 quantiles, median kept), lag-d views (d = 2, 4, 8, ... chosen per dataset), catch22 and pattern templates; a relevance
 check (ANOVA) and a greedy selection of at most 200 features without near-copies, ordered by the ExtraTrees
 importance; the budget filled with finer pieces down to 1/16 if needed; TabPFN (2 passes, model cache) gets all of
-them. On the published setup, 142 datasets x 30 resamples (about 4.7 hours). `--feature_log` also writes
+them. On the published setup, 142 datasets x 30 resamples (about 4.7 hours; notebooks 04, 05). `--feature_log` also writes
 `_selection.csv`, what happened to every candidate; it is about 200 MB, too large for GitHub, so the repository has
 the summary that notebook 04 makes from it (`_selection-summary.csv`):
 
@@ -177,11 +178,11 @@ quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant
 ```
 
 The default split again with five seeds, for the seed check, the extra metrics (macro F1, Brier score), the peak
-memory and the confusion matrices (notebook 05, sections 4b, 7b, 8b, 8c): v4 and QUANT + ExtraTrees on resample 0,
+memory and the confusion matrices (notebook 05, sections 7d, 8b, 9b, 8c): v4 and QUANT + ExtraTrees on resample 0,
 seeds 0 to 4, all in one results file per method (the `seed` column); `--save_predictions` also writes every run's test
 labels and class probabilities (`_predictions\`, 1,420 small files; only the six that notebook 05, section 8c, draws are in the repository (resample 0, seed 0 of
 ChlorineConcentration, Ham and ECG5000): running the commands writes them all again; only the confusion matrices of notebook 05, section 8c, need them). About 50 minutes for v4 and 20 for QUANT + ExtraTrees. Seed 0
-repeats resample 0 of the full runs exactly (notebook 05, section 7b):
+repeats resample 0 of the full runs exactly (notebook 05, section 7d):
 
 ```bat
 for %s in (0 1 2 3 4) do quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant\features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 1 -c tabpfn --quant supervised --catch22 --templates --lags auto --fill_budget --c22_shorten --supervised_rank both --supervised_max_depth 5 --quantile_fraction 0.2 --supervised_budget 200 --tabpfn_estimators 2 --tabpfn_features 200 --tabpfn_cache -s %s --save_predictions -o quant-reproduction\results\v4-seeds_tabpfn-e2f200_ucr142-r0_allcores-gpu.csv
@@ -191,13 +192,13 @@ for %s in (0 1 2 3 4) do quant-reproduction\.venv-gpu\Scripts\python.exe quant-r
 (In a `.bat` file, write `%%s` instead of `%s`.)
 
 v4 on one CPU core without the GPU (`-j 1 --device cpu`), the default split only, for a time comparable with the
-published single-core times (notebook 05, section 6d):
+published single-core times (notebook 05, section 9c):
 
 ```bat
 quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant\features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 1 -c tabpfn --quant supervised --catch22 --templates --lags auto --fill_budget --c22_shorten --supervised_rank both --supervised_max_depth 5 --quantile_fraction 0.2 --supervised_budget 200 --tabpfn_estimators 2 --tabpfn_features 200 --tabpfn_cache -j 1 --device cpu -o quant-reproduction\results\v4_tabpfn-e2f200_ucr142-r0_onecore-cpu.csv
 ```
 
-## The simple baselines (notebook 05, sections 2b, 6 and 8b)
+## The simple baselines (notebook 05, sections 5 and 6)
 
 `improvedQuant\baselines\run.py`: the majority class, ExtraTrees on the raw values and catch22 + a random forest
 (aeon's Catch22Classifier), on the same 142 datasets x 30 resamples (about an hour, all CPU cores):
@@ -215,10 +216,10 @@ the crash (resamples 0-5) were about 9 times slower than normal, so they were de
 quant-reproduction\.venv-gpu\Scripts\python.exe quant-reproduction\improvedQuant\baselines\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c tabpfn -o quant-reproduction\results\baselines-tabpfn_ucr142_allcores-gpu.csv
 ```
 
-## The published results of the bake-off redux (notebook 05, section 6)
+## The published results of the bake-off redux (notebook 05, sections 6, 6b and 7c)
 
 Not a run of ours: the accuracies the bake-off redux published for 11 classifiers (112 UCR datasets x 30 resamples),
-and their fit and predict times (milliseconds, one CPU core per run on their cluster; notebook 05, section 6d), one
+and their fit and predict times (milliseconds, one CPU core per run on their cluster; notebook 05, section 9c), one
 file per classifier and measure from timeseriesclassification.com, saved unchanged in `results\bakeoff-redux\` (`MR` =
 MultiROCKET). Downloaded in `cmd` with curl, or one by one in a browser from the same
 addresses:
