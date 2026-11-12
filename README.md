@@ -6,24 +6,12 @@ Reproduction study of
 
 COMP41850 AI for Time Series, group project. Report: *TODO link*.
 
-**In short**
-- **Reproduction:** the published accuracy reproduces on the 138 datasets that were not changed after the paper
-  (0.8548 vs 0.8546). The gap on all 142 datasets (0.8552 vs 0.8568) comes from 4 datasets that were corrected after
-  the paper. The timing claim holds: 12.2 minutes for all 142 datasets on one CPU core (paper: under 15).
-- **Classifier:** TabPFN on QUANT's features is the most accurate of four classifiers (ExtraTrees, XGBoost,
-  CatBoost, TabPFN), but 10-30 times slower than ExtraTrees.
-- **v3, a cheap TabPFN** (a lean extractor, 200 features picked per dataset, 2 passes, the model built once): on all
-  142 datasets x 30 resamples 0.8733 against 0.8548 for QUANT + ExtraTrees, better on 111 of 142 datasets
-  (Wilcoxon p = 2e-12), in 3.0 hours against 1.7 on all CPU cores.
-- **v4, a supervised extractor** (candidates from QUANT's views with a fifth of QUANT's quantiles, lag-d views chosen
-  per dataset, catch22 and pattern templates; at most 200 kept): 0.8849, better than QUANT + ExtraTrees on 126 of 142
-  datasets (p = 2e-21) and than v3 on 99 (p = 3e-11), in 4.7 hours. The gains hold on the 108 datasets never used to
-  develop it (+0.033 over QUANT + ExtraTrees), on the default split alone (+0.026, p = 2e-10) and with every one of
-  five seeds. On the 112 UCR datasets it has the best mean accuracy and rank among the published classifiers of the
-  bake-off redux (0.8966; HC2 0.8914, not significantly different, at about 160 times v4's single-core compute) and
-  is far ahead of simple baselines (majority class 0.343, raw values + ExtraTrees 0.771, catch22 + random forest 0.793,
-  raw values + TabPFN 0.819). Its probabilities are better too (log loss 0.311 against 0.530). An ablation
-  shows what each of its parts adds (notebook 04).
+This repository holds everything behind the report: the reproduction of QUANT with the authors' code (v0) and an
+instrumented copy (v1), and the improvements we tried, each with its code, its results files and the notebook that
+analyses it: other classifiers on QUANT's features and a cheaper TabPFN (v2, v3), a supervised feature extractor for
+TabPFN (v4), interval depths, summary statistics instead of quantiles, and weighted interval sampling. Every results
+file can be made again with its command in [`experiments.md`](experiments.md); the results themselves are discussed
+in the report.
 
 
 ## Repository structure
@@ -36,13 +24,23 @@ improvedQuant/
                                 (v3) and its supervised extractor (v4), all run by run.py
   baselines/                    the simple baselines: majority class, raw values + ExtraTrees, catch22 + random forest,
                                 raw values + TabPFN
+  depth_selection/              QUANT with a choice of interval depths and interval types
+  summary_features/             QUANT with summary statistics instead of (some) quantiles
+  weighted/                     QUANT with weighted interval sampling (copies of the larger intervals' features)
   dataSetLists/                 the dataset lists (ucr142 = a copy of original/code/ucr142.txt; smoke-small/medium = the
                                 development lists; worst3 = the datasets where v3 loses most to QUANT + ExtraTrees;
-                                dev34 = the 34 datasets used to develop v3 and v4, heldout108 = the other 108)
-notebooks/                      the analyses (01 to 05) and common.py (shared names, colours and loading)
+                                dev34 = the 34 datasets used to develop v3 and v4, heldout108 = the other 108;
+                                dataset_types.csv = the archive type of every dataset, for the depth analysis)
+notebooks/                      the analyses (01 to 06, depths_analysis, summary_features), common.py (shared names,
+                                colours and loading) and cd_diagram.py (critical-difference diagrams, Fawaz et al.,
+                                used by depths_analysis and summary_features)
 results/                        every results file of our runs, the comparison with the paper, and in bakeoff-redux/
                                 the published accuracies and times of 11 classifiers (downloaded, see experiments.md)
-figures/                        the figures of the report (written by notebooks 01 and 05)
+figures/                        the figures of the report (written by notebooks 01 and 05; cd_extratrees_* and
+                                accuracy_vs_time_extratrees by depths_analysis and summary_features)
+run.bat, run_depth_assess.bat,  the batch files of the depth and summary-statistics runs (written before the
+run_stats.bat                   runners moved and the files were renamed; the current commands are in experiments.md)
+Ideas.md                        a list of experiment ideas
 data/                           datasets and resample indices (not in git, see section 2)
 experiments.md                  every version (v0, v1, v2, v3, v4), its notebook and the command for every file in results/
 requirements-gpu.txt            packages of .venv-gpu: the other runs (with XGBoost, CatBoost, TabPFN and aeon)
@@ -121,7 +119,8 @@ Every version (v0, v1, v2, v3, v4), what it is, the notebook that analyses it an
 files are in [`experiments.md`](experiments.md). The two reproduction runs take about 6 hours each on one CPU core,
 the full runs of v3 and v4 about 3 and 4.7 hours (all cores + GPU), the ablation of v4 about 2 hours, the CPU
 baselines about an hour, raw values + TabPFN about 13.6 hours, the five seeds on the default split about 70 minutes; the smoke tests a few minutes to about an hour
-each. The selection log of v4's full run (`results/*_ucr142_*_selection.csv`,
+each, each depth or summary-statistics configuration under 2 hours (all CPU cores) and each of the four
+weighted-sampling settings a few hours. The selection log of v4's full run (`results/*_ucr142_*_selection.csv`,
 about 200 MB) is not in the repository; running the command again writes it, and the repository has the summary
 notebook 04 makes from it. Earlier development steps (other feature families, the step-by-step build of the supervised extractor) are
 not kept; their results are in the git history.
@@ -136,6 +135,9 @@ not kept; their results are in the git history.
 | `03_cheap-tabpfn` | A cheaper TabPFN: fewer passes and features and the model cache (v2), and the lean extractor `quant_tabpfn.py` (v3), against QUANT + ExtraTrees and TabPFN's default | `v2_*` and `v3_*` on the smoke lists, `v1_smoke-{small,medium}_allcores-gpu` |
 | `04_supervised-extractor` | Why v3 loses on its 3 worst datasets; the supervised extractor (v4) and its ablation (each part switched off, on the 34 development datasets, Holm-corrected); what v4 keeps and why; which lag-d views it uses | the `worst3` files, `v4-abl-*`, v4's selection summary, and from the full runs `v1_ucr142_allcores-cpu`, `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu` |
 | `05_full-benchmark` | v3 and v4 on the published setup (142 datasets x 30 resamples): the protocol and its threats; mean accuracy; per dataset vs QUANT + ExtraTrees with Holm-corrected tests; simple baselines; the published bake-off redux classifiers (Friedman's test, critical-difference diagram, v4 against every other); the 34 development vs 108 held-out datasets; the default split alone; confidence intervals and the spread over resamples; five seeds; balanced accuracy, macro F1, AUROC, log loss, Brier score; confusion matrices; time by phase and memory; accuracy against single-core time; the report figures | `v3_tabpfn-e2f200-both_ucr142_allcores-gpu`, `v4_tabpfn-e2f200_ucr142_allcores-gpu`, `v1_ucr142_onecore-cpu`, `v1_ucr142_allcores-cpu`, `baselines_ucr142_allcores-cpu`, `baselines-tabpfn_ucr142_allcores-gpu`, `v4-seeds_*`, `v1-seeds_*`, `v4_tabpfn-e2f200_ucr142-r0_onecore-cpu`, `bakeoff-redux/*` |
+| `06_weighted-sampling` | Does drawing the features of larger intervals more often (copies) help ExtraTrees, at depth 6 or 8 with m/4 or m/16 quantiles, against QUANT and a control with as many candidate features per split? | `w-d{6,8}v{4,16}_ucr142` |
+| `depths_analysis` | Which interval depths QUANT needs (depths removed, odd or even depths, alternating normal/shifted intervals), accuracy against features and time, per dataset size and type, critical-difference diagrams | `depths_1_6_baseline`, `no_depth_*`, `odd_depths`, `even_depths`, `alternating_depths` |
+| `summary_features` | Summary statistics (mean, spread, slope, ...) instead of quantiles at all or some depths | `basic_baseline`, `all_stats`, `half_stats`, `equal_stats`, `double_stats` |
 
 
 ## 5. Results compared with the paper

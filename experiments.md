@@ -14,6 +14,11 @@ settings in the name, the file has one row per classifier (`classifier` column).
 | **v2** | TabPFN's cost settings (passes, features, the model cache) on QUANT's features | 03, 04 |
 | **v3** | the lean extractor for TabPFN (`quant_tabpfn.py`): the "cheap TabPFN" | 03, 04, 05 |
 | **v4** | the supervised extractor (`quant_tabpfn.SupervisedExtractor`): the final version, and its ablation | 04, 05 |
+| depths | QUANT + ExtraTrees with some interval depths removed (`improvedQuant\depth_selection`) | depths_analysis |
+| summary statistics | QUANT + ExtraTrees with summary statistics instead of some quantiles (`improvedQuant\summary_features`) | summary_features |
+| weighted sampling | QUANT + ExtraTrees with the larger intervals' features copied (`improvedQuant\weighted`) | 06 |
+
+The sections of the last three are at the end of this file.
 
 Earlier development steps are not kept: other feature families next to QUANT's (MultiRocket, RDST, MR-Hydra, lag-d
 differences; only the lag-d differences helped, and v3 and v4 keep them), and the step-by-step build of the
@@ -230,3 +235,80 @@ for %n in (HC2 MR-Hydra MR MiniROCKET ROCKET RDST InceptionTime DrCIF FreshPRINC
 for %n in (HC2 MR-Hydra MR MiniROCKET ROCKET RDST InceptionTime DrCIF FreshPRINCE QUANT 1NN-DTW) do curl -f -o quant-reproduction\results\bakeoff-redux\%n_fittime.csv https://timeseriesclassification.com/results/ReferenceResults/classification/fittime/%n_fittime.csv
 for %n in (HC2 MR-Hydra MR MiniROCKET ROCKET RDST InceptionTime DrCIF FreshPRINCE QUANT 1NN-DTW) do curl -f -o quant-reproduction\results\bakeoff-redux\%n_predicttime.csv https://timeseriesclassification.com/results/ReferenceResults/classification/predicttime/%n_predicttime.csv
 ```
+
+## Interval depths (notebook depths_analysis)
+
+`improvedQuant\depth_selection\run.py`: v1's runner (QUANT + ExtraTrees, the authors' defaults) with two options:
+`--depths`, the levels kept, **zero-based** (0 = the whole series, ..., 5 = the finest level of depth 6), and
+`--interval_types` (`alternating`: normal pieces at even levels, shifted pieces at odd levels). The results files
+number the depths from 1 (depth 1 = the whole series), as the notebook does: `no_depth_6` keeps `--depths 0,1,2,3,4`.
+142 datasets x 30 resamples, all CPU cores, under 1.5 hours each:
+
+| Results file | Depths kept (1-based) | Option |
+|---|---|---|
+| `depths_1_6_baseline` | 1-6 (QUANT) | none |
+| `no_depth_1` ... `no_depth_6` | all but that depth | e.g. `--depths 1,2,3,4,5` for `no_depth_1` |
+| `no_depth_1_2` | 3-6 | `--depths 2,3,4,5` |
+| `no_depth_5_6` | 1-4 | `--depths 0,1,2,3` |
+| `no_depth_4_5_6` | 1-3 | `--depths 0,1,2` |
+| `odd_depths` | 1, 3, 5 | `--depths 0,2,4` |
+| `even_depths` | 2, 4, 6 | `--depths 1,3,5` |
+| `alternating_depths` | 1-6, normal and shifted pieces alternating | `--interval_types alternating` |
+
+```bat
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 -o quant-reproduction\results\depths_1_6_baseline.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 1,2,3,4,5 -o quant-reproduction\results\no_depth_1.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,2,3,4,5 -o quant-reproduction\results\no_depth_2.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,3,4,5 -o quant-reproduction\results\no_depth_3.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,2,4,5 -o quant-reproduction\results\no_depth_4.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,2,3,5 -o quant-reproduction\results\no_depth_5.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,2,3,4 -o quant-reproduction\results\no_depth_6.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 2,3,4,5 -o quant-reproduction\results\no_depth_1_2.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,2,3 -o quant-reproduction\results\no_depth_5_6.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,1,2 -o quant-reproduction\results\no_depth_4_5_6.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 0,2,4 -o quant-reproduction\results\odd_depths.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --depths 1,3,5 -o quant-reproduction\results\even_depths.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\depth_selection\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_types alternating -o quant-reproduction\results\alternating_depths.csv
+```
+
+The batch files `run.bat` and `run_depth_assess.bat` in the repository root are the original form of these runs: they
+call `v1_classifiers\run.py` (where the options were first added) and use the older, zero-based file names, which
+were renamed afterwards (e.g. their `no_depth_4_5` is now `no_depth_5_6`).
+
+## Summary statistics instead of quantiles (notebook summary_features)
+
+`improvedQuant\summary_features\run.py`: the same runner with `--interval_features`: `quantile` (QUANT), `stats`
+(summary statistics in every piece) or `auto` (statistics at the levels where the quantiles would be at least
+`--stats_ratio` times as many as the statistics, quantiles elsewhere); `--stats` lists the statistics. 142 datasets x 30
+resamples, all CPU cores, under 2 hours each. In `cmd`, first
+`set STATS_ALL=mean std min max nmp skew kurt slope argmax argmin mac mcr`:
+
+```bat
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\summary_features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_features quantile -o quant-reproduction\results\basic_baseline.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\summary_features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_features stats --stats %STATS_ALL% -o quant-reproduction\results\all_stats.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\summary_features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_features auto --stats_ratio 2 --stats %STATS_ALL% -o quant-reproduction\results\half_stats.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\summary_features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_features auto --stats_ratio 1 --stats %STATS_ALL% -o quant-reproduction\results\equal_stats.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\summary_features\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\improvedQuant\dataSetLists\ucr142.txt -r 30 -v 4 --interval_features auto --stats_ratio 0.5 --stats %STATS_ALL% -o quant-reproduction\results\double_stats.csv
+```
+
+`run_stats.bat` is the original form of these runs (it calls `improvedQuant\basic\run.py`, the folder's earlier name).
+
+## Weighted interval sampling (notebook 06)
+
+`improvedQuant\weighted\run.py`: QUANT's features with three classifiers in one results file (`classifier` column):
+`extratrees` (QUANT), `extratrees-k` (the control: as many candidate features per split as the copies, no copies) and
+`extratrees-dup` (the copies: within each view, a level with n features gets round(L / n) copies, L = the view's
+largest level). Four settings, depth 6 or 8 (`-m`) and m/4 or m/16 quantiles per piece of m points (`-v`), 142 datasets
+x 30 resamples x 3 classifiers (51,120 runs; notebook 06, section 0, can run them too):
+
+```bat
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 4 -o quant-reproduction\results\w-d6v4_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 16 -o quant-reproduction\results\w-d6v16_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 4 -o quant-reproduction\results\w-d8v4_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 16 -o quant-reproduction\results\w-d8v16_ucr142.csv
+```
+
+## Early test runs
+
+`results\full_run\results.csv` (142 datasets, resample 0) and `results\smoke_run\results.csv` (15 runs) are early test
+runs of the authors' `run.py` (accuracy only), added with `Ideas.md`; no notebook uses them.
