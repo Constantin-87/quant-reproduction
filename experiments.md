@@ -14,9 +14,9 @@ settings in the name, the file has one row per classifier (`classifier` column).
 | **v2** | TabPFN's cost settings (passes, features, the model cache) on QUANT's features | 03, 04 |
 | **v3** | the lean extractor for TabPFN (`quant_tabpfn.py`): the "cheap TabPFN" | 03, 04, 05 |
 | **v4** | the supervised extractor (`quant_tabpfn.SupervisedExtractor`): the final version, and its ablation | 04, 05 |
-| depths | QUANT + ExtraTrees with some interval depths removed (`improvedQuant\depth_selection`) | depths_analysis |
-| summary statistics | QUANT + ExtraTrees with summary statistics instead of some quantiles (`improvedQuant\summary_features`) | summary_features |
 | weighted sampling | QUANT + ExtraTrees with the larger intervals' features copied (`improvedQuant\weighted`) | 06 |
+| depths | QUANT + ExtraTrees with some interval depths removed (`improvedQuant\depth_selection`) | 07 |
+| summary statistics | QUANT + ExtraTrees with summary statistics instead of some quantiles (`improvedQuant\summary_features`) | 08 |
 
 The sections of the last three are at the end of this file.
 
@@ -236,7 +236,22 @@ for %n in (HC2 MR-Hydra MR MiniROCKET ROCKET RDST InceptionTime DrCIF FreshPRINC
 for %n in (HC2 MR-Hydra MR MiniROCKET ROCKET RDST InceptionTime DrCIF FreshPRINCE QUANT 1NN-DTW) do curl -f -o quant-reproduction\results\bakeoff-redux\%n_predicttime.csv https://timeseriesclassification.com/results/ReferenceResults/classification/predicttime/%n_predicttime.csv
 ```
 
-## Interval depths (notebook depths_analysis)
+## Weighted interval sampling (notebook 06)
+
+`improvedQuant\weighted\run.py`: QUANT's features with three classifiers in one results file (`classifier` column):
+`extratrees` (QUANT), `extratrees-k` (the control: as many candidate features per split as the copies, no copies) and
+`extratrees-dup` (the copies: within each view, a level with n features gets round(L / n) copies, L = the view's
+largest level). Four settings, depth 6 or 8 (`-m`) and m/4 or m/16 quantiles per piece of m points (`-v`), 142 datasets
+x 30 resamples x 3 classifiers (51,120 runs; notebook 06, section 0, can run them too):
+
+```bat
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 4 -o quant-reproduction\results\w-d6v4_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 16 -o quant-reproduction\results\w-d6v16_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 4 -o quant-reproduction\results\w-d8v4_ucr142.csv
+quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 16 -o quant-reproduction\results\w-d8v16_ucr142.csv
+```
+
+## Interval depths (notebook 07)
 
 `improvedQuant\depth_selection\run.py`: v1's runner (QUANT + ExtraTrees, the authors' defaults) with two options:
 `--depths`, the levels kept, **zero-based** (0 = the whole series, ..., 5 = the finest level of depth 6), and
@@ -275,7 +290,7 @@ The batch files `run.bat` and `run_depth_assess.bat` in the repository root are 
 call `v1_classifiers\run.py` (where the options were first added) and use the older, zero-based file names, which
 were renamed afterwards (e.g. their `no_depth_4_5` is now `no_depth_5_6`).
 
-## Summary statistics instead of quantiles (notebook summary_features)
+## Summary statistics instead of quantiles (notebook 08)
 
 `improvedQuant\summary_features\run.py`: the same runner with `--interval_features`: `quantile` (QUANT), `stats`
 (summary statistics in every piece) or `auto` (statistics at the levels where the quantiles would be at least
@@ -292,21 +307,6 @@ quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\sum
 ```
 
 `run_stats.bat` is the original form of these runs (it calls `improvedQuant\basic\run.py`, the folder's earlier name).
-
-## Weighted interval sampling (notebook 06)
-
-`improvedQuant\weighted\run.py`: QUANT's features with three classifiers in one results file (`classifier` column):
-`extratrees` (QUANT), `extratrees-k` (the control: as many candidate features per split as the copies, no copies) and
-`extratrees-dup` (the copies: within each view, a level with n features gets round(L / n) copies, L = the view's
-largest level). Four settings, depth 6 or 8 (`-m`) and m/4 or m/16 quantiles per piece of m points (`-v`), 142 datasets
-x 30 resamples x 3 classifiers (51,120 runs; notebook 06, section 0, can run them too):
-
-```bat
-quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 4 -o quant-reproduction\results\w-d6v4_ucr142.csv
-quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 6 -v 16 -o quant-reproduction\results\w-d6v16_ucr142.csv
-quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 4 -o quant-reproduction\results\w-d8v4_ucr142.csv
-quant-reproduction\.venv\Scripts\python.exe quant-reproduction\improvedQuant\weighted\run.py -i quant-reproduction\data\ts -p quant-reproduction\data\indices -d quant-reproduction\original\code\ucr142.txt -r 30 -c all -m 8 -v 16 -o quant-reproduction\results\w-d8v16_ucr142.csv
-```
 
 ## Early test runs
 
